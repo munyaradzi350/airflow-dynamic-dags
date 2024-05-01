@@ -1,0 +1,58 @@
+[2024-05-01T14:46:50.840+0200] {processor.py:161} INFO - Started process (PID=116694) to work on /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:46:50.841+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/my_dag.py for tasks to queue
+[2024-05-01T14:46:50.842+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:46:50.842+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:46:50.849+0200] {processor.py:840} INFO - DAG(s) 'welcome_to_apache_airflow' retrieved from /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:46:50.936+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:46:50.936+0200] {override.py:1829} INFO - Created Permission View: can edit on DAG:welcome_to_apache_airflow
+[2024-05-01T14:46:50.945+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:46:50.945+0200] {override.py:1829} INFO - Created Permission View: can delete on DAG:welcome_to_apache_airflow
+[2024-05-01T14:46:50.952+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:46:50.951+0200] {override.py:1829} INFO - Created Permission View: can read on DAG:welcome_to_apache_airflow
+[2024-05-01T14:46:50.952+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:46:50.952+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:46:50.960+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:46:50.960+0200] {dag.py:3118} INFO - Creating ORM DAG for welcome_to_apache_airflow
+[2024-05-01T14:46:50.968+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:46:50.968+0200] {dag.py:3954} INFO - Setting next_dagrun for welcome_to_apache_airflow to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-05-01T14:46:50.984+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/my_dag.py took 0.149 seconds
+[2024-05-01T14:47:37.688+0200] {processor.py:161} INFO - Started process (PID=117350) to work on /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:47:37.689+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/my_dag.py for tasks to queue
+[2024-05-01T14:47:37.690+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:47:37.690+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:47:37.698+0200] {processor.py:840} INFO - DAG(s) 'welcome_to_apache_airflow' retrieved from /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:47:37.781+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:47:37.781+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:47:37.801+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:47:37.801+0200] {dag.py:3954} INFO - Setting next_dagrun for welcome_to_apache_airflow to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-05-01T14:47:37.820+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/my_dag.py took 0.137 seconds
+[2024-05-01T14:48:11.443+0200] {processor.py:161} INFO - Started process (PID=117796) to work on /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:48:11.444+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/my_dag.py for tasks to queue
+[2024-05-01T14:48:11.445+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:48:11.444+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:48:11.453+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:48:11.453+0200] {my_dag.py:35} ERROR - Error creating DAG: cannot access local variable 'print_world' where it is not associated with a value
+[2024-05-01T14:48:11.454+0200] {processor.py:840} INFO - DAG(s) 'welcome_to_apache_airflow' retrieved from /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:48:11.583+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:48:11.583+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:48:11.609+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:48:11.609+0200] {dag.py:3954} INFO - Setting next_dagrun for welcome_to_apache_airflow to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-05-01T14:48:11.634+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/my_dag.py took 0.198 seconds
+[2024-05-01T14:48:42.425+0200] {processor.py:161} INFO - Started process (PID=118228) to work on /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:48:42.428+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/my_dag.py for tasks to queue
+[2024-05-01T14:48:42.430+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:48:42.429+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:48:42.451+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:48:42.451+0200] {my_dag.py:35} ERROR - Error creating DAG: cannot access local variable 'print_world' where it is not associated with a value
+[2024-05-01T14:48:42.453+0200] {processor.py:840} INFO - DAG(s) 'welcome_to_apache_airflow' retrieved from /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:48:42.520+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:48:42.519+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:48:42.626+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:48:42.625+0200] {dag.py:3954} INFO - Setting next_dagrun for welcome_to_apache_airflow to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-05-01T14:48:42.801+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/my_dag.py took 0.396 seconds
+[2024-05-01T14:49:16.115+0200] {processor.py:161} INFO - Started process (PID=118669) to work on /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:49:16.117+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/my_dag.py for tasks to queue
+[2024-05-01T14:49:16.122+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:49:16.121+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:49:16.132+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:49:16.131+0200] {my_dag.py:34} INFO - DAG created successfully.
+[2024-05-01T14:49:16.132+0200] {processor.py:840} INFO - DAG(s) 'welcome_to_apache_airflow' retrieved from /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:49:16.224+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:49:16.224+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:49:16.238+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:49:16.238+0200] {dag.py:3954} INFO - Setting next_dagrun for welcome_to_apache_airflow to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-05-01T14:49:16.257+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/my_dag.py took 0.154 seconds
+[2024-05-01T14:49:51.198+0200] {processor.py:161} INFO - Started process (PID=119169) to work on /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:49:51.199+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/my_dag.py for tasks to queue
+[2024-05-01T14:49:51.200+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:49:51.199+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:49:51.209+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:49:51.208+0200] {my_dag.py:34} INFO - DAG created successfully.
+[2024-05-01T14:49:51.209+0200] {processor.py:840} INFO - DAG(s) 'welcome_to_apache_airflow' retrieved from /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:49:51.228+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:49:51.228+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:49:51.251+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:49:51.250+0200] {dag.py:3954} INFO - Setting next_dagrun for welcome_to_apache_airflow to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-05-01T14:49:51.272+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/my_dag.py took 0.082 seconds
+[2024-05-01T14:50:22.153+0200] {processor.py:161} INFO - Started process (PID=119773) to work on /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:50:22.155+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/my_dag.py for tasks to queue
+[2024-05-01T14:50:22.156+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:50:22.156+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:50:22.167+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:50:22.167+0200] {my_dag.py:34} INFO - DAG created successfully.
+[2024-05-01T14:50:22.168+0200] {processor.py:840} INFO - DAG(s) 'welcome_to_apache_airflow' retrieved from /home/munya/airflow/dags/my_dag.py
+[2024-05-01T14:50:22.194+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:50:22.193+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:50:22.220+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:50:22.219+0200] {dag.py:3954} INFO - Setting next_dagrun for welcome_to_apache_airflow to 2024-04-28 00:00:00+00:00, run_after=2024-04-29 00:00:00+00:00
+[2024-05-01T14:50:22.248+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/my_dag.py took 0.104 seconds

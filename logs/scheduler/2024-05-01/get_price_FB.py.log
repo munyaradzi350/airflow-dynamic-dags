@@ -1,0 +1,657 @@
+[2024-05-01T13:18:33.944+0200] {processor.py:161} INFO - Started process (PID=60024) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:18:33.945+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:18:33.945+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:18:33.945+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:18:33.954+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:18:34.034+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:18:34.034+0200] {override.py:1829} INFO - Created Permission View: can edit on DAG:get_price_FB
+[2024-05-01T13:18:34.043+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:18:34.042+0200] {override.py:1829} INFO - Created Permission View: can delete on DAG:get_price_FB
+[2024-05-01T13:18:34.049+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:18:34.049+0200] {override.py:1829} INFO - Created Permission View: can read on DAG:get_price_FB
+[2024-05-01T13:18:34.050+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:18:34.049+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:18:34.057+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:18:34.057+0200] {dag.py:3118} INFO - Creating ORM DAG for get_price_FB
+[2024-05-01T13:18:34.066+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:18:34.066+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:18:34.079+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.140 seconds
+[2024-05-01T13:19:30.814+0200] {processor.py:161} INFO - Started process (PID=60868) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:19:30.815+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:19:30.816+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:19:30.815+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:19:30.826+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:19:30.838+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:19:30.838+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:19:30.856+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:19:30.855+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:19:30.873+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.064 seconds
+[2024-05-01T13:20:24.654+0200] {processor.py:161} INFO - Started process (PID=61571) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:20:24.655+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:20:24.656+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:20:24.656+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:20:24.664+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:20:24.676+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:20:24.676+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:20:24.692+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:20:24.692+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:20:24.709+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.060 seconds
+[2024-05-01T13:21:22.451+0200] {processor.py:161} INFO - Started process (PID=62386) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:21:22.452+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:21:22.453+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:21:22.453+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:21:22.461+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:21:22.474+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:21:22.474+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:21:22.490+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:21:22.489+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:21:22.507+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.060 seconds
+[2024-05-01T13:21:55.237+0200] {processor.py:161} INFO - Started process (PID=62818) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:21:55.238+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:21:55.239+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:21:55.238+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:21:55.248+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:21:55.262+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:21:55.262+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:21:55.279+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:21:55.279+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:21:55.303+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.072 seconds
+[2024-05-01T13:22:53.976+0200] {processor.py:161} INFO - Started process (PID=63647) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:22:53.979+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:22:53.982+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:22:53.981+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:22:54.014+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:22:54.063+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:22:54.063+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:22:54.123+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:22:54.123+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:22:54.178+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.221 seconds
+[2024-05-01T13:23:47.099+0200] {processor.py:161} INFO - Started process (PID=64406) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:23:47.100+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:23:47.101+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:23:47.101+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:23:47.110+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:23:47.131+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:23:47.131+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:23:47.147+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:23:47.147+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:23:47.164+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.069 seconds
+[2024-05-01T13:24:45.170+0200] {processor.py:161} INFO - Started process (PID=65180) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:24:45.171+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:24:45.173+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:24:45.172+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:24:45.188+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:24:45.204+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:24:45.204+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:24:45.229+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:24:45.229+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:24:45.257+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.096 seconds
+[2024-05-01T13:25:38.246+0200] {processor.py:161} INFO - Started process (PID=65908) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:25:38.247+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:25:38.247+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:25:38.247+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:25:38.256+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:25:38.270+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:25:38.269+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:25:38.287+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:25:38.287+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:25:38.305+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.065 seconds
+[2024-05-01T13:26:38.952+0200] {processor.py:161} INFO - Started process (PID=66695) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:26:38.954+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:26:38.955+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:26:38.955+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:26:38.971+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:26:39.000+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:26:39.000+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:26:39.019+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:26:39.018+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:26:39.040+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.096 seconds
+[2024-05-01T13:27:37.870+0200] {processor.py:161} INFO - Started process (PID=67670) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:27:37.873+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:27:37.877+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:27:37.875+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:27:37.920+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:27:37.980+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:27:37.979+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:27:38.068+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:27:38.067+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:27:38.138+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.293 seconds
+[2024-05-01T13:28:37.822+0200] {processor.py:161} INFO - Started process (PID=68458) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:28:37.823+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:28:37.824+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:28:37.823+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:28:37.832+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:28:37.844+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:28:37.844+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:28:37.859+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:28:37.859+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:28:37.877+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.060 seconds
+[2024-05-01T13:29:09.131+0200] {processor.py:161} INFO - Started process (PID=68855) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:29:09.132+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:29:09.133+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:29:09.133+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:29:09.141+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:29:09.154+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:29:09.153+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:29:09.170+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:29:09.169+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:29:09.189+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.063 seconds
+[2024-05-01T13:30:08.972+0200] {processor.py:161} INFO - Started process (PID=69632) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:30:08.973+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:30:08.974+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:30:08.973+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:30:08.983+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:30:08.995+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:30:08.995+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:30:09.012+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:30:09.012+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:30:09.029+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.062 seconds
+[2024-05-01T13:31:10.414+0200] {processor.py:161} INFO - Started process (PID=70411) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:31:10.417+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:31:10.420+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:31:10.419+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:31:10.452+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:31:10.498+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:31:10.497+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:31:10.558+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:31:10.557+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:31:10.612+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.218 seconds
+[2024-05-01T13:32:07.475+0200] {processor.py:161} INFO - Started process (PID=71135) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:32:07.476+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:32:07.477+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:32:07.476+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:32:07.485+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:32:07.498+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:32:07.497+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:32:07.514+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:32:07.514+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:32:07.531+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.062 seconds
+[2024-05-01T13:33:02.345+0200] {processor.py:161} INFO - Started process (PID=71852) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:33:02.346+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:33:02.346+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:33:02.346+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:33:02.355+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:33:02.366+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:33:02.366+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:33:02.382+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:33:02.382+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:33:02.397+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.058 seconds
+[2024-05-01T13:34:02.340+0200] {processor.py:161} INFO - Started process (PID=72629) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:34:02.343+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:34:02.346+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:34:02.345+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:34:02.378+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:34:02.445+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:34:02.444+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:34:02.528+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:34:02.527+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:34:02.591+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.270 seconds
+[2024-05-01T13:34:59.640+0200] {processor.py:161} INFO - Started process (PID=73274) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:34:59.641+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:34:59.642+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:34:59.642+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:34:59.650+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:34:59.662+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:34:59.662+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:34:59.677+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:34:59.677+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:34:59.692+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.057 seconds
+[2024-05-01T13:35:57.283+0200] {processor.py:161} INFO - Started process (PID=73938) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:35:57.284+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:35:57.285+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:35:57.285+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:35:57.293+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:35:57.305+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:35:57.305+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:35:57.320+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:35:57.320+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:35:57.335+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.057 seconds
+[2024-05-01T13:36:29.366+0200] {processor.py:161} INFO - Started process (PID=74302) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:36:29.367+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:36:29.368+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:36:29.367+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:36:29.376+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:36:29.389+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:36:29.389+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:36:29.404+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:36:29.404+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:36:29.420+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.059 seconds
+[2024-05-01T13:37:01.772+0200] {processor.py:161} INFO - Started process (PID=74671) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:37:01.773+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:37:01.773+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:37:01.773+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:37:01.782+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:37:01.793+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:37:01.793+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:37:01.809+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:37:01.809+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:37:01.826+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.059 seconds
+[2024-05-01T13:38:02.954+0200] {processor.py:161} INFO - Started process (PID=75362) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:38:02.955+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:38:02.955+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:38:02.955+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:38:02.964+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:38:02.975+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:38:02.975+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:38:02.991+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:38:02.991+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:38:03.007+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.058 seconds
+[2024-05-01T13:39:03.474+0200] {processor.py:161} INFO - Started process (PID=76059) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:39:03.475+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:39:03.475+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:39:03.475+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:39:03.484+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:39:03.495+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:39:03.495+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:39:03.511+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:39:03.511+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:39:03.527+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.058 seconds
+[2024-05-01T13:39:59.828+0200] {processor.py:161} INFO - Started process (PID=76739) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:39:59.831+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:39:59.834+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:39:59.833+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:39:59.868+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:39:59.937+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:39:59.936+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:40:00.009+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:40:00.008+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:40:00.081+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.279 seconds
+[2024-05-01T13:40:58.797+0200] {processor.py:161} INFO - Started process (PID=77418) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:40:58.799+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:40:58.802+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:40:58.801+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:40:58.834+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:40:58.879+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:40:58.879+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:40:58.939+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:40:58.938+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:40:59.002+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.225 seconds
+[2024-05-01T13:42:00.251+0200] {processor.py:161} INFO - Started process (PID=78103) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:42:00.252+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:42:00.253+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:42:00.253+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:42:00.263+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:42:00.276+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:42:00.276+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:42:00.298+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:42:00.298+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:42:00.320+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.075 seconds
+[2024-05-01T13:42:58.338+0200] {processor.py:161} INFO - Started process (PID=78747) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:42:58.339+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T13:42:58.340+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:42:58.339+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:42:58.348+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T13:42:58.359+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:42:58.359+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T13:42:58.375+0200] {logging_mixin.py:188} INFO - [2024-05-01T13:42:58.375+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T13:42:58.390+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.057 seconds
+[2024-05-01T14:02:03.340+0200] {processor.py:161} INFO - Started process (PID=80250) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:02:03.341+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:02:03.342+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:02:03.341+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:02:03.350+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:02:03.362+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:02:03.361+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:02:03.378+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:02:03.377+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:02:03.393+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.058 seconds
+[2024-05-01T14:02:55.726+0200] {processor.py:161} INFO - Started process (PID=80926) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:02:55.727+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:02:55.728+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:02:55.728+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:02:55.737+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:02:55.749+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:02:55.748+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:02:55.764+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:02:55.764+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:02:55.782+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.061 seconds
+[2024-05-01T14:03:53.382+0200] {processor.py:161} INFO - Started process (PID=81661) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:03:53.383+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:03:53.384+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:03:53.383+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:03:53.392+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:03:53.405+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:03:53.404+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:03:53.420+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:03:53.420+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:03:53.436+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.059 seconds
+[2024-05-01T14:04:47.731+0200] {processor.py:161} INFO - Started process (PID=82392) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:04:47.732+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:04:47.732+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:04:47.732+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:04:47.742+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:04:47.758+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:04:47.757+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:04:47.778+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:04:47.778+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:04:47.795+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.070 seconds
+[2024-05-01T14:05:47.989+0200] {processor.py:161} INFO - Started process (PID=83179) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:05:47.990+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:05:47.991+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:05:47.991+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:05:48.001+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:05:48.097+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:05:48.097+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:05:48.111+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:05:48.111+0200] {dag.py:3118} INFO - Creating ORM DAG for get_price_FB
+[2024-05-01T14:05:48.241+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:05:48.241+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:05:48.259+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.277 seconds
+[2024-05-01T14:11:47.031+0200] {processor.py:161} INFO - Started process (PID=88100) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:11:47.032+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:11:47.033+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:11:47.033+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:11:47.042+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:11:47.234+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:11:47.234+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:11:47.247+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:11:47.246+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:11:47.459+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.433 seconds
+[2024-05-01T14:21:48.341+0200] {processor.py:161} INFO - Started process (PID=96360) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:21:48.342+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:21:48.344+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:21:48.343+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:21:48.357+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:21:48.487+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:21:48.487+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:21:48.498+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:21:48.498+0200] {dag.py:3118} INFO - Creating ORM DAG for get_price_FB
+[2024-05-01T14:21:48.511+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:21:48.510+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:21:48.533+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.199 seconds
+[2024-05-01T14:22:47.547+0200] {processor.py:161} INFO - Started process (PID=97203) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:22:47.555+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:22:47.560+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:22:47.558+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:22:47.577+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:22:47.604+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:22:47.604+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:22:47.634+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:22:47.634+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:22:47.681+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.152 seconds
+[2024-05-01T14:23:45.123+0200] {processor.py:161} INFO - Started process (PID=97930) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:23:45.125+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:23:45.126+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:23:45.125+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:23:45.142+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:23:45.164+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:23:45.163+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:23:45.219+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:23:45.216+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:23:45.310+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.194 seconds
+[2024-05-01T14:24:44.038+0200] {processor.py:161} INFO - Started process (PID=98858) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:24:44.039+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:24:44.040+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:24:44.039+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:24:44.049+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:24:44.062+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:24:44.062+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:24:44.079+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:24:44.079+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:24:44.095+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.063 seconds
+[2024-05-01T14:25:18.195+0200] {processor.py:161} INFO - Started process (PID=99435) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:25:18.201+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:25:18.202+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:25:18.201+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:25:18.217+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:25:18.239+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:25:18.239+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:25:18.274+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:25:18.274+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:25:18.301+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.116 seconds
+[2024-05-01T14:25:52.429+0200] {processor.py:161} INFO - Started process (PID=99892) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:25:52.430+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:25:52.431+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:25:52.430+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:25:52.440+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:25:52.453+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:25:52.452+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:25:52.470+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:25:52.470+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:25:52.487+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.065 seconds
+[2024-05-01T14:26:56.562+0200] {processor.py:161} INFO - Started process (PID=100765) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:26:56.563+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:26:56.564+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:26:56.564+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:26:56.576+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:26:56.592+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:26:56.592+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:26:56.618+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:26:56.618+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:26:56.640+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.085 seconds
+[2024-05-01T14:27:30.000+0200] {processor.py:161} INFO - Started process (PID=101182) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:27:30.001+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:27:30.002+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:27:30.001+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:27:30.011+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:27:30.024+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:27:30.024+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:27:30.041+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:27:30.041+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:27:30.061+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.066 seconds
+[2024-05-01T14:28:04.725+0200] {processor.py:161} INFO - Started process (PID=101778) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:28:04.726+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:28:04.727+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:28:04.727+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:28:04.739+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:28:04.753+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:28:04.753+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:28:04.772+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:28:04.771+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:28:04.796+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.076 seconds
+[2024-05-01T14:28:38.681+0200] {processor.py:161} INFO - Started process (PID=102231) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:28:38.684+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:28:38.688+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:28:38.686+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:28:38.736+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:28:38.797+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:28:38.797+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:28:38.882+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:28:38.881+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:28:38.950+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.296 seconds
+[2024-05-01T14:29:39.780+0200] {processor.py:161} INFO - Started process (PID=103022) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:29:39.783+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:29:39.786+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:29:39.785+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:29:39.818+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:29:39.870+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:29:39.869+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:29:39.939+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:29:39.939+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:29:40.006+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.245 seconds
+[2024-05-01T14:30:38.317+0200] {processor.py:161} INFO - Started process (PID=103789) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:30:38.318+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:30:38.319+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:30:38.319+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:30:38.327+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:30:38.339+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:30:38.339+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:30:38.356+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:30:38.356+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:30:38.372+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.059 seconds
+[2024-05-01T14:31:09.718+0200] {processor.py:161} INFO - Started process (PID=104216) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:31:09.719+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:31:09.720+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:31:09.720+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:31:09.731+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:31:09.745+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:31:09.745+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:31:09.762+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:31:09.762+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:31:09.780+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.067 seconds
+[2024-05-01T14:32:09.627+0200] {processor.py:161} INFO - Started process (PID=104978) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:32:09.628+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:32:09.629+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:32:09.628+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:32:09.639+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:32:09.651+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:32:09.651+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:32:09.668+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:32:09.668+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:32:09.684+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.062 seconds
+[2024-05-01T14:33:07.182+0200] {processor.py:161} INFO - Started process (PID=105732) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:33:07.184+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:33:07.185+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:33:07.184+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:33:07.195+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:33:07.207+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:33:07.207+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:33:07.223+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:33:07.223+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:33:07.238+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.061 seconds
+[2024-05-01T14:34:04.887+0200] {processor.py:161} INFO - Started process (PID=106477) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:34:04.890+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:34:04.893+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:34:04.892+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:34:04.935+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:34:04.956+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:34:04.956+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:34:04.981+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:34:04.980+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:34:05.004+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.142 seconds
+[2024-05-01T14:35:06.966+0200] {processor.py:161} INFO - Started process (PID=107229) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:35:06.969+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:35:06.972+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:35:06.971+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:35:07.006+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:35:07.052+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:35:07.051+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:35:07.117+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:35:07.116+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:35:07.178+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.231 seconds
+[2024-05-01T14:36:06.322+0200] {processor.py:161} INFO - Started process (PID=107916) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:36:06.323+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:36:06.323+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:36:06.323+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:36:06.332+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:36:06.344+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:36:06.344+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:36:06.362+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:36:06.362+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:36:06.377+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.061 seconds
+[2024-05-01T14:36:37.285+0200] {processor.py:161} INFO - Started process (PID=108270) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:36:37.286+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:36:37.286+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:36:37.286+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:36:37.295+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:36:37.307+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:36:37.307+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:36:37.323+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:36:37.323+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:36:37.338+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.059 seconds
+[2024-05-01T14:37:37.660+0200] {processor.py:161} INFO - Started process (PID=109249) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:37:37.661+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:37:37.662+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:37:37.661+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:37:37.673+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:37:37.690+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:37:37.690+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:37:37.716+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:37:37.715+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:37:37.737+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.084 seconds
+[2024-05-01T14:38:10.341+0200] {processor.py:161} INFO - Started process (PID=109760) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:38:10.344+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:38:10.348+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:38:10.346+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:38:10.395+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:38:10.468+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:38:10.467+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:38:10.583+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:38:10.581+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:38:10.674+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.360 seconds
+[2024-05-01T14:38:43.801+0200] {processor.py:161} INFO - Started process (PID=110192) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:38:43.802+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:38:43.803+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:38:43.802+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:38:43.818+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:38:43.840+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:38:43.840+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:38:43.869+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:38:43.868+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:38:43.891+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.099 seconds
+[2024-05-01T14:39:15.255+0200] {processor.py:161} INFO - Started process (PID=110689) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:39:15.263+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:39:15.269+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:39:15.264+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:39:15.303+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:39:15.338+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:39:15.338+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:39:15.375+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:39:15.375+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:39:15.427+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.182 seconds
+[2024-05-01T14:40:16.667+0200] {processor.py:161} INFO - Started process (PID=111522) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:40:16.668+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:40:16.669+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:40:16.669+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:40:16.682+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:40:16.700+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:40:16.700+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:40:16.725+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:40:16.724+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:40:16.751+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.093 seconds
+[2024-05-01T14:40:48.332+0200] {processor.py:161} INFO - Started process (PID=111937) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:40:48.334+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:40:48.335+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:40:48.334+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:40:48.349+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:40:48.364+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:40:48.363+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:40:48.382+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:40:48.381+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:40:48.401+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.077 seconds
+[2024-05-01T14:41:53.656+0200] {processor.py:161} INFO - Started process (PID=112801) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:41:53.661+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:41:53.664+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:41:53.663+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:41:53.710+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:41:53.782+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:41:53.781+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:41:53.897+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:41:53.896+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:41:53.996+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.370 seconds
+[2024-05-01T14:42:31.871+0200] {processor.py:161} INFO - Started process (PID=113272) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:42:31.873+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:42:31.873+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:42:31.873+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:42:31.883+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:42:31.904+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:42:31.903+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:42:31.923+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:42:31.923+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:42:31.943+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.079 seconds
+[2024-05-01T14:43:05.213+0200] {processor.py:161} INFO - Started process (PID=113691) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:43:05.216+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:43:05.220+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:43:05.219+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:43:05.269+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:43:05.333+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:43:05.332+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:43:05.433+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:43:05.432+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:43:05.508+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.326 seconds
+[2024-05-01T14:43:37.154+0200] {processor.py:161} INFO - Started process (PID=114099) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:43:37.155+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:43:37.156+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:43:37.155+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:43:37.166+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:43:37.182+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:43:37.182+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:43:37.201+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:43:37.201+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:43:37.219+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.071 seconds
+[2024-05-01T14:44:29.356+0200] {processor.py:161} INFO - Started process (PID=114846) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:44:29.360+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:44:29.364+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:44:29.362+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:44:29.418+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:44:29.503+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:44:29.503+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:44:29.631+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:44:29.630+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:44:29.756+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.428 seconds
+[2024-05-01T14:45:30.069+0200] {processor.py:161} INFO - Started process (PID=115681) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:45:30.071+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:45:30.072+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:45:30.071+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:45:30.084+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:45:30.102+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:45:30.102+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:45:30.126+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:45:30.126+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:45:30.163+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.100 seconds
+[2024-05-01T14:46:02.273+0200] {processor.py:161} INFO - Started process (PID=116074) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:46:02.277+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:46:02.281+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:46:02.279+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:46:02.325+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:46:02.390+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:46:02.389+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:46:02.490+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:46:02.490+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:46:02.585+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.343 seconds
+[2024-05-01T14:46:34.146+0200] {processor.py:161} INFO - Started process (PID=116479) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:46:34.147+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:46:34.148+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:46:34.147+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:46:34.158+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:46:34.170+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:46:34.170+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:46:34.187+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:46:34.187+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:46:34.203+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.064 seconds
+[2024-05-01T14:47:05.341+0200] {processor.py:161} INFO - Started process (PID=116898) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:47:05.342+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:47:05.343+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:47:05.342+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:47:05.354+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:47:05.369+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:47:05.369+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:47:05.390+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:47:05.389+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:47:05.411+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.076 seconds
+[2024-05-01T14:47:39.968+0200] {processor.py:161} INFO - Started process (PID=117391) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:47:39.969+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:47:39.970+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:47:39.969+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:47:39.979+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:47:39.991+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:47:39.991+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:47:40.008+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:47:40.008+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:47:40.024+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.063 seconds
+[2024-05-01T14:48:13.824+0200] {processor.py:161} INFO - Started process (PID=117845) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:48:13.825+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:48:13.825+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:48:13.825+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:48:13.834+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:48:13.847+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:48:13.846+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:48:13.864+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:48:13.864+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:48:13.881+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.062 seconds
+[2024-05-01T14:49:17.877+0200] {processor.py:161} INFO - Started process (PID=118708) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:49:17.880+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:49:17.882+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:49:17.881+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:49:17.917+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:49:17.962+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:49:17.962+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:49:18.039+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:49:18.039+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:49:18.122+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.266 seconds
+[2024-05-01T14:49:53.773+0200] {processor.py:161} INFO - Started process (PID=119205) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:49:53.776+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T14:49:53.780+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:49:53.778+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:49:53.815+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T14:49:53.867+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:49:53.866+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T14:49:53.959+0200] {logging_mixin.py:188} INFO - [2024-05-01T14:49:53.958+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T14:49:54.028+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.275 seconds
+[2024-05-01T15:16:54.714+0200] {processor.py:161} INFO - Started process (PID=142862) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:16:54.718+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:16:54.722+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:16:54.720+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:16:54.766+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:16:54.964+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:16:54.963+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:16:54.996+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:16:54.995+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:16:55.028+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.343 seconds
+[2024-05-01T15:17:29.333+0200] {processor.py:161} INFO - Started process (PID=143363) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:17:29.335+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:17:29.336+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:17:29.336+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:17:29.356+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:17:29.382+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:17:29.381+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:17:29.420+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:17:29.419+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:17:29.453+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.130 seconds
+[2024-05-01T15:18:11.739+0200] {processor.py:161} INFO - Started process (PID=143870) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:18:11.740+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:18:11.742+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:18:11.741+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:18:11.758+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:18:11.781+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:18:11.780+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:18:11.810+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:18:11.810+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:18:11.835+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.108 seconds
+[2024-05-01T15:18:55.459+0200] {processor.py:161} INFO - Started process (PID=144374) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:18:55.461+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:18:55.463+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:18:55.462+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:18:55.486+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:18:55.516+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:18:55.515+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:18:55.555+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:18:55.555+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:18:55.593+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.152 seconds
+[2024-05-01T15:19:41.369+0200] {processor.py:161} INFO - Started process (PID=144928) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:19:41.370+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:19:41.372+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:19:41.371+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:19:41.393+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:19:41.423+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:19:41.423+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:19:41.465+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:19:41.465+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:19:41.501+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.145 seconds
+[2024-05-01T15:20:25.175+0200] {processor.py:161} INFO - Started process (PID=145470) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:20:25.178+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:20:25.181+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:20:25.180+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:20:25.217+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:20:25.266+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:20:25.265+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:20:25.325+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:20:25.325+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:20:25.375+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.223 seconds
+[2024-05-01T15:21:06.138+0200] {processor.py:161} INFO - Started process (PID=145972) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:21:06.139+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:21:06.141+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:21:06.140+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:21:06.157+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:21:06.180+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:21:06.179+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:21:06.216+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:21:06.215+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:21:06.253+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.123 seconds
+[2024-05-01T15:21:45.253+0200] {processor.py:161} INFO - Started process (PID=146453) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:21:45.256+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:21:45.259+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:21:45.257+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:21:45.297+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:21:45.343+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:21:45.343+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:21:45.406+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:21:45.406+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:21:45.463+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.229 seconds
+[2024-05-01T15:22:25.832+0200] {processor.py:161} INFO - Started process (PID=146927) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:22:25.836+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:22:25.840+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:22:25.838+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:22:25.874+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:22:25.919+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:22:25.919+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:22:25.955+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:22:25.955+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:22:25.987+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.179 seconds
+[2024-05-01T15:23:04.870+0200] {processor.py:161} INFO - Started process (PID=147634) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:23:04.872+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:23:04.874+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:23:04.873+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:23:04.903+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:23:04.937+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:23:04.937+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:23:04.976+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:23:04.975+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:23:05.004+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.152 seconds
+[2024-05-01T15:23:44.300+0200] {processor.py:161} INFO - Started process (PID=148217) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:23:44.302+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:23:44.303+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:23:44.303+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:23:44.321+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:23:44.346+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:23:44.346+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:23:44.378+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:23:44.378+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:23:44.408+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.118 seconds
+[2024-05-01T15:24:25.148+0200] {processor.py:161} INFO - Started process (PID=148705) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:24:25.153+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:24:25.157+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:24:25.155+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:24:25.199+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:24:25.246+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:24:25.245+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:24:25.306+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:24:25.305+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:24:25.356+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.241 seconds
+[2024-05-01T15:25:05.072+0200] {processor.py:161} INFO - Started process (PID=149210) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:25:05.074+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:25:05.076+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:25:05.075+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:25:05.101+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:25:05.138+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:25:05.138+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:25:05.196+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:25:05.195+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:25:05.254+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.195 seconds
+[2024-05-01T15:25:45.342+0200] {processor.py:161} INFO - Started process (PID=149688) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:25:45.347+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:25:45.353+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:25:45.350+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:25:45.378+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:25:45.406+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:25:45.405+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:25:45.442+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:25:45.442+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:25:45.476+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.168 seconds
+[2024-05-01T15:26:28.328+0200] {processor.py:161} INFO - Started process (PID=150196) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:26:28.330+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:26:28.331+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:26:28.330+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:26:28.349+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:26:28.378+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:26:28.378+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:26:28.420+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:26:28.420+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:26:28.460+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.143 seconds
+[2024-05-01T15:27:12.260+0200] {processor.py:161} INFO - Started process (PID=150726) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:27:12.263+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:27:12.266+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:27:12.264+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:27:12.300+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:27:12.342+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:27:12.342+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:27:12.374+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:27:12.374+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:27:12.404+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.165 seconds
+[2024-05-01T15:27:56.645+0200] {processor.py:161} INFO - Started process (PID=151277) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:27:56.647+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:27:56.650+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:27:56.649+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:27:56.675+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:27:56.713+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:27:56.713+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:27:56.774+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:27:56.774+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:27:56.820+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.188 seconds
+[2024-05-01T15:28:37.891+0200] {processor.py:161} INFO - Started process (PID=151771) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:28:37.893+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:28:37.894+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:28:37.893+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:28:37.911+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:28:37.937+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:28:37.937+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:28:37.973+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:28:37.972+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:28:38.005+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.123 seconds
+[2024-05-01T15:29:18.662+0200] {processor.py:161} INFO - Started process (PID=152265) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:29:18.665+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:29:18.668+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:29:18.667+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:29:18.701+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:29:18.725+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:29:18.724+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:29:18.757+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:29:18.757+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:29:18.783+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.141 seconds
+[2024-05-01T15:29:57.857+0200] {processor.py:161} INFO - Started process (PID=152734) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:29:57.861+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:29:57.865+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:29:57.863+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:29:57.895+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:29:57.929+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:29:57.928+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:29:57.987+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:29:57.986+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:29:58.030+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.200 seconds
+[2024-05-01T15:30:48.896+0200] {processor.py:161} INFO - Started process (PID=153410) to work on /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:30:48.898+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/get_price_FB.py for tasks to queue
+[2024-05-01T15:30:48.900+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:30:48.899+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:30:48.918+0200] {processor.py:840} INFO - DAG(s) 'get_price_FB' retrieved from /home/munya/airflow/dags/get_price_FB.py
+[2024-05-01T15:30:48.943+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:30:48.943+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:30:48.992+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:30:48.992+0200] {dag.py:3954} INFO - Setting next_dagrun for get_price_FB to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:30:49.247+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/get_price_FB.py took 0.361 seconds
