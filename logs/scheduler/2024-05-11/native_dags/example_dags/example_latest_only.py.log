@@ -1,0 +1,42 @@
+[2024-05-11T11:15:26.741+0200] {processor.py:161} INFO - Started process (PID=127844) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:15:26.743+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-05-11T11:15:26.749+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:26.747+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:15:26.763+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:15:26.819+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:26.818+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:15:26.901+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:26.900+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-05-11 04:00:00+00:00, run_after=2024-05-11 08:00:00+00:00
+[2024-05-11T11:15:26.979+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.258 seconds
+[2024-05-11T11:16:30.096+0200] {processor.py:161} INFO - Started process (PID=129160) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:16:30.097+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-05-11T11:16:30.098+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:30.098+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:16:30.103+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:16:30.117+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:30.117+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:16:30.134+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:30.133+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-05-11 04:00:00+00:00, run_after=2024-05-11 08:00:00+00:00
+[2024-05-11T11:16:30.155+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds
+[2024-05-11T11:17:29.688+0200] {processor.py:161} INFO - Started process (PID=130425) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:17:29.689+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-05-11T11:17:29.691+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:29.690+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:17:29.695+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:17:29.707+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:29.707+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:17:29.722+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:29.722+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-05-11 04:00:00+00:00, run_after=2024-05-11 08:00:00+00:00
+[2024-05-11T11:17:29.738+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.054 seconds
+[2024-05-11T11:18:30.699+0200] {processor.py:161} INFO - Started process (PID=131709) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:18:30.700+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-05-11T11:18:30.701+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:30.701+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:18:30.706+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:18:30.718+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:30.718+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:18:30.733+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:30.733+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-05-11 04:00:00+00:00, run_after=2024-05-11 08:00:00+00:00
+[2024-05-11T11:18:30.749+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.055 seconds
+[2024-05-11T11:19:39.178+0200] {processor.py:161} INFO - Started process (PID=133067) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:19:39.179+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-05-11T11:19:39.181+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:39.180+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:19:39.185+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:19:39.198+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:39.198+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:19:39.213+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:39.213+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-05-11 04:00:00+00:00, run_after=2024-05-11 08:00:00+00:00
+[2024-05-11T11:19:39.230+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.057 seconds
+[2024-05-11T11:20:47.202+0200] {processor.py:161} INFO - Started process (PID=134445) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:20:47.203+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-05-11T11:20:47.206+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:47.205+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:20:47.212+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-11T11:20:47.230+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:47.230+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:20:47.249+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:47.248+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-05-11 04:00:00+00:00, run_after=2024-05-11 08:00:00+00:00
+[2024-05-11T11:20:47.265+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.070 seconds

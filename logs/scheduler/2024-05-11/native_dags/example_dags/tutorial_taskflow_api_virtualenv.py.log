@@ -1,0 +1,49 @@
+[2024-05-11T11:14:17.244+0200] {processor.py:161} INFO - Started process (PID=126405) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:14:17.245+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-05-11T11:14:17.246+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:14:17.246+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:14:17.255+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:14:17.268+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:14:17.268+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:14:17.277+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:14:17.276+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-05-11T11:14:17.293+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.053 seconds
+[2024-05-11T11:16:04.657+0200] {processor.py:161} INFO - Started process (PID=128606) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:16:04.660+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-05-11T11:16:04.673+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:04.671+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:16:04.710+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:16:04.758+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:04.757+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:16:04.794+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:04.793+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-05-11T11:16:04.849+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.218 seconds
+[2024-05-11T11:17:02.414+0200] {processor.py:161} INFO - Started process (PID=129862) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:17:02.417+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-05-11T11:17:02.422+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:02.421+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:17:02.456+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:17:02.503+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:02.503+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:17:02.539+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:02.539+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-05-11T11:17:02.594+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.199 seconds
+[2024-05-11T11:18:05.244+0200] {processor.py:161} INFO - Started process (PID=131165) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:18:05.245+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-05-11T11:18:05.247+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:05.247+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:18:05.260+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:18:05.280+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:05.279+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:18:05.295+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:05.295+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-05-11T11:18:05.317+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.080 seconds
+[2024-05-11T11:19:10.015+0200] {processor.py:161} INFO - Started process (PID=132497) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:19:10.016+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-05-11T11:19:10.018+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:10.017+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:19:10.027+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:19:10.039+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:10.039+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:19:10.048+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:10.048+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-05-11T11:19:10.064+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.053 seconds
+[2024-05-11T11:20:17.640+0200] {processor.py:161} INFO - Started process (PID=133854) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:20:17.641+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-05-11T11:20:17.643+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:17.642+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:20:17.651+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:20:17.663+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:17.663+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:20:17.672+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:17.672+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-05-11T11:20:17.688+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.053 seconds
+[2024-05-11T11:21:21.225+0200] {processor.py:161} INFO - Started process (PID=135152) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:21:21.227+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-05-11T11:21:21.230+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:21.229+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:21:21.243+0200] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-05-11T11:21:21.262+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:21.261+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:21:21.274+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:21.274+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-05-11T11:21:21.304+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.085 seconds

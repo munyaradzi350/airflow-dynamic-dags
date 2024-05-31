@@ -1,0 +1,1050 @@
+[2024-05-19T13:27:15.522+0200] {processor.py:161} INFO - Started process (PID=85933) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:27:15.523+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:27:15.524+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:27:15.523+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:27:15.534+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:27:15.554+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:27:15.554+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:27:15.579+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:27:15.579+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:27:15.605+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.091 seconds
+[2024-05-19T13:28:30.202+0200] {processor.py:161} INFO - Started process (PID=86893) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:28:30.206+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:28:30.207+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:28:30.207+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:28:30.214+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:28:30.231+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:28:30.230+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:28:30.252+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:28:30.251+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:28:30.441+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.247 seconds
+[2024-05-19T13:29:54.813+0200] {processor.py:161} INFO - Started process (PID=88000) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:29:54.815+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:29:54.816+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:29:54.815+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:29:54.823+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:29:54.839+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:29:54.839+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:29:54.859+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:29:54.859+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:29:54.883+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.076 seconds
+[2024-05-19T13:30:53.770+0200] {processor.py:161} INFO - Started process (PID=88777) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:30:53.771+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:30:53.772+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:30:53.772+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:30:53.779+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:30:53.801+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:30:53.800+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:30:53.822+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:30:53.821+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:30:53.840+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.077 seconds
+[2024-05-19T13:31:59.457+0200] {processor.py:161} INFO - Started process (PID=89671) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:31:59.458+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:31:59.459+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:31:59.458+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:31:59.465+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:31:59.482+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:31:59.482+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:31:59.502+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:31:59.501+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:31:59.523+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.073 seconds
+[2024-05-19T13:33:02.410+0200] {processor.py:161} INFO - Started process (PID=90537) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:33:02.411+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:33:02.412+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:33:02.412+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:33:02.420+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:33:02.439+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:33:02.439+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:33:02.460+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:33:02.460+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:33:02.479+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.075 seconds
+[2024-05-19T13:34:02.506+0200] {processor.py:161} INFO - Started process (PID=91325) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:34:02.507+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:34:02.507+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:34:02.507+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:34:02.514+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:34:02.528+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:34:02.528+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:34:02.544+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:34:02.544+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:34:02.560+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.060 seconds
+[2024-05-19T13:35:01.556+0200] {processor.py:161} INFO - Started process (PID=92136) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:35:01.557+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:35:01.559+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:35:01.558+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:35:01.567+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:35:01.588+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:35:01.588+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:35:01.614+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:35:01.613+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:35:01.639+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.091 seconds
+[2024-05-19T13:35:58.849+0200] {processor.py:161} INFO - Started process (PID=93357) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:35:58.850+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:35:58.851+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:35:58.850+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:35:58.860+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:35:58.878+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:35:58.878+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:35:58.902+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:35:58.902+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:35:58.924+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.081 seconds
+[2024-05-19T13:36:58.488+0200] {processor.py:161} INFO - Started process (PID=94150) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:36:58.489+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:36:58.490+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:36:58.489+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:36:58.499+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:36:58.518+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:36:58.517+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:36:58.542+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:36:58.541+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:36:58.571+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.090 seconds
+[2024-05-19T13:37:58.355+0200] {processor.py:161} INFO - Started process (PID=94957) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:37:58.356+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:37:58.357+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:37:58.356+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:37:58.363+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:37:58.376+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:37:58.376+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:37:58.393+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:37:58.393+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:37:58.412+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.063 seconds
+[2024-05-19T13:39:00.502+0200] {processor.py:161} INFO - Started process (PID=95805) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:39:00.503+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:39:00.504+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:39:00.503+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:39:00.510+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:39:00.526+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:39:00.526+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:39:00.544+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:39:00.544+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:39:00.564+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.071 seconds
+[2024-05-19T13:39:57.746+0200] {processor.py:161} INFO - Started process (PID=96554) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:39:57.747+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:39:57.749+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:39:57.748+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:39:57.756+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:39:57.773+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:39:57.773+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:39:57.791+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:39:57.791+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:39:57.810+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.070 seconds
+[2024-05-19T13:40:55.506+0200] {processor.py:161} INFO - Started process (PID=97321) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:40:55.508+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:40:55.510+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:40:55.509+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:40:55.517+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:40:55.534+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:40:55.534+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:40:55.556+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:40:55.555+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:40:55.576+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.074 seconds
+[2024-05-19T13:41:55.105+0200] {processor.py:161} INFO - Started process (PID=98081) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:41:55.107+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:41:55.108+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:41:55.107+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:41:55.117+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:41:55.137+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:41:55.137+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:41:55.163+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:41:55.163+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:41:55.185+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.087 seconds
+[2024-05-19T13:42:53.373+0200] {processor.py:161} INFO - Started process (PID=98811) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:42:53.374+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:42:53.375+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:42:53.374+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:42:53.383+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:42:53.402+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:42:53.402+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:42:53.426+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:42:53.425+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:42:53.451+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.085 seconds
+[2024-05-19T13:44:16.525+0200] {processor.py:161} INFO - Started process (PID=99908) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:44:16.526+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:44:16.527+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:44:16.526+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:44:16.538+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:44:16.560+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:44:16.560+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:44:16.601+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:44:16.601+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:44:16.642+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.126 seconds
+[2024-05-19T13:45:15.805+0200] {processor.py:161} INFO - Started process (PID=100711) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:45:15.806+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:45:15.807+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:45:15.807+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:45:15.815+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:45:15.830+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:45:15.829+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:45:15.849+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:45:15.849+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:45:15.872+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.074 seconds
+[2024-05-19T13:46:12.939+0200] {processor.py:161} INFO - Started process (PID=101867) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:46:12.947+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:46:12.949+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:46:12.948+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:46:13.002+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:46:13.090+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:46:13.089+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:46:13.189+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:46:13.189+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:46:13.246+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.334 seconds
+[2024-05-19T13:47:28.671+0200] {processor.py:161} INFO - Started process (PID=103341) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:47:28.672+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:47:28.673+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:47:28.673+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:47:28.679+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:47:28.695+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:47:28.695+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:47:28.717+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:47:28.716+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:47:28.734+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.068 seconds
+[2024-05-19T13:48:33.649+0200] {processor.py:161} INFO - Started process (PID=104637) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:48:33.651+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:48:33.652+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:48:33.651+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:48:33.661+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:48:33.684+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:48:33.683+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:48:33.717+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:48:33.717+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:48:33.742+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.102 seconds
+[2024-05-19T13:49:37.994+0200] {processor.py:161} INFO - Started process (PID=105751) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:49:37.995+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:49:37.995+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:49:37.995+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:49:38.001+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:49:38.014+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:49:38.014+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:49:38.033+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:49:38.033+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:49:38.056+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.067 seconds
+[2024-05-19T13:51:01.874+0200] {processor.py:161} INFO - Started process (PID=107175) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:51:01.875+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:51:01.876+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:51:01.875+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:51:01.887+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:51:01.906+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:51:01.906+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:51:01.930+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:51:01.930+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:51:01.952+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.086 seconds
+[2024-05-19T13:52:01.633+0200] {processor.py:161} INFO - Started process (PID=108202) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:52:01.636+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:52:01.644+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:52:01.642+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:52:01.677+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:52:01.713+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:52:01.712+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:52:01.740+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:52:01.740+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:52:01.760+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.164 seconds
+[2024-05-19T13:53:02.887+0200] {processor.py:161} INFO - Started process (PID=109304) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:53:02.888+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:53:02.889+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:53:02.889+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:53:02.896+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:53:02.911+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:53:02.911+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:53:02.928+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:53:02.928+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:53:02.946+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.065 seconds
+[2024-05-19T13:54:22.072+0200] {processor.py:161} INFO - Started process (PID=110682) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:54:22.073+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:54:22.074+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:54:22.074+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:54:22.082+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:54:22.101+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:54:22.101+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:54:22.127+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:54:22.126+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:54:22.150+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.085 seconds
+[2024-05-19T13:55:34.800+0200] {processor.py:161} INFO - Started process (PID=111935) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:55:34.801+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:55:34.801+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:55:34.801+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:55:34.807+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:55:34.821+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:55:34.821+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:55:34.847+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:55:34.846+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:55:34.861+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.068 seconds
+[2024-05-19T13:56:36.047+0200] {processor.py:161} INFO - Started process (PID=112964) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:56:36.048+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:56:36.049+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:56:36.048+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:56:36.057+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:56:36.074+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:56:36.073+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:56:36.094+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:56:36.094+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:56:36.115+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.077 seconds
+[2024-05-19T13:58:01.610+0200] {processor.py:161} INFO - Started process (PID=114442) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:58:01.611+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:58:01.612+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:58:01.611+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:58:01.618+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:58:01.632+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:58:01.632+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:58:01.650+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:58:01.650+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:58:01.672+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.068 seconds
+[2024-05-19T13:59:36.506+0200] {processor.py:161} INFO - Started process (PID=116044) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:59:36.510+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T13:59:36.513+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:59:36.511+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:59:36.535+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T13:59:36.582+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:59:36.582+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T13:59:36.671+0200] {logging_mixin.py:188} INFO - [2024-05-19T13:59:36.671+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T13:59:36.724+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.238 seconds
+[2024-05-19T14:00:42.847+0200] {processor.py:161} INFO - Started process (PID=117173) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:00:42.853+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:00:42.858+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:00:42.857+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:00:42.898+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:00:43.019+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:00:43.019+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:00:43.104+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:00:43.103+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:00:43.179+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.370 seconds
+[2024-05-19T14:01:47.766+0200] {processor.py:161} INFO - Started process (PID=118274) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:01:47.767+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:01:47.768+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:01:47.768+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:01:47.774+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:01:47.788+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:01:47.788+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:01:47.806+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:01:47.806+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:01:47.825+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.064 seconds
+[2024-05-19T14:02:47.652+0200] {processor.py:161} INFO - Started process (PID=119370) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:02:47.653+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:02:47.654+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:02:47.654+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:02:47.660+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:02:47.674+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:02:47.674+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:02:47.691+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:02:47.690+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:02:47.714+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.069 seconds
+[2024-05-19T14:03:49.476+0200] {processor.py:161} INFO - Started process (PID=120494) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:03:49.477+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:03:49.478+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:03:49.477+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:03:49.484+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:03:49.500+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:03:49.499+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:03:49.520+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:03:49.519+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:03:49.546+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.076 seconds
+[2024-05-19T14:04:48.995+0200] {processor.py:161} INFO - Started process (PID=121513) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:04:48.997+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:04:48.998+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:04:48.998+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:04:49.005+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:04:49.022+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:04:49.022+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:04:49.043+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:04:49.043+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:04:49.065+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.077 seconds
+[2024-05-19T14:05:58.290+0200] {processor.py:161} INFO - Started process (PID=122764) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:05:58.292+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:05:58.296+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:05:58.294+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:05:58.324+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:05:58.393+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:05:58.392+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:05:58.486+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:05:58.486+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:05:58.590+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.319 seconds
+[2024-05-19T14:07:05.423+0200] {processor.py:161} INFO - Started process (PID=124112) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:07:05.424+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:07:05.425+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:07:05.424+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:07:05.431+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:07:05.448+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:07:05.448+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:07:05.468+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:07:05.468+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:07:05.487+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.070 seconds
+[2024-05-19T14:08:14.391+0200] {processor.py:161} INFO - Started process (PID=125254) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:08:14.392+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:08:14.393+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:08:14.393+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:08:14.400+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:08:14.414+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:08:14.414+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:08:14.431+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:08:14.431+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:08:14.459+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.074 seconds
+[2024-05-19T14:09:11.583+0200] {processor.py:161} INFO - Started process (PID=126248) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:09:11.584+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:09:11.585+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:09:11.584+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:09:11.593+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:09:11.611+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:09:11.611+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:09:11.629+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:09:11.629+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:09:11.646+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.068 seconds
+[2024-05-19T14:10:08.345+0200] {processor.py:161} INFO - Started process (PID=127223) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:10:08.346+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:10:08.347+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:10:08.347+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:10:08.354+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:10:08.371+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:10:08.370+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:10:08.395+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:10:08.395+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:10:08.417+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.082 seconds
+[2024-05-19T14:11:12.449+0200] {processor.py:161} INFO - Started process (PID=128307) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:11:12.450+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:11:12.451+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:11:12.451+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:11:12.457+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:11:12.471+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:11:12.471+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:11:12.488+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:11:12.488+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:11:12.506+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.062 seconds
+[2024-05-19T14:12:14.015+0200] {processor.py:161} INFO - Started process (PID=129364) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:12:14.016+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:12:14.018+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:12:14.017+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:12:14.025+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:12:14.043+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:12:14.042+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:12:14.063+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:12:14.063+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:12:14.082+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.075 seconds
+[2024-05-19T14:13:11.961+0200] {processor.py:161} INFO - Started process (PID=130340) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:13:11.962+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:13:11.963+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:13:11.962+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:13:11.972+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:13:11.988+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:13:11.987+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:13:12.006+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:13:12.006+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:13:12.025+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.073 seconds
+[2024-05-19T14:14:16.526+0200] {processor.py:161} INFO - Started process (PID=131627) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:14:16.527+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:14:16.528+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:14:16.528+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:14:16.533+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:14:16.546+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:14:16.546+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:14:16.561+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:14:16.561+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:14:16.577+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.055 seconds
+[2024-05-19T14:15:29.414+0200] {processor.py:161} INFO - Started process (PID=133280) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:15:29.418+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:15:29.423+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:15:29.421+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:15:29.458+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:15:29.547+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:15:29.546+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:15:29.634+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:15:29.633+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:15:29.723+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.354 seconds
+[2024-05-19T14:16:36.614+0200] {processor.py:161} INFO - Started process (PID=134510) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:16:36.615+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:16:36.615+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:16:36.615+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:16:36.622+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:16:36.636+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:16:36.636+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:16:36.653+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:16:36.653+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:16:36.671+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.063 seconds
+[2024-05-19T14:17:45.635+0200] {processor.py:161} INFO - Started process (PID=135652) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:17:45.636+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:17:45.637+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:17:45.637+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:17:45.646+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:17:45.667+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:17:45.667+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:17:45.686+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:17:45.685+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:17:45.703+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.074 seconds
+[2024-05-19T14:18:49.369+0200] {processor.py:161} INFO - Started process (PID=136758) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:18:49.369+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:18:49.370+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:18:49.370+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:18:49.376+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:18:49.389+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:18:49.389+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:18:49.404+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:18:49.404+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:18:49.420+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.056 seconds
+[2024-05-19T14:19:50.418+0200] {processor.py:161} INFO - Started process (PID=137753) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:19:50.419+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:19:50.420+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:19:50.419+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:19:50.427+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:19:50.445+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:19:50.445+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:19:50.465+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:19:50.464+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:19:50.480+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.067 seconds
+[2024-05-19T14:20:58.148+0200] {processor.py:161} INFO - Started process (PID=138893) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:20:58.149+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:20:58.150+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:20:58.150+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:20:58.159+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:20:58.183+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:20:58.183+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:20:58.204+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:20:58.204+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:20:58.230+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.087 seconds
+[2024-05-19T14:22:01.830+0200] {processor.py:161} INFO - Started process (PID=139995) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:22:01.831+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:22:01.832+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:22:01.831+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:22:01.838+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:22:01.854+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:22:01.853+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:22:01.873+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:22:01.873+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:22:01.891+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.068 seconds
+[2024-05-19T14:22:59.694+0200] {processor.py:161} INFO - Started process (PID=140962) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:22:59.697+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:22:59.700+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:22:59.699+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:22:59.722+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:22:59.771+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:22:59.770+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:22:59.849+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:22:59.848+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:22:59.921+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.245 seconds
+[2024-05-19T14:24:27.207+0200] {processor.py:161} INFO - Started process (PID=142441) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:24:27.208+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:24:27.209+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:24:27.209+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:24:27.219+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:24:27.238+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:24:27.237+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:24:27.257+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:24:27.257+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:24:27.277+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.077 seconds
+[2024-05-19T14:25:30.648+0200] {processor.py:161} INFO - Started process (PID=143525) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:25:30.649+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:25:30.650+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:25:30.649+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:25:30.657+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:25:30.672+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:25:30.672+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:25:30.690+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:25:30.689+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:25:30.706+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.064 seconds
+[2024-05-19T14:26:33.478+0200] {processor.py:161} INFO - Started process (PID=144639) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:26:33.479+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:26:33.480+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:26:33.479+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:26:33.486+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:26:33.499+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:26:33.498+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:26:33.514+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:26:33.514+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:26:33.530+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.057 seconds
+[2024-05-19T14:27:38.081+0200] {processor.py:161} INFO - Started process (PID=145714) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:27:38.084+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:27:38.089+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:27:38.086+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:27:38.130+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:27:38.242+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:27:38.241+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:27:38.476+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:27:38.475+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:27:38.599+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.553 seconds
+[2024-05-19T14:28:59.372+0200] {processor.py:161} INFO - Started process (PID=147037) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:28:59.373+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:28:59.374+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:28:59.374+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:28:59.381+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:28:59.401+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:28:59.400+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:28:59.426+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:28:59.426+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:28:59.445+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.080 seconds
+[2024-05-19T14:30:03.095+0200] {processor.py:161} INFO - Started process (PID=148179) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:30:03.096+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:30:03.097+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:30:03.096+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:30:03.104+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:30:03.119+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:30:03.119+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:30:03.137+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:30:03.137+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:30:03.155+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.066 seconds
+[2024-05-19T14:31:03.223+0200] {processor.py:161} INFO - Started process (PID=149189) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:31:03.224+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:31:03.225+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:31:03.225+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:31:03.231+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:31:03.246+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:31:03.246+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:31:03.267+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:31:03.266+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:31:03.285+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.068 seconds
+[2024-05-19T14:32:27.673+0200] {processor.py:161} INFO - Started process (PID=150542) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:32:27.676+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:32:27.680+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:32:27.677+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:32:27.698+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:32:27.738+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:32:27.737+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:32:27.791+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:32:27.790+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:32:27.846+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.199 seconds
+[2024-05-19T14:33:59.149+0200] {processor.py:161} INFO - Started process (PID=152057) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:33:59.156+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:33:59.160+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:33:59.159+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:33:59.186+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:33:59.309+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:33:59.309+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:33:59.467+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:33:59.467+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:33:59.543+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.418 seconds
+[2024-05-19T14:35:35.664+0200] {processor.py:161} INFO - Started process (PID=153586) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:35:35.672+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:35:35.674+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:35:35.673+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:35:35.687+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:35:35.720+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:35:35.720+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:35:35.752+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:35:35.752+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:35:35.788+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.136 seconds
+[2024-05-19T14:37:12.083+0200] {processor.py:161} INFO - Started process (PID=155075) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:37:12.090+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:37:12.093+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:37:12.093+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:37:12.127+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:37:12.199+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:37:12.194+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:37:12.277+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:37:12.276+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:37:12.363+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.311 seconds
+[2024-05-19T14:39:04.229+0200] {processor.py:161} INFO - Started process (PID=156949) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:39:04.234+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:39:04.238+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:39:04.238+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:39:04.268+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:39:04.332+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:39:04.331+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:39:04.415+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:39:04.415+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:39:04.634+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.430 seconds
+[2024-05-19T14:41:10.958+0200] {processor.py:161} INFO - Started process (PID=158937) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:41:10.966+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:41:10.968+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:41:10.968+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:41:11.001+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:41:11.065+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:41:11.064+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:41:11.146+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:41:11.143+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:41:11.224+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.291 seconds
+[2024-05-19T14:42:45.670+0200] {processor.py:161} INFO - Started process (PID=160479) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:42:45.678+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:42:45.681+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:42:45.679+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:42:45.710+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:42:45.762+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:42:45.760+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:42:45.822+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:42:45.822+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:42:45.866+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.208 seconds
+[2024-05-19T14:44:19.761+0200] {processor.py:161} INFO - Started process (PID=161950) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:44:19.768+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:44:19.769+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:44:19.769+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:44:19.789+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:44:19.823+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:44:19.822+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:44:19.873+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:44:19.873+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:44:19.933+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.195 seconds
+[2024-05-19T14:45:51.047+0200] {processor.py:161} INFO - Started process (PID=163413) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:45:51.052+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:45:51.053+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:45:51.053+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:45:51.077+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:45:51.134+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:45:51.134+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:45:51.191+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:45:51.190+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:45:51.244+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.222 seconds
+[2024-05-19T14:47:30.651+0200] {processor.py:161} INFO - Started process (PID=165063) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:47:30.653+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:47:30.654+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:47:30.654+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:47:30.689+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:47:30.734+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:47:30.734+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:47:30.815+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:47:30.815+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:47:30.860+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.222 seconds
+[2024-05-19T14:49:06.376+0200] {processor.py:161} INFO - Started process (PID=166621) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:49:06.379+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:49:06.381+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:49:06.380+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:49:06.419+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:49:06.511+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:49:06.511+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:49:06.574+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:49:06.573+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:49:06.652+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.317 seconds
+[2024-05-19T14:50:44.170+0200] {processor.py:161} INFO - Started process (PID=168142) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:50:44.174+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:50:44.176+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:50:44.176+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:50:44.198+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:50:44.250+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:50:44.250+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:50:44.324+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:50:44.315+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:50:44.411+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.263 seconds
+[2024-05-19T14:52:24.586+0200] {processor.py:161} INFO - Started process (PID=169727) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:52:24.589+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:52:24.592+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:52:24.592+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:52:24.606+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:52:24.638+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:52:24.637+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:52:24.702+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:52:24.702+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:52:24.765+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.203 seconds
+[2024-05-19T14:54:01.066+0200] {processor.py:161} INFO - Started process (PID=171251) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:54:01.070+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:54:01.073+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:54:01.071+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:54:01.094+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:54:01.142+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:54:01.142+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:54:01.218+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:54:01.218+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:54:01.289+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.241 seconds
+[2024-05-19T14:55:35.206+0200] {processor.py:161} INFO - Started process (PID=172742) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:55:35.207+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:55:35.209+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:55:35.209+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:55:35.226+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:55:35.252+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:55:35.252+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:55:35.289+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:55:35.288+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:55:35.318+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.122 seconds
+[2024-05-19T14:57:10.830+0200] {processor.py:161} INFO - Started process (PID=174236) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:57:10.835+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:57:10.836+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:57:10.836+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:57:10.857+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:57:10.911+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:57:10.910+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:57:10.968+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:57:10.968+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:57:11.037+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.227 seconds
+[2024-05-19T14:58:41.781+0200] {processor.py:161} INFO - Started process (PID=175668) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:58:41.785+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T14:58:41.787+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:58:41.786+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:58:41.813+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T14:58:41.879+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:58:41.878+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T14:58:41.961+0200] {logging_mixin.py:188} INFO - [2024-05-19T14:58:41.961+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T14:58:42.027+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.273 seconds
+[2024-05-19T15:00:17.314+0200] {processor.py:161} INFO - Started process (PID=177198) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:00:17.323+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:00:17.325+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:00:17.324+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:00:17.354+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:00:17.424+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:00:17.421+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:00:17.506+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:00:17.506+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:00:17.596+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.301 seconds
+[2024-05-19T15:01:57.612+0200] {processor.py:161} INFO - Started process (PID=178768) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:01:57.618+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:01:57.620+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:01:57.619+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:01:57.662+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:01:57.768+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:01:57.754+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:01:57.867+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:01:57.866+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:01:57.933+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.349 seconds
+[2024-05-19T15:03:35.391+0200] {processor.py:161} INFO - Started process (PID=180343) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:03:35.392+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:03:35.393+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:03:35.392+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:03:35.399+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:03:35.412+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:03:35.412+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:03:35.429+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:03:35.428+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:03:35.446+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.060 seconds
+[2024-05-19T15:04:44.003+0200] {processor.py:161} INFO - Started process (PID=181516) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:04:44.004+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:04:44.006+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:04:44.005+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:04:44.013+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:04:44.028+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:04:44.027+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:04:44.049+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:04:44.049+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:04:44.067+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.070 seconds
+[2024-05-19T15:05:43.540+0200] {processor.py:161} INFO - Started process (PID=182535) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:05:43.541+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:05:43.542+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:05:43.542+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:05:43.548+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:05:43.561+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:05:43.561+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:05:43.576+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:05:43.576+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:05:43.592+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.056 seconds
+[2024-05-19T15:06:50.835+0200] {processor.py:161} INFO - Started process (PID=183689) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:06:50.844+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:06:50.854+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:06:50.852+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:06:50.909+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:06:51.089+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:06:51.088+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:06:52.200+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:06:52.198+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:06:52.278+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 1.496 seconds
+[2024-05-19T15:07:57.563+0200] {processor.py:161} INFO - Started process (PID=184835) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:07:57.564+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:07:57.565+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:07:57.565+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:07:57.571+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:07:57.583+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:07:57.583+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:07:57.600+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:07:57.599+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:07:57.718+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.161 seconds
+[2024-05-19T15:09:13.515+0200] {processor.py:161} INFO - Started process (PID=186207) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:09:13.516+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:09:13.517+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:09:13.516+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:09:13.523+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:09:13.539+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:09:13.539+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:09:13.560+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:09:13.560+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:09:13.582+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.075 seconds
+[2024-05-19T15:10:26.730+0200] {processor.py:161} INFO - Started process (PID=187455) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:10:26.731+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:10:26.732+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:10:26.732+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:10:26.740+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:10:26.755+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:10:26.755+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:10:26.774+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:10:26.774+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:10:26.795+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.070 seconds
+[2024-05-19T15:11:28.897+0200] {processor.py:161} INFO - Started process (PID=188529) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:11:28.898+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:11:28.899+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:11:28.899+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:11:28.905+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:11:28.921+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:11:28.921+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:11:28.942+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:11:28.942+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:11:28.965+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.076 seconds
+[2024-05-19T15:12:28.796+0200] {processor.py:161} INFO - Started process (PID=189541) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:12:28.798+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:12:28.800+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:12:28.799+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:12:28.812+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:12:28.839+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:12:28.839+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:12:28.877+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:12:28.876+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:12:28.914+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.127 seconds
+[2024-05-19T15:13:38.423+0200] {processor.py:161} INFO - Started process (PID=190689) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:13:38.424+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:13:38.425+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:13:38.425+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:13:38.431+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:13:38.445+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:13:38.445+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:13:38.463+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:13:38.463+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:13:38.482+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.065 seconds
+[2024-05-19T15:14:41.162+0200] {processor.py:161} INFO - Started process (PID=191754) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:14:41.163+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:14:41.164+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:14:41.163+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:14:41.171+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:14:41.187+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:14:41.187+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:14:41.210+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:14:41.210+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:14:41.230+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.075 seconds
+[2024-05-19T15:15:51.543+0200] {processor.py:161} INFO - Started process (PID=192904) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:15:51.544+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:15:51.545+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:15:51.544+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:15:51.554+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:15:51.571+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:15:51.571+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:15:51.592+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:15:51.591+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:15:51.611+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.076 seconds
+[2024-05-19T15:17:02.890+0200] {processor.py:161} INFO - Started process (PID=194080) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:17:02.891+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:17:02.892+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:17:02.892+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:17:02.900+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:17:02.916+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:17:02.916+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:17:02.936+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:17:02.936+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:17:02.960+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.077 seconds
+[2024-05-19T15:18:19.742+0200] {processor.py:161} INFO - Started process (PID=195715) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:18:19.743+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:18:19.744+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:18:19.743+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:18:19.750+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:18:19.766+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:18:19.765+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:18:19.782+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:18:19.782+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:18:19.797+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.061 seconds
+[2024-05-19T15:19:33.758+0200] {processor.py:161} INFO - Started process (PID=197155) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:19:33.761+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:19:33.764+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:19:33.763+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:19:33.785+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:19:33.840+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:19:33.839+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:19:33.909+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:19:33.909+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:19:33.971+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.233 seconds
+[2024-05-19T15:20:32.660+0200] {processor.py:161} INFO - Started process (PID=198177) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:20:32.661+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:20:32.662+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:20:32.661+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:20:32.667+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:20:32.680+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:20:32.680+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:20:32.696+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:20:32.695+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:20:32.710+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.055 seconds
+[2024-05-19T15:21:31.375+0200] {processor.py:161} INFO - Started process (PID=199156) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:21:31.376+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:21:31.376+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:21:31.376+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:21:31.382+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:21:31.400+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:21:31.399+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:21:31.417+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:21:31.417+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:21:31.433+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.063 seconds
+[2024-05-19T15:22:35.181+0200] {processor.py:161} INFO - Started process (PID=200251) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:22:35.182+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:22:35.184+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:22:35.183+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:22:35.194+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:22:35.209+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:22:35.209+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:22:35.226+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:22:35.226+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:22:35.243+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.072 seconds
+[2024-05-19T15:23:31.566+0200] {processor.py:161} INFO - Started process (PID=201184) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:23:31.567+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:23:31.568+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:23:31.568+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:23:31.573+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:23:31.586+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:23:31.586+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:23:31.601+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:23:31.601+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:23:31.622+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.061 seconds
+[2024-05-19T15:24:29.707+0200] {processor.py:161} INFO - Started process (PID=202187) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:24:29.708+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:24:29.709+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:24:29.709+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:24:29.715+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:24:29.728+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:24:29.728+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:24:29.745+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:24:29.744+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:24:29.761+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.059 seconds
+[2024-05-19T15:25:29.613+0200] {processor.py:161} INFO - Started process (PID=203166) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:25:29.614+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:25:29.615+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:25:29.615+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:25:29.621+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:25:29.633+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:25:29.633+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:25:29.648+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:25:29.648+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:25:29.665+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.056 seconds
+[2024-05-19T15:26:33.877+0200] {processor.py:161} INFO - Started process (PID=204271) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:26:33.878+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:26:33.879+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:26:33.879+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:26:33.885+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:26:33.901+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:26:33.901+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:26:33.925+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:26:33.925+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:26:33.942+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.071 seconds
+[2024-05-19T15:27:35.303+0200] {processor.py:161} INFO - Started process (PID=205319) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:27:35.306+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:27:35.310+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:27:35.309+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:27:35.341+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:27:35.409+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:27:35.408+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:27:35.505+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:27:35.504+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:27:35.631+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.362 seconds
+[2024-05-19T15:29:03.278+0200] {processor.py:161} INFO - Started process (PID=206788) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:29:03.283+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:29:03.287+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:29:03.286+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:29:03.319+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:29:03.387+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:29:03.386+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:29:03.490+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:29:03.489+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:29:03.545+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.297 seconds
+[2024-05-19T15:30:03.924+0200] {processor.py:161} INFO - Started process (PID=207798) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:30:03.925+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:30:03.926+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:30:03.926+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:30:03.932+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:30:03.949+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:30:03.948+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:30:03.968+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:30:03.968+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:30:03.990+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.073 seconds
+[2024-05-19T15:31:03.881+0200] {processor.py:161} INFO - Started process (PID=208874) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:31:03.882+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:31:03.883+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:31:03.883+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:31:03.891+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:31:03.909+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:31:03.909+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:31:03.936+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:31:03.936+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:31:03.974+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.101 seconds
+[2024-05-19T15:32:01.195+0200] {processor.py:161} INFO - Started process (PID=209838) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:32:01.196+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:32:01.197+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:32:01.197+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:32:01.204+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:32:01.219+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:32:01.219+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:32:01.242+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:32:01.242+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:32:01.263+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.074 seconds
+[2024-05-19T15:33:01.533+0200] {processor.py:161} INFO - Started process (PID=210837) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:33:01.536+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:33:01.538+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:33:01.537+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:33:01.559+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:33:01.605+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:33:01.604+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:33:01.664+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:33:01.663+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:33:01.716+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.202 seconds
+[2024-05-19T15:34:06.605+0200] {processor.py:161} INFO - Started process (PID=211926) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:34:06.606+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:34:06.607+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:34:06.607+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:34:06.613+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:34:06.626+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:34:06.626+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:34:06.644+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:34:06.644+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:34:06.663+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.064 seconds
+[2024-05-19T15:35:05.285+0200] {processor.py:161} INFO - Started process (PID=212889) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:35:05.290+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:35:05.296+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:35:05.293+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:35:05.327+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:35:05.379+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:35:05.379+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:35:05.475+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:35:05.474+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:35:05.549+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.290 seconds
+[2024-05-19T15:36:07.065+0200] {processor.py:161} INFO - Started process (PID=213910) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:36:07.066+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:36:07.067+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:36:07.066+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:36:07.073+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:36:07.087+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:36:07.087+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:36:07.105+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:36:07.105+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:36:07.120+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.060 seconds
+[2024-05-19T15:37:12.692+0200] {processor.py:161} INFO - Started process (PID=215014) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:37:12.693+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:37:12.694+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:37:12.694+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:37:12.700+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:37:12.712+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:37:12.712+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:37:12.728+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:37:12.728+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:37:12.752+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.065 seconds
+[2024-05-19T15:38:16.623+0200] {processor.py:161} INFO - Started process (PID=216118) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:38:16.624+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:38:16.625+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:38:16.625+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:38:16.631+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:38:16.645+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:38:16.644+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:38:16.662+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:38:16.661+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:38:16.678+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.060 seconds
+[2024-05-19T15:39:22.978+0200] {processor.py:161} INFO - Started process (PID=217280) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:39:22.979+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:39:22.980+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:39:22.980+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:39:22.986+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:39:22.998+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:39:22.998+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:39:23.013+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:39:23.013+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:39:23.029+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.056 seconds
+[2024-05-19T15:40:22.841+0200] {processor.py:161} INFO - Started process (PID=218304) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:40:22.842+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:40:22.843+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:40:22.843+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:40:22.849+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:40:22.862+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:40:22.862+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:40:22.877+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:40:22.877+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:40:22.892+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.056 seconds
+[2024-05-19T15:41:26.367+0200] {processor.py:161} INFO - Started process (PID=219348) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:41:26.368+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:41:26.369+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:41:26.369+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:41:26.378+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:41:26.394+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:41:26.394+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:41:26.413+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:41:26.413+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:41:26.434+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.072 seconds
+[2024-05-19T15:42:23.720+0200] {processor.py:161} INFO - Started process (PID=220336) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:42:23.721+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:42:23.722+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:42:23.721+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:42:23.727+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:42:23.740+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:42:23.740+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:42:23.758+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:42:23.758+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:42:23.777+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.063 seconds
+[2024-05-19T15:43:24.436+0200] {processor.py:161} INFO - Started process (PID=221337) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:43:24.439+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:43:24.443+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:43:24.441+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:43:24.470+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:43:24.534+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:43:24.533+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:43:24.617+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:43:24.617+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:43:24.683+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.266 seconds
+[2024-05-19T15:44:25.542+0200] {processor.py:161} INFO - Started process (PID=222348) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:44:25.554+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:44:25.578+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:44:25.577+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:44:25.661+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:44:25.759+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:44:25.758+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:44:25.891+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:44:25.890+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:44:26.009+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.559 seconds
+[2024-05-19T15:45:25.625+0200] {processor.py:161} INFO - Started process (PID=223362) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:45:25.626+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:45:25.627+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:45:25.626+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:45:25.633+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:45:25.647+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:45:25.647+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:45:25.667+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:45:25.667+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:45:25.687+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.068 seconds
+[2024-05-19T15:46:25.845+0200] {processor.py:161} INFO - Started process (PID=224367) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:46:25.846+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:46:25.847+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:46:25.847+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:46:25.854+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:46:25.867+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:46:25.867+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:46:25.888+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:46:25.888+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:46:25.904+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.066 seconds
+[2024-05-19T15:47:28.537+0200] {processor.py:161} INFO - Started process (PID=225618) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:47:28.542+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:47:28.544+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:47:28.543+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:47:28.565+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:47:28.592+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:47:28.591+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:47:28.637+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:47:28.632+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:47:28.742+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.233 seconds
+[2024-05-19T15:48:41.980+0200] {processor.py:161} INFO - Started process (PID=227099) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:48:41.981+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:48:41.982+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:48:41.981+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:48:41.987+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:48:42.001+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:48:42.001+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:48:42.017+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:48:42.016+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:48:42.032+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.058 seconds
+[2024-05-19T15:49:49.143+0200] {processor.py:161} INFO - Started process (PID=228738) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:49:49.145+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:49:49.146+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:49:49.145+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:49:49.155+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:49:49.176+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:49:49.176+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:49:49.204+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:49:49.204+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:49:49.228+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.093 seconds
+[2024-05-19T15:50:54.741+0200] {processor.py:161} INFO - Started process (PID=230204) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:50:54.744+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:50:54.747+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:50:54.746+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:50:54.770+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:50:54.819+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:50:54.818+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:50:54.884+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:50:54.883+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:50:54.947+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.227 seconds
+[2024-05-19T15:51:57.757+0200] {processor.py:161} INFO - Started process (PID=231607) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:51:57.761+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:51:57.764+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:51:57.763+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:51:57.791+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:51:57.854+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:51:57.853+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:51:57.937+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:51:57.936+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:51:58.002+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.270 seconds
+[2024-05-19T15:52:55.873+0200] {processor.py:161} INFO - Started process (PID=232847) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:52:55.876+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:52:55.878+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:52:55.877+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:52:55.901+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:52:55.953+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:52:55.952+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:52:56.028+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:52:56.027+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:52:56.108+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.255 seconds
+[2024-05-19T15:53:57.950+0200] {processor.py:161} INFO - Started process (PID=234258) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:53:57.950+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:53:57.951+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:53:57.951+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:53:57.957+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:53:57.971+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:53:57.970+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:53:57.992+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:53:57.992+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:53:58.015+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.071 seconds
+[2024-05-19T15:55:05.530+0200] {processor.py:161} INFO - Started process (PID=235641) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:55:05.531+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:55:05.532+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:55:05.531+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:55:05.539+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:55:05.554+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:55:05.554+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:55:05.570+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:55:05.570+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:55:05.586+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.063 seconds
+[2024-05-19T15:56:09.116+0200] {processor.py:161} INFO - Started process (PID=236936) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:56:09.117+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:56:09.118+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:56:09.118+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:56:09.125+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:56:09.140+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:56:09.140+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:56:09.159+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:56:09.159+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:56:09.181+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.070 seconds
+[2024-05-19T15:57:14.556+0200] {processor.py:161} INFO - Started process (PID=238328) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:57:14.557+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:57:14.557+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:57:14.557+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:57:14.563+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:57:14.576+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:57:14.576+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:57:14.591+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:57:14.591+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:57:14.606+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.056 seconds
+[2024-05-19T15:58:20.983+0200] {processor.py:161} INFO - Started process (PID=239689) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:58:20.984+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:58:20.985+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:58:20.984+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:58:20.991+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:58:21.005+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:58:21.005+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:58:21.023+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:58:21.022+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:58:21.040+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.063 seconds
+[2024-05-19T15:59:26.520+0200] {processor.py:161} INFO - Started process (PID=241046) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:59:26.521+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T15:59:26.523+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:59:26.522+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:59:26.530+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T15:59:26.545+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:59:26.544+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T15:59:26.561+0200] {logging_mixin.py:188} INFO - [2024-05-19T15:59:26.561+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T15:59:26.578+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.064 seconds
+[2024-05-19T16:00:34.160+0200] {processor.py:161} INFO - Started process (PID=242478) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:00:34.161+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:00:34.161+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:00:34.161+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:00:34.168+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:00:34.185+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:00:34.185+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:00:34.204+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:00:34.204+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:00:34.223+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.070 seconds
+[2024-05-19T16:01:56.972+0200] {processor.py:161} INFO - Started process (PID=244181) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:01:56.973+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:01:56.974+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:01:56.974+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:01:56.980+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:01:56.996+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:01:56.996+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:01:57.015+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:01:57.014+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:01:57.031+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.065 seconds
+[2024-05-19T16:03:00.421+0200] {processor.py:161} INFO - Started process (PID=245472) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:03:00.422+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:03:00.423+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:03:00.423+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:03:00.431+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:03:00.450+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:03:00.450+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:03:00.474+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:03:00.474+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:03:00.497+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.083 seconds
+[2024-05-19T16:04:02.442+0200] {processor.py:161} INFO - Started process (PID=246791) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:04:02.443+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:04:02.445+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:04:02.444+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:04:02.451+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:04:02.469+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:04:02.469+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:04:02.491+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:04:02.491+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:04:02.512+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.078 seconds
+[2024-05-19T16:05:06.115+0200] {processor.py:161} INFO - Started process (PID=248210) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:05:06.119+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:05:06.126+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:05:06.121+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:05:06.161+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:05:06.223+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:05:06.223+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:05:06.327+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:05:06.326+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:05:06.404+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.320 seconds
+[2024-05-19T16:06:15.204+0200] {processor.py:161} INFO - Started process (PID=249622) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:06:15.205+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:06:15.205+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:06:15.205+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:06:15.211+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:06:15.225+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:06:15.224+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:06:15.242+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:06:15.242+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:06:15.258+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.060 seconds
+[2024-05-19T16:07:18.714+0200] {processor.py:161} INFO - Started process (PID=250895) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:07:18.716+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:07:18.716+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:07:18.716+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:07:18.725+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:07:18.744+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:07:18.743+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:07:18.765+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:07:18.764+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:07:18.785+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.076 seconds
+[2024-05-19T16:08:41.963+0200] {processor.py:161} INFO - Started process (PID=252583) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:08:41.964+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:08:41.965+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:08:41.964+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:08:41.970+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:08:41.984+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:08:41.984+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:08:42.000+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:08:42.000+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:08:42.015+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.057 seconds
+[2024-05-19T16:09:42.949+0200] {processor.py:161} INFO - Started process (PID=253888) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:09:42.951+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:09:42.952+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:09:42.952+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:09:42.969+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:09:42.997+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:09:42.997+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:09:43.027+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:09:43.027+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:09:43.073+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.141 seconds
+[2024-05-19T16:10:39.246+0200] {processor.py:161} INFO - Started process (PID=255056) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:10:39.247+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:10:39.248+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:10:39.248+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:10:39.253+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:10:39.269+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:10:39.269+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:10:39.290+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:10:39.290+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:10:39.312+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.071 seconds
+[2024-05-19T16:11:44.012+0200] {processor.py:161} INFO - Started process (PID=256387) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:11:44.013+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:11:44.014+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:11:44.014+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:11:44.021+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:11:44.037+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:11:44.036+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:11:44.056+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:11:44.056+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:11:44.091+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.085 seconds
+[2024-05-19T16:12:47.141+0200] {processor.py:161} INFO - Started process (PID=257656) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:12:47.142+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:12:47.143+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:12:47.142+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:12:47.149+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:12:47.161+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:12:47.161+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:12:47.178+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:12:47.177+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:12:47.193+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.057 seconds
+[2024-05-19T16:13:49.798+0200] {processor.py:161} INFO - Started process (PID=258950) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:13:49.799+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:13:49.800+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:13:49.800+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:13:49.806+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:13:49.819+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:13:49.819+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:13:49.838+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:13:49.838+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:13:49.857+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.064 seconds
+[2024-05-19T16:14:53.642+0200] {processor.py:161} INFO - Started process (PID=260245) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:14:53.643+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:14:53.644+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:14:53.643+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:14:53.650+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:14:53.664+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:14:53.664+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:14:53.681+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:14:53.681+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:14:53.698+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.062 seconds
+[2024-05-19T16:15:55.693+0200] {processor.py:161} INFO - Started process (PID=261485) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:15:55.694+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:15:55.694+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:15:55.694+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:15:55.700+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:15:55.714+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:15:55.714+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:15:55.732+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:15:55.732+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:15:55.750+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.063 seconds
+[2024-05-19T16:16:52.147+0200] {processor.py:161} INFO - Started process (PID=262655) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:16:52.148+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:16:52.149+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:16:52.149+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:16:52.156+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:16:52.171+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:16:52.170+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:16:52.198+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:16:52.198+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:16:52.223+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.082 seconds
+[2024-05-19T16:17:56.731+0200] {processor.py:161} INFO - Started process (PID=263993) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:17:56.732+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:17:56.733+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:17:56.733+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:17:56.743+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:17:56.762+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:17:56.761+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:17:56.790+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:17:56.790+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:17:56.827+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.103 seconds
+[2024-05-19T16:19:02.771+0200] {processor.py:161} INFO - Started process (PID=265339) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:19:02.773+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:19:02.774+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:19:02.773+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:19:02.781+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:19:02.802+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:19:02.801+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:19:02.829+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:19:02.829+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:19:02.856+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.092 seconds
+[2024-05-19T16:20:06.533+0200] {processor.py:161} INFO - Started process (PID=266668) to work on /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:20:06.534+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/weather_data.py for tasks to queue
+[2024-05-19T16:20:06.536+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:20:06.535+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:20:06.544+0200] {processor.py:840} INFO - DAG(s) 'weather_api_dag' retrieved from /home/munya/airflow/dags/weather_data.py
+[2024-05-19T16:20:06.562+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:20:06.561+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-19T16:20:06.583+0200] {logging_mixin.py:188} INFO - [2024-05-19T16:20:06.583+0200] {dag.py:3954} INFO - Setting next_dagrun for weather_api_dag to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-19T16:20:06.604+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/weather_data.py took 0.078 seconds

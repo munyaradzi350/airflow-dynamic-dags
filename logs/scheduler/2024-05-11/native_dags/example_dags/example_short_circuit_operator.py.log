@@ -1,0 +1,49 @@
+[2024-05-11T11:15:15.300+0200] {processor.py:161} INFO - Started process (PID=127641) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:15:15.301+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-05-11T11:15:15.303+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:15.302+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:15:15.310+0200] {processor.py:840} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:15:15.325+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:15.325+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:15:15.342+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:15.342+0200] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:15:15.366+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.071 seconds
+[2024-05-11T11:16:15.149+0200] {processor.py:161} INFO - Started process (PID=128857) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:16:15.150+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-05-11T11:16:15.152+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:15.151+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:16:15.158+0200] {processor.py:840} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:16:15.175+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:15.175+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:16:15.193+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:15.193+0200] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:16:15.210+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.066 seconds
+[2024-05-11T11:17:13.009+0200] {processor.py:161} INFO - Started process (PID=130083) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:17:13.010+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-05-11T11:17:13.012+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:13.012+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:17:13.018+0200] {processor.py:840} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:17:13.033+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:13.033+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:17:13.048+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:13.048+0200] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:17:13.064+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.059 seconds
+[2024-05-11T11:18:15.427+0200] {processor.py:161} INFO - Started process (PID=131375) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:18:15.428+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-05-11T11:18:15.430+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:15.430+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:18:15.439+0200] {processor.py:840} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:18:15.458+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:15.458+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:18:15.476+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:15.476+0200] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:18:15.492+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.070 seconds
+[2024-05-11T11:19:19.608+0200] {processor.py:161} INFO - Started process (PID=132699) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:19:19.610+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-05-11T11:19:19.616+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:19.615+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:19:19.640+0200] {processor.py:840} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:19:19.708+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:19.708+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:19:19.787+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:19.786+0200] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:19:19.840+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.256 seconds
+[2024-05-11T11:20:29.271+0200] {processor.py:161} INFO - Started process (PID=134100) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:20:29.274+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-05-11T11:20:29.279+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:29.278+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:20:29.304+0200] {processor.py:840} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:20:29.361+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:29.360+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:20:29.420+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:29.420+0200] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:20:29.492+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.240 seconds
+[2024-05-11T11:21:31.417+0200] {processor.py:161} INFO - Started process (PID=135356) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:21:31.420+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-05-11T11:21:31.425+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:31.424+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:21:31.455+0200] {processor.py:840} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-05-11T11:21:31.531+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:31.530+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:21:31.592+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:31.591+0200] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:21:31.648+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.252 seconds

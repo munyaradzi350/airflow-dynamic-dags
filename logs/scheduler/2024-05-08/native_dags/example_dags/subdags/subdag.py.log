@@ -1,0 +1,995 @@
+[2024-05-08T11:23:06.751+0200] {processor.py:161} INFO - Started process (PID=157008) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:23:06.752+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:23:06.754+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:23:06.753+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:23:06.755+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:23:06.767+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T11:27:12.410+0200] {processor.py:161} INFO - Started process (PID=160437) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:27:12.411+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:27:12.413+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:27:12.412+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:27:12.415+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:27:12.423+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T11:28:08.282+0200] {processor.py:161} INFO - Started process (PID=161183) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:28:08.283+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:28:08.286+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:28:08.286+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:28:08.288+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:28:08.297+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds
+[2024-05-08T11:29:03.548+0200] {processor.py:161} INFO - Started process (PID=161910) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:29:03.550+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:29:03.553+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:29:03.552+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:29:03.556+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:29:03.570+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.030 seconds
+[2024-05-08T11:30:04.727+0200] {processor.py:161} INFO - Started process (PID=162711) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:30:04.728+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:30:04.730+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:30:04.730+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:30:04.732+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:30:04.743+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T11:30:58.050+0200] {processor.py:161} INFO - Started process (PID=163409) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:30:58.051+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:30:58.054+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:30:58.054+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:30:58.057+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:30:58.067+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.024 seconds
+[2024-05-08T11:31:53.314+0200] {processor.py:161} INFO - Started process (PID=164178) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:31:53.315+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:31:53.317+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:31:53.316+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:31:53.319+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:31:53.328+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T11:32:49.115+0200] {processor.py:161} INFO - Started process (PID=164968) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:32:49.116+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:32:49.118+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:32:49.117+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:32:49.119+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:32:49.128+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T11:33:46.361+0200] {processor.py:161} INFO - Started process (PID=165777) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:33:46.362+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:33:46.364+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:33:46.363+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:33:46.366+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:33:46.377+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds
+[2024-05-08T11:34:52.979+0200] {processor.py:161} INFO - Started process (PID=166610) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:34:52.980+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:34:52.982+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:34:52.982+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:34:52.984+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:34:52.993+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T11:35:48.475+0200] {processor.py:161} INFO - Started process (PID=167375) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:35:48.477+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:35:48.478+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:35:48.478+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:35:48.481+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:35:48.493+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.024 seconds
+[2024-05-08T11:36:50.396+0200] {processor.py:161} INFO - Started process (PID=168187) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:36:50.397+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:36:50.399+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:36:50.399+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:36:50.401+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:36:50.412+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds
+[2024-05-08T11:37:52.949+0200] {processor.py:161} INFO - Started process (PID=168978) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:37:52.950+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:37:52.952+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:37:52.951+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:37:52.953+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:37:52.964+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T11:38:49.144+0200] {processor.py:161} INFO - Started process (PID=169725) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:38:49.146+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:38:49.152+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:38:49.151+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:38:49.159+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:38:49.194+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.070 seconds
+[2024-05-08T11:39:42.246+0200] {processor.py:161} INFO - Started process (PID=170490) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:39:42.247+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:39:42.249+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:39:42.248+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:39:42.251+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:39:42.264+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds
+[2024-05-08T11:40:39.719+0200] {processor.py:161} INFO - Started process (PID=171275) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:40:39.720+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:40:39.722+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:40:39.721+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:40:39.723+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:40:39.732+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T11:41:34.165+0200] {processor.py:161} INFO - Started process (PID=171987) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:41:34.166+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:41:34.168+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:41:34.167+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:41:34.170+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:41:34.180+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T11:42:28.380+0200] {processor.py:161} INFO - Started process (PID=172702) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:42:28.383+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:42:28.389+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:42:28.388+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:42:28.395+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:42:28.427+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.067 seconds
+[2024-05-08T11:43:22.394+0200] {processor.py:161} INFO - Started process (PID=173466) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:43:22.395+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:43:22.397+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:43:22.396+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:43:22.398+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:43:22.407+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T11:44:19.510+0200] {processor.py:161} INFO - Started process (PID=174414) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:44:19.513+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:44:19.518+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:44:19.517+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:44:19.525+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:44:19.558+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.068 seconds
+[2024-05-08T11:45:17.135+0200] {processor.py:161} INFO - Started process (PID=175178) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:45:17.137+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:45:17.140+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:45:17.139+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:45:17.143+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:45:17.157+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.033 seconds
+[2024-05-08T11:46:10.781+0200] {processor.py:161} INFO - Started process (PID=175896) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:46:10.784+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:46:10.790+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:46:10.789+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:46:10.797+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:46:10.835+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.076 seconds
+[2024-05-08T11:47:09.629+0200] {processor.py:161} INFO - Started process (PID=176646) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:47:09.630+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:47:09.631+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:47:09.631+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:47:09.633+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:47:09.642+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T11:48:04.785+0200] {processor.py:161} INFO - Started process (PID=177618) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:48:04.786+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:48:04.788+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:48:04.787+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:48:04.789+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:48:04.799+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T11:49:03.435+0200] {processor.py:161} INFO - Started process (PID=178379) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:49:03.436+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:49:03.438+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:49:03.437+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:49:03.440+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:49:03.449+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T11:50:03.054+0200] {processor.py:161} INFO - Started process (PID=179152) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:50:03.056+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:50:03.059+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:50:03.058+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:50:03.061+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:50:03.076+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.030 seconds
+[2024-05-08T11:50:59.488+0200] {processor.py:161} INFO - Started process (PID=179887) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:50:59.491+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:50:59.499+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:50:59.497+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:50:59.506+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:50:59.547+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.083 seconds
+[2024-05-08T11:51:54.216+0200] {processor.py:161} INFO - Started process (PID=180598) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:51:54.217+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:51:54.218+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:51:54.218+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:51:54.220+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:51:54.231+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T11:52:58.512+0200] {processor.py:161} INFO - Started process (PID=181427) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:52:58.513+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:52:58.515+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:52:58.515+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:52:58.517+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:52:58.527+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T11:53:52.054+0200] {processor.py:161} INFO - Started process (PID=182117) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:53:52.054+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:53:52.057+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:53:52.056+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:53:52.059+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:53:52.069+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds
+[2024-05-08T11:54:50.638+0200] {processor.py:161} INFO - Started process (PID=182878) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:54:50.639+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:54:50.641+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:54:50.641+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:54:50.643+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:54:50.656+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds
+[2024-05-08T11:55:53.012+0200] {processor.py:161} INFO - Started process (PID=183708) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:55:53.013+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:55:53.015+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:55:53.015+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:55:53.017+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:55:53.026+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T11:56:50.902+0200] {processor.py:161} INFO - Started process (PID=184499) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:56:50.903+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:56:50.906+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:56:50.905+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:56:50.908+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:56:50.918+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T11:57:40.872+0200] {processor.py:161} INFO - Started process (PID=185159) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:57:40.875+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:57:40.881+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:57:40.880+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:57:40.888+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:57:40.919+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.067 seconds
+[2024-05-08T11:58:33.710+0200] {processor.py:161} INFO - Started process (PID=185856) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:58:33.711+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:58:33.713+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:58:33.713+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:58:33.715+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:58:33.724+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T11:59:31.412+0200] {processor.py:161} INFO - Started process (PID=186589) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:59:31.413+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T11:59:31.415+0200] {logging_mixin.py:188} INFO - [2024-05-08T11:59:31.415+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:59:31.417+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T11:59:31.427+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T12:00:45.029+0200] {processor.py:161} INFO - Started process (PID=187581) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:00:45.030+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:00:45.031+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:00:45.031+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:00:45.033+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:00:45.043+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T12:01:25.263+0200] {processor.py:161} INFO - Started process (PID=188283) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:01:25.263+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:01:25.265+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:01:25.265+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:01:25.267+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:01:25.277+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T12:02:22.835+0200] {processor.py:161} INFO - Started process (PID=189034) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:02:22.836+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:02:22.838+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:02:22.837+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:02:22.840+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:02:22.850+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T12:03:25.433+0200] {processor.py:161} INFO - Started process (PID=189828) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:03:25.434+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:03:25.436+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:03:25.436+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:03:25.438+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:03:25.450+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T12:04:23.283+0200] {processor.py:161} INFO - Started process (PID=190638) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:04:23.284+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:04:23.287+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:04:23.287+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:04:23.290+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:04:23.300+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.024 seconds
+[2024-05-08T12:05:20.089+0200] {processor.py:161} INFO - Started process (PID=191378) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:05:20.094+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:05:20.103+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:05:20.101+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:05:20.112+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:05:20.155+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.095 seconds
+[2024-05-08T12:06:21.793+0200] {processor.py:161} INFO - Started process (PID=192189) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:06:21.794+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:06:21.796+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:06:21.796+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:06:21.799+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:06:21.809+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds
+[2024-05-08T12:07:21.253+0200] {processor.py:161} INFO - Started process (PID=192972) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:07:21.257+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:07:21.259+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:07:21.259+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:07:21.262+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:07:21.273+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.029 seconds
+[2024-05-08T12:08:15.627+0200] {processor.py:161} INFO - Started process (PID=193699) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:08:15.628+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:08:15.630+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:08:15.629+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:08:15.632+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:08:15.643+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T12:09:14.561+0200] {processor.py:161} INFO - Started process (PID=194490) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:09:14.563+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:09:14.565+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:09:14.565+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:09:14.567+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:09:14.577+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T12:10:12.959+0200] {processor.py:161} INFO - Started process (PID=195244) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:10:12.963+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:10:12.971+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:10:12.969+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:10:12.979+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:10:13.025+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.097 seconds
+[2024-05-08T12:11:09.058+0200] {processor.py:161} INFO - Started process (PID=195969) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:11:09.059+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:11:09.062+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:11:09.061+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:11:09.064+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:11:09.080+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.030 seconds
+[2024-05-08T12:12:05.715+0200] {processor.py:161} INFO - Started process (PID=196733) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:12:05.716+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:12:05.718+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:12:05.717+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:12:05.720+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:12:05.728+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T12:12:59.337+0200] {processor.py:161} INFO - Started process (PID=197417) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:12:59.338+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:12:59.340+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:12:59.339+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:12:59.341+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:12:59.351+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T12:14:02.893+0200] {processor.py:161} INFO - Started process (PID=198377) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:14:02.894+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:14:02.896+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:14:02.896+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:14:02.898+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:14:02.907+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T12:15:05.324+0200] {processor.py:161} INFO - Started process (PID=199295) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:15:05.325+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:15:05.327+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:15:05.326+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:15:05.328+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:15:05.338+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T12:16:06.251+0200] {processor.py:161} INFO - Started process (PID=200100) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:16:06.251+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:16:06.253+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:16:06.253+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:16:06.255+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:16:06.264+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T12:17:08.350+0200] {processor.py:161} INFO - Started process (PID=200907) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:17:08.351+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:17:08.353+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:17:08.352+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:17:08.355+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:17:08.366+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T12:18:06.299+0200] {processor.py:161} INFO - Started process (PID=201642) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:18:06.302+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:18:06.309+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:18:06.307+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:18:06.317+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:18:06.350+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.070 seconds
+[2024-05-08T12:19:06.940+0200] {processor.py:161} INFO - Started process (PID=202437) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:19:06.941+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:19:06.943+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:19:06.942+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:19:06.944+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:19:06.954+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T12:20:09.093+0200] {processor.py:161} INFO - Started process (PID=203228) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:20:09.094+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:20:09.096+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:20:09.096+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:20:09.098+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:20:09.107+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T12:21:10.978+0200] {processor.py:161} INFO - Started process (PID=203996) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:21:10.979+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:21:10.981+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:21:10.981+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:21:10.983+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:21:10.996+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds
+[2024-05-08T12:22:10.909+0200] {processor.py:161} INFO - Started process (PID=204801) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:22:10.910+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:22:10.912+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:22:10.912+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:22:10.914+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:22:10.926+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.024 seconds
+[2024-05-08T12:23:08.400+0200] {processor.py:161} INFO - Started process (PID=205529) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:23:08.401+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:23:08.403+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:23:08.403+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:23:08.406+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:23:08.416+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T12:24:02.737+0200] {processor.py:161} INFO - Started process (PID=206259) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:24:02.738+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:24:02.740+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:24:02.740+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:24:02.742+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:24:02.754+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds
+[2024-05-08T12:25:01.502+0200] {processor.py:161} INFO - Started process (PID=207004) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:25:01.504+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:25:01.506+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:25:01.505+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:25:01.508+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:25:01.518+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T12:26:07.278+0200] {processor.py:161} INFO - Started process (PID=207834) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:26:07.279+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:26:07.280+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:26:07.280+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:26:07.282+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:26:07.291+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T12:27:11.886+0200] {processor.py:161} INFO - Started process (PID=208732) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:27:11.889+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:27:11.897+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:27:11.895+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:27:11.905+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:27:11.943+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.084 seconds
+[2024-05-08T12:28:13.238+0200] {processor.py:161} INFO - Started process (PID=209551) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:28:13.239+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:28:13.241+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:28:13.241+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:28:13.243+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:28:13.254+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.025 seconds
+[2024-05-08T12:29:19.040+0200] {processor.py:161} INFO - Started process (PID=210400) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:29:19.041+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:29:19.043+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:29:19.043+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:29:19.045+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:29:19.055+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T12:30:17.003+0200] {processor.py:161} INFO - Started process (PID=211160) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:30:17.004+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:30:17.006+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:30:17.006+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:30:17.008+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:30:17.019+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T12:31:09.447+0200] {processor.py:161} INFO - Started process (PID=211858) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:31:09.449+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:31:09.456+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:31:09.454+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:31:09.464+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:31:09.497+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.071 seconds
+[2024-05-08T12:32:05.900+0200] {processor.py:161} INFO - Started process (PID=212612) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:32:05.901+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:32:05.903+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:32:05.902+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:32:05.904+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:32:05.915+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T12:33:09.910+0200] {processor.py:161} INFO - Started process (PID=213453) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:33:09.911+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:33:09.913+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:33:09.912+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:33:09.915+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:33:09.925+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T12:34:05.543+0200] {processor.py:161} INFO - Started process (PID=214168) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:34:05.544+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:34:05.546+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:34:05.545+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:34:05.547+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:34:05.556+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T12:35:08.186+0200] {processor.py:161} INFO - Started process (PID=214982) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:35:08.190+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:35:08.196+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:35:08.195+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:35:08.203+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:35:08.256+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.093 seconds
+[2024-05-08T12:36:05.507+0200] {processor.py:161} INFO - Started process (PID=215716) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:36:05.508+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:36:05.511+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:36:05.510+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:36:05.513+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:36:05.525+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.026 seconds
+[2024-05-08T12:37:13.164+0200] {processor.py:161} INFO - Started process (PID=216567) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:37:13.165+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:37:13.168+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:37:13.167+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:37:13.171+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:37:13.181+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T12:38:13.194+0200] {processor.py:161} INFO - Started process (PID=217355) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:38:13.194+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:38:13.196+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:38:13.196+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:38:13.198+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:38:13.206+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T12:39:16.212+0200] {processor.py:161} INFO - Started process (PID=218195) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:39:16.213+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:39:16.214+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:39:16.214+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:39:16.216+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:39:16.226+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T12:40:16.714+0200] {processor.py:161} INFO - Started process (PID=218986) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:40:16.715+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:40:16.717+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:40:16.717+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:40:16.720+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:40:16.729+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T12:41:15.558+0200] {processor.py:161} INFO - Started process (PID=219767) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:41:15.559+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:41:15.560+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:41:15.560+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:41:15.562+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:41:15.574+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T12:42:15.226+0200] {processor.py:161} INFO - Started process (PID=220511) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:42:15.227+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:42:15.228+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:42:15.228+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:42:15.230+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:42:15.241+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T12:43:11.275+0200] {processor.py:161} INFO - Started process (PID=221249) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:43:11.278+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:43:11.284+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:43:11.283+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:43:11.291+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:43:11.321+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.067 seconds
+[2024-05-08T12:44:17.444+0200] {processor.py:161} INFO - Started process (PID=222117) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:44:17.447+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:44:17.454+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:44:17.453+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:44:17.462+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:44:17.482+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.048 seconds
+[2024-05-08T12:45:19.776+0200] {processor.py:161} INFO - Started process (PID=222938) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:45:19.777+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:45:19.779+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:45:19.778+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:45:19.781+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:45:19.790+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T12:46:17.634+0200] {processor.py:161} INFO - Started process (PID=223710) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:46:17.635+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:46:17.637+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:46:17.637+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:46:17.639+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:46:17.650+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds
+[2024-05-08T12:47:16.104+0200] {processor.py:161} INFO - Started process (PID=224440) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:47:16.105+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:47:16.107+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:47:16.106+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:47:16.109+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:47:16.121+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.025 seconds
+[2024-05-08T12:48:18.748+0200] {processor.py:161} INFO - Started process (PID=225255) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:48:18.749+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:48:18.751+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:48:18.751+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:48:18.753+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:48:18.761+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T12:49:20.914+0200] {processor.py:161} INFO - Started process (PID=226076) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:49:20.914+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:49:20.916+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:49:20.916+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:49:20.918+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:49:20.926+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T12:50:18.283+0200] {processor.py:161} INFO - Started process (PID=226828) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:50:18.283+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:50:18.285+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:50:18.285+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:50:18.287+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:50:18.296+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T12:51:43.865+0200] {processor.py:161} INFO - Started process (PID=227894) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:51:43.866+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:51:43.868+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:51:43.867+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:51:43.870+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:51:43.880+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T12:52:32.463+0200] {processor.py:161} INFO - Started process (PID=228558) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:52:32.464+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:52:32.466+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:52:32.465+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:52:32.467+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:52:32.475+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T12:53:31.243+0200] {processor.py:161} INFO - Started process (PID=229340) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:53:31.243+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:53:31.245+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:53:31.245+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:53:31.247+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:53:31.257+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T12:54:34.476+0200] {processor.py:161} INFO - Started process (PID=230152) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:54:34.477+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:54:34.479+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:54:34.479+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:54:34.481+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:54:34.491+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T12:55:34.875+0200] {processor.py:161} INFO - Started process (PID=230931) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:55:34.876+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:55:34.878+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:55:34.877+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:55:34.880+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:55:34.889+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T12:56:34.294+0200] {processor.py:161} INFO - Started process (PID=231745) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:56:34.295+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:56:34.297+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:56:34.297+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:56:34.299+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:56:34.310+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T12:57:28.399+0200] {processor.py:161} INFO - Started process (PID=232475) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:57:28.400+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:57:28.402+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:57:28.401+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:57:28.404+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:57:28.414+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T12:58:23.803+0200] {processor.py:161} INFO - Started process (PID=233202) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:58:23.804+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:58:23.806+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:58:23.806+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:58:23.808+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:58:23.817+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T12:59:20.943+0200] {processor.py:161} INFO - Started process (PID=233939) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:59:20.943+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T12:59:20.945+0200] {logging_mixin.py:188} INFO - [2024-05-08T12:59:20.945+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:59:20.947+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T12:59:20.956+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T13:00:43.952+0200] {processor.py:161} INFO - Started process (PID=235139) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:00:43.954+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:00:43.955+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:00:43.955+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:00:43.957+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:00:43.966+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T13:01:30.641+0200] {processor.py:161} INFO - Started process (PID=235779) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:01:30.642+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:01:30.644+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:01:30.644+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:01:30.646+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:01:30.656+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T13:02:27.690+0200] {processor.py:161} INFO - Started process (PID=236584) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:02:27.691+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:02:27.693+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:02:27.693+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:02:27.695+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:02:27.704+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T13:03:26.779+0200] {processor.py:161} INFO - Started process (PID=237531) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:03:26.782+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:03:26.790+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:03:26.788+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:03:26.800+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:03:26.839+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.090 seconds
+[2024-05-08T13:04:31.927+0200] {processor.py:161} INFO - Started process (PID=238404) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:04:31.931+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:04:31.940+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:04:31.938+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:04:31.948+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:04:31.993+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.094 seconds
+[2024-05-08T13:05:35.556+0200] {processor.py:161} INFO - Started process (PID=239220) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:05:35.557+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:05:35.559+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:05:35.559+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:05:35.561+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:05:35.570+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T13:06:33.793+0200] {processor.py:161} INFO - Started process (PID=240038) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:06:33.797+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:06:33.804+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:06:33.803+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:06:33.814+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:06:33.863+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.091 seconds
+[2024-05-08T13:07:37.255+0200] {processor.py:161} INFO - Started process (PID=241020) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:07:37.256+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:07:37.258+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:07:37.257+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:07:37.260+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:07:37.272+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T13:08:46.092+0200] {processor.py:161} INFO - Started process (PID=241908) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:08:46.094+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:08:46.096+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:08:46.096+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:08:46.098+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:08:46.110+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.025 seconds
+[2024-05-08T13:09:48.951+0200] {processor.py:161} INFO - Started process (PID=242746) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:09:48.952+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:09:48.953+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:09:48.953+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:09:48.955+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:09:48.965+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T13:10:54.308+0200] {processor.py:161} INFO - Started process (PID=243601) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:10:54.309+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:10:54.311+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:10:54.310+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:10:54.313+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:10:54.323+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T13:12:03.667+0200] {processor.py:161} INFO - Started process (PID=244500) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:12:03.668+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:12:03.670+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:12:03.670+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:12:03.672+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:12:03.680+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T13:13:07.376+0200] {processor.py:161} INFO - Started process (PID=245314) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:13:07.379+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:13:07.385+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:13:07.384+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:13:07.392+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:13:07.424+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.068 seconds
+[2024-05-08T13:14:06.858+0200] {processor.py:161} INFO - Started process (PID=246085) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:14:06.859+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:14:06.861+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:14:06.860+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:14:06.863+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:14:06.873+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T13:15:06.353+0200] {processor.py:161} INFO - Started process (PID=246849) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:15:06.353+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:15:06.355+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:15:06.355+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:15:06.357+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:15:06.365+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T13:16:09.455+0200] {processor.py:161} INFO - Started process (PID=247673) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:16:09.456+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:16:09.458+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:16:09.458+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:16:09.461+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:16:09.475+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.028 seconds
+[2024-05-08T13:17:07.451+0200] {processor.py:161} INFO - Started process (PID=248446) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:17:07.452+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:17:07.454+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:17:07.453+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:17:07.456+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:17:07.468+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T13:17:59.404+0200] {processor.py:161} INFO - Started process (PID=249133) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:17:59.405+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:17:59.407+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:17:59.407+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:17:59.409+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:17:59.419+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T13:19:07.653+0200] {processor.py:161} INFO - Started process (PID=250015) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:19:07.654+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:19:07.656+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:19:07.655+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:19:07.658+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:19:07.667+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T13:20:10.425+0200] {processor.py:161} INFO - Started process (PID=250818) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:20:10.426+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:20:10.428+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:20:10.428+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:20:10.430+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:20:10.439+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T13:21:11.242+0200] {processor.py:161} INFO - Started process (PID=251610) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:21:11.242+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:21:11.244+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:21:11.244+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:21:11.246+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:21:11.256+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T13:22:15.507+0200] {processor.py:161} INFO - Started process (PID=252450) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:22:15.508+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:22:15.510+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:22:15.510+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:22:15.512+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:22:15.520+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T13:23:26.887+0200] {processor.py:161} INFO - Started process (PID=253598) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:23:26.888+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:23:26.891+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:23:26.890+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:23:26.894+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:23:26.910+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.037 seconds
+[2024-05-08T13:24:45.112+0200] {processor.py:161} INFO - Started process (PID=254688) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:24:45.113+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:24:45.115+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:24:45.115+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:24:45.117+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:24:45.125+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T13:25:26.071+0200] {processor.py:161} INFO - Started process (PID=255201) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:25:26.072+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:25:26.074+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:25:26.073+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:25:26.076+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:25:26.085+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T13:26:36.283+0200] {processor.py:161} INFO - Started process (PID=256140) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:26:36.284+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:26:36.286+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:26:36.286+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:26:36.288+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:26:36.297+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T13:27:52.133+0200] {processor.py:161} INFO - Started process (PID=257183) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:27:52.134+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:27:52.137+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:27:52.137+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:27:52.139+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:27:52.148+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T13:28:51.168+0200] {processor.py:161} INFO - Started process (PID=257945) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:28:51.170+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:28:51.172+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:28:51.172+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:28:51.174+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:28:51.184+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.025 seconds
+[2024-05-08T13:29:54.894+0200] {processor.py:161} INFO - Started process (PID=258813) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:29:54.895+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:29:54.896+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:29:54.896+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:29:54.898+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:29:54.907+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T13:31:05.714+0200] {processor.py:161} INFO - Started process (PID=259939) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:31:05.715+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:31:05.717+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:31:05.717+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:31:05.719+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:31:05.732+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.024 seconds
+[2024-05-08T13:32:05.639+0200] {processor.py:161} INFO - Started process (PID=260726) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:32:05.640+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:32:05.641+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:32:05.641+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:32:05.643+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:32:05.653+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T13:33:08.698+0200] {processor.py:161} INFO - Started process (PID=261518) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:33:08.701+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:33:08.704+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:33:08.703+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:33:08.711+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:33:08.751+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.072 seconds
+[2024-05-08T13:34:14.715+0200] {processor.py:161} INFO - Started process (PID=262446) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:34:14.716+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:34:14.717+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:34:14.717+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:34:14.719+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:34:14.728+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T13:35:15.765+0200] {processor.py:161} INFO - Started process (PID=263286) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:35:15.766+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:35:15.767+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:35:15.767+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:35:15.769+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:35:15.778+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T13:36:24.980+0200] {processor.py:161} INFO - Started process (PID=264143) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:36:24.981+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:36:24.982+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:36:24.981+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:36:24.983+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:36:24.992+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T13:37:29.455+0200] {processor.py:161} INFO - Started process (PID=264968) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:37:29.457+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:37:29.458+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:37:29.457+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:37:29.461+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:37:29.471+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds
+[2024-05-08T13:38:31.477+0200] {processor.py:161} INFO - Started process (PID=265781) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:38:31.478+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:38:31.479+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:38:31.479+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:38:31.481+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:38:31.490+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T13:39:31.358+0200] {processor.py:161} INFO - Started process (PID=266631) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:39:31.362+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:39:31.364+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:39:31.363+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:39:31.371+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:39:31.411+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.071 seconds
+[2024-05-08T13:40:29.581+0200] {processor.py:161} INFO - Started process (PID=267507) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:40:29.582+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:40:29.583+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:40:29.583+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:40:29.586+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:40:29.599+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.024 seconds
+[2024-05-08T13:41:31.422+0200] {processor.py:161} INFO - Started process (PID=268487) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:41:31.423+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:41:31.424+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:41:31.424+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:41:31.427+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:41:31.439+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T13:42:33.864+0200] {processor.py:161} INFO - Started process (PID=269352) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:42:33.865+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:42:33.866+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:42:33.866+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:42:33.868+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:42:33.877+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T13:43:42.458+0200] {processor.py:161} INFO - Started process (PID=270227) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:43:42.460+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:43:42.461+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:43:42.460+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:43:42.463+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:43:42.492+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.048 seconds
+[2024-05-08T13:44:46.209+0200] {processor.py:161} INFO - Started process (PID=271056) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:44:46.210+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:44:46.211+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:44:46.211+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:44:46.213+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:44:46.225+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds
+[2024-05-08T13:45:56.391+0200] {processor.py:161} INFO - Started process (PID=271995) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:45:56.392+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:45:56.393+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:45:56.392+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:45:56.394+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:45:56.405+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T13:46:58.507+0200] {processor.py:161} INFO - Started process (PID=272829) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:46:58.508+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:46:58.509+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:46:58.509+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:46:58.512+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:46:58.523+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T13:48:02.264+0200] {processor.py:161} INFO - Started process (PID=273677) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:48:02.265+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:48:02.266+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:48:02.266+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:48:02.270+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:48:02.281+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.024 seconds
+[2024-05-08T13:49:02.354+0200] {processor.py:161} INFO - Started process (PID=274505) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:49:02.357+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:49:02.361+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:49:02.359+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:49:02.369+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:49:02.408+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.079 seconds
+[2024-05-08T13:50:05.717+0200] {processor.py:161} INFO - Started process (PID=275363) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:50:05.718+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:50:05.719+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:50:05.719+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:50:05.721+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:50:05.729+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2024-05-08T13:51:13.739+0200] {processor.py:161} INFO - Started process (PID=276506) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:51:13.741+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:51:13.742+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:51:13.741+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:51:13.744+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:51:13.754+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T13:52:13.203+0200] {processor.py:161} INFO - Started process (PID=277359) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:52:13.206+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:52:13.208+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:52:13.207+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:52:13.216+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:52:13.248+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.066 seconds
+[2024-05-08T13:53:43.437+0200] {processor.py:161} INFO - Started process (PID=278586) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:53:43.440+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:53:43.442+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:53:43.441+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:53:43.450+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:53:43.485+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.068 seconds
+[2024-05-08T13:54:48.922+0200] {processor.py:161} INFO - Started process (PID=279479) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:54:48.925+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:54:48.929+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:54:48.927+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:54:48.936+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:54:48.972+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.070 seconds
+[2024-05-08T13:55:51.599+0200] {processor.py:161} INFO - Started process (PID=280359) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:55:51.600+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:55:51.601+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:55:51.600+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:55:51.602+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:55:51.614+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T13:56:53.735+0200] {processor.py:161} INFO - Started process (PID=281193) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:56:53.736+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:56:53.737+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:56:53.737+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:56:53.739+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:56:53.751+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T13:58:02.979+0200] {processor.py:161} INFO - Started process (PID=282148) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:58:02.980+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:58:02.981+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:58:02.981+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:58:02.983+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:58:02.992+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T13:59:09.505+0200] {processor.py:161} INFO - Started process (PID=283034) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:59:09.506+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T13:59:09.507+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:59:09.507+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:59:09.509+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T13:59:09.519+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T14:00:31.212+0200] {processor.py:161} INFO - Started process (PID=284170) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:00:31.213+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:00:31.214+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:00:31.214+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:00:31.216+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:00:31.229+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.025 seconds
+[2024-05-08T14:01:32.387+0200] {processor.py:161} INFO - Started process (PID=284978) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:01:32.388+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:01:32.389+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:01:32.389+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:01:32.391+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:01:32.402+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T14:02:16.648+0200] {processor.py:161} INFO - Started process (PID=285599) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:02:16.649+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:02:16.650+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:02:16.650+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:02:16.652+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:02:16.663+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T14:03:21.866+0200] {processor.py:161} INFO - Started process (PID=286451) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:03:21.867+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:03:21.868+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:03:21.868+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:03:21.871+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:03:21.905+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.051 seconds
+[2024-05-08T14:04:25.625+0200] {processor.py:161} INFO - Started process (PID=287292) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:04:25.626+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:04:25.627+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:04:25.627+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:04:25.629+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:04:25.638+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T14:05:30.098+0200] {processor.py:161} INFO - Started process (PID=288137) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:05:30.100+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:05:30.103+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:05:30.103+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:05:30.107+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:05:30.119+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.032 seconds
+[2024-05-08T14:07:08.514+0200] {processor.py:161} INFO - Started process (PID=289467) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:07:08.515+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:07:08.516+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:07:08.516+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:07:08.518+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:07:08.529+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T14:08:09.091+0200] {processor.py:161} INFO - Started process (PID=290343) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:08:09.091+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:08:09.092+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:08:09.092+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:08:09.094+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:08:09.104+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T14:09:24.313+0200] {processor.py:161} INFO - Started process (PID=291389) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:09:24.314+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:09:24.315+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:09:24.314+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:09:24.316+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:09:24.325+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2024-05-08T14:10:23.743+0200] {processor.py:161} INFO - Started process (PID=292170) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:10:23.744+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:10:23.745+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:10:23.745+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:10:23.747+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:10:23.756+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T14:11:34.719+0200] {processor.py:161} INFO - Started process (PID=293066) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:11:34.720+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:11:34.721+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:11:34.720+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:11:34.723+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:11:34.732+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T14:12:32.246+0200] {processor.py:161} INFO - Started process (PID=293807) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:12:32.249+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:12:32.252+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:12:32.251+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:12:32.258+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:12:32.291+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.064 seconds
+[2024-05-08T14:13:41.758+0200] {processor.py:161} INFO - Started process (PID=294706) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:13:41.761+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:13:41.765+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:13:41.764+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:13:41.774+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:13:41.815+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.083 seconds
+[2024-05-08T14:14:43.631+0200] {processor.py:161} INFO - Started process (PID=295529) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:14:43.632+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:14:43.634+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:14:43.633+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:14:43.636+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:14:43.648+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T14:15:50.633+0200] {processor.py:161} INFO - Started process (PID=296408) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:15:50.634+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:15:50.635+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:15:50.634+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:15:50.637+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:15:50.645+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T14:16:50.776+0200] {processor.py:161} INFO - Started process (PID=297254) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:16:50.778+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:16:50.779+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:16:50.779+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:16:50.781+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:16:50.791+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T14:17:54.597+0200] {processor.py:161} INFO - Started process (PID=298092) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:17:54.598+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:17:54.598+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:17:54.598+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:17:54.600+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:17:54.610+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T14:18:54.033+0200] {processor.py:161} INFO - Started process (PID=298867) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:18:54.034+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:18:54.035+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:18:54.034+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:18:54.037+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:18:54.046+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T14:20:09.600+0200] {processor.py:161} INFO - Started process (PID=299830) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:20:09.608+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:20:09.611+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:20:09.610+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:20:09.620+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:20:09.690+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.115 seconds
+[2024-05-08T14:21:26.987+0200] {processor.py:161} INFO - Started process (PID=300903) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:21:26.990+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:21:26.994+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:21:26.992+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:21:27.001+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:21:27.043+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.077 seconds
+[2024-05-08T14:22:31.510+0200] {processor.py:161} INFO - Started process (PID=301897) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:22:31.511+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:22:31.513+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:22:31.512+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:22:31.515+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:22:31.526+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T14:23:26.811+0200] {processor.py:161} INFO - Started process (PID=302719) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:23:26.822+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:23:26.831+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:23:26.828+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:23:26.854+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:23:26.905+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.125 seconds
+[2024-05-08T14:24:36.931+0200] {processor.py:161} INFO - Started process (PID=303719) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:24:36.932+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:24:36.933+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:24:36.932+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:24:36.936+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:24:36.945+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T14:25:37.197+0200] {processor.py:161} INFO - Started process (PID=304593) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:25:37.198+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:25:37.200+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:25:37.199+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:25:37.202+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:25:37.215+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.026 seconds
+[2024-05-08T14:26:44.756+0200] {processor.py:161} INFO - Started process (PID=305539) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:26:44.759+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:26:44.763+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:26:44.761+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:26:44.771+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:26:44.804+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.069 seconds
+[2024-05-08T14:27:29.942+0200] {processor.py:161} INFO - Started process (PID=306325) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:27:29.943+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:27:29.944+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:27:29.943+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:27:29.945+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:27:29.955+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T14:29:04.150+0200] {processor.py:161} INFO - Started process (PID=307649) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:29:04.155+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:29:04.159+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:29:04.159+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:29:04.162+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:29:04.178+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.036 seconds
+[2024-05-08T14:30:10.436+0200] {processor.py:161} INFO - Started process (PID=308543) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:30:10.437+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:30:10.437+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:30:10.437+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:30:10.439+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:30:10.448+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T14:31:25.093+0200] {processor.py:161} INFO - Started process (PID=309475) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:31:25.094+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:31:25.095+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:31:25.094+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:31:25.097+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:31:25.109+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T14:32:25.491+0200] {processor.py:161} INFO - Started process (PID=310374) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:32:25.492+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:32:25.493+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:32:25.492+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:32:25.495+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:32:25.506+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.022 seconds
+[2024-05-08T14:34:06.975+0200] {processor.py:161} INFO - Started process (PID=311762) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:34:06.976+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:34:06.977+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:34:06.977+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:34:06.980+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:34:06.995+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.029 seconds
+[2024-05-08T14:34:55.523+0200] {processor.py:161} INFO - Started process (PID=312382) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:34:55.524+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:34:55.526+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:34:55.525+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:34:55.528+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:34:55.537+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T14:35:56.636+0200] {processor.py:161} INFO - Started process (PID=313193) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:35:56.637+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:35:56.638+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:35:56.637+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:35:56.640+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:35:56.649+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T14:36:59.727+0200] {processor.py:161} INFO - Started process (PID=314111) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:36:59.728+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:36:59.729+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:36:59.729+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:36:59.731+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:36:59.739+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-05-08T14:38:03.813+0200] {processor.py:161} INFO - Started process (PID=315030) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:38:03.814+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:38:03.815+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:38:03.815+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:38:03.817+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:38:03.827+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T14:39:02.449+0200] {processor.py:161} INFO - Started process (PID=315964) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:39:02.450+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:39:02.451+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:39:02.451+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:39:02.453+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:39:02.463+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T14:40:07.898+0200] {processor.py:161} INFO - Started process (PID=316820) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:40:07.899+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:40:07.900+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:40:07.900+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:40:07.902+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:40:07.911+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2024-05-08T14:41:09.554+0200] {processor.py:161} INFO - Started process (PID=317689) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:41:09.555+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:41:09.556+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:41:09.556+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:41:09.558+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:41:09.569+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T14:42:19.114+0200] {processor.py:161} INFO - Started process (PID=318571) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:42:19.115+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:42:19.116+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:42:19.115+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:42:19.117+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:42:19.126+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T14:43:20.510+0200] {processor.py:161} INFO - Started process (PID=319517) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:43:20.511+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:43:20.512+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:43:20.511+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:43:20.514+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:43:20.523+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2024-05-08T14:44:19.291+0200] {processor.py:161} INFO - Started process (PID=320351) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:44:19.291+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:44:19.292+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:44:19.292+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:44:19.294+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:44:19.304+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-05-08T14:45:22.747+0200] {processor.py:161} INFO - Started process (PID=321251) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:45:22.748+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:45:22.749+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:45:22.749+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:45:22.752+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:45:22.766+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.027 seconds
+[2024-05-08T14:46:24.462+0200] {processor.py:161} INFO - Started process (PID=322105) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:46:24.463+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:46:24.464+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:46:24.464+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:46:24.467+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:46:24.479+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.023 seconds
+[2024-05-08T14:47:23.127+0200] {processor.py:161} INFO - Started process (PID=322909) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:47:23.128+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:47:23.129+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:47:23.128+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:47:23.131+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:47:23.141+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T14:48:45.071+0200] {processor.py:161} INFO - Started process (PID=323992) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:48:45.078+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:48:45.080+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:48:45.079+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:48:45.083+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:48:45.100+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.051 seconds
+[2024-05-08T14:50:19.402+0200] {processor.py:161} INFO - Started process (PID=325112) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:50:19.406+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:50:19.407+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:50:19.406+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:50:19.409+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:50:19.418+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-05-08T14:51:26.250+0200] {processor.py:161} INFO - Started process (PID=325972) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:51:26.251+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-05-08T14:51:26.252+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:51:26.252+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:51:26.254+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-05-08T14:51:26.262+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds

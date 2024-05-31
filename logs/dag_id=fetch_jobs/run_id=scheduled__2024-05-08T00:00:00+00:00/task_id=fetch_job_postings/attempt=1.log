@@ -1,0 +1,958 @@
+[2024-05-09T08:20:55.127+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-09T08:20:55.134+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_jobs.fetch_job_postings scheduled__2024-05-08T00:00:00+00:00 [queued]>
+[2024-05-09T08:20:55.139+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_jobs.fetch_job_postings scheduled__2024-05-08T00:00:00+00:00 [queued]>
+[2024-05-09T08:20:55.139+0200] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-05-09T08:20:55.151+0200] {taskinstance.py:2327} INFO - Executing <Task(SimpleHttpOperator): fetch_job_postings> on 2024-05-08 00:00:00+00:00
+[2024-05-09T08:20:55.156+0200] {standard_task_runner.py:63} INFO - Started process 36542 to run task
+[2024-05-09T08:20:55.159+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_jobs', 'fetch_job_postings', 'scheduled__2024-05-08T00:00:00+00:00', '--job-id', '909', '--raw', '--subdir', 'DAGS_FOLDER/job_postings_dag.py', '--cfg-path', '/tmp/tmp7ju4lf0c']
+[2024-05-09T08:20:55.161+0200] {standard_task_runner.py:91} INFO - Job 909: Subtask fetch_job_postings
+[2024-05-09T08:20:55.193+0200] {task_command.py:426} INFO - Running <TaskInstance: fetch_jobs.fetch_job_postings scheduled__2024-05-08T00:00:00+00:00 [running]> on host kali
+[2024-05-09T08:20:55.240+0200] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow-munya' AIRFLOW_CTX_DAG_ID='fetch_jobs' AIRFLOW_CTX_TASK_ID='fetch_job_postings' AIRFLOW_CTX_EXECUTION_DATE='2024-05-08T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-08T00:00:00+00:00'
+[2024-05-09T08:20:55.241+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-09T08:20:55.241+0200] {http.py:169} INFO - Calling HTTP method
+[2024-05-09T08:20:55.245+0200] {base.py:84} INFO - Using connection ID 'odoo_api_connection' for task execution.
+[2024-05-09T08:20:55.247+0200] {base.py:84} INFO - Using connection ID 'odoo_api_connection' for task execution.
+[2024-05-09T08:20:56.008+0200] {http.py:199} ERROR - HTTP error: NOT FOUND
+[2024-05-09T08:20:56.008+0200] {http.py:200} ERROR - <!DOCTYPE html>
+<html lang="en-US" data-website-id="1" data-main-object="ir.ui.view(251,)" data-add2cart-redirect="1">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="generator" content="Odoo"/>
+            
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Page Not Found | My Website"/>
+        <meta property="og:site_name" content="My Company"/>
+        <meta property="og:url" content="http://20.164.146.60/http:/localhost:3000/jobs/get_job_postings"/>
+        <meta property="og:image" content="http://20.164.146.60/web/image/website/1/logo?unique=4ce1ed5"/>
+            
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="Page Not Found | My Website"/>
+        <meta name="twitter:image" content="http://20.164.146.60/web/image/website/1/logo/300x300?unique=4ce1ed5"/>
+        
+        <link rel="canonical" href="http://20.164.146.60/http%3A/localhost%3A3000/jobs/get_job_postings"/>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+        <title> Page Not Found | My Website </title>
+        <link type="image/x-icon" rel="shortcut icon" href="/web/image/website/1/favicon?unique=4ce1ed5"/>
+        <link rel="preload" href="/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin=""/>
+        <link type="text/css" rel="stylesheet" href="/web/assets/1/690a1a2/web.assets_frontend.min.css"/>
+        <script id="web.layout.odooscript" type="text/javascript">
+            var odoo = {
+                csrf_token: "01bd16a74b3714ba2e7a6fd51cd0da19ba0efe6ao1746771655",
+                debug: "",
+            };
+        </script>
+        <script type="text/javascript">
+            odoo.__session_info__ = {"is_admin": false, "is_system": false, "is_website_user": true, "user_id": false, "is_frontend": true, "profile_session": null, "profile_collectors": null, "profile_params": null, "show_effect": true, "currencies": {"128": {"symbol": "\u062f.\u0625", "position": "after", "digits": [69, 2]}, "1": {"symbol": "$", "position": "before", "digits": [69, 2]}, "122": {"symbol": "Z$", "position": "after", "digits": [69, 2]}}, "bundle_params": {"lang": "en_US", "website_id": 1}, "translationURL": "/website/translations", "cache_hashes": {"translations": "cbebced6f01173ddf1a38c14ca385d3ab73761ed"}, "geoip_country_code": null, "geoip_phone_code": null, "lang_url_code": "en"};
+            if (!/(^|;\s)tz=/.test(document.cookie)) {
+                const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                document.cookie = `tz=${userTZ}; path=/`;
+            }
+        </script>
+        <script type="text/javascript" defer="defer" src="/web/assets/1/ccbdc8a/web.assets_frontend_minimal.min.js" onerror="__odooAssetError=1"></script>
+        <script type="text/javascript" defer="defer" data-src="/web/assets/1/5ec08cc/web.assets_frontend_lazy.min.js" onerror="__odooAssetError=1"></script>
+        
+        
+    </head>
+    <body>
+
+
+
+        <div id="wrapwrap" class="   ">
+                <header id="top" data-anchor="true" data-name="Header" class="   o_header_standard" style=" ">
+                    
+    <nav data-name="Navbar" aria-label="Main" class="navbar navbar-expand-lg navbar-light o_colored_level o_cc d-none d-lg-block shadow-sm ">
+        
+
+            <div id="o_main_nav" class="container">
+                
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo me-4">
+            
+            <span role="img" aria-label="Logo of My Website" title="My Website"><img src="/web/image/website/1/logo/My%20Website?unique=4ce1ed5" class="img img-fluid" width="95" height="40" alt="My Website" loading="lazy"/></span>
+        </a>
+    
+                
+    <ul id="top_menu" role="menu" class="nav navbar-nav o_menu_loading me-auto">
+        
+
+                    
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/" class="nav-link ">
+            <span>Home</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/shop" class="nav-link ">
+            <span>Shop</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/event" class="nav-link ">
+            <span>Events</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/contactus" class="nav-link ">
+            <span>Contact us</span>
+        </a>
+    </li>
+                
+    </ul>
+                
+                <ul class="navbar-nav align-items-center gap-2 flex-shrink-0 justify-content-end ps-3">
+                    
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart  ">
+                <a href="/shop/cart" class="o_navlink_background btn position-relative rounded-circle p-1 text-center text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-primary position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+        <li class="">
+                <div class="modal fade" id="o_search_modal" aria-hidden="true" tabindex="-1">
+                    <div class="modal-dialog modal-lg pt-5">
+                        <div class="modal-content mt-5">
+    <form method="get" class="o_searchbar_form o_wait_lazy_js s_searchbar_input " action="/website/search" data-snippet="s_searchbar_input">
+            <div role="search" class="input-group input-group-lg">
+        <input type="search" name="search" class="search-query form-control oe_search_box border-0 bg-light border border-end-0 p-3" placeholder="Search..." data-search-type="all" data-limit="5" data-display-image="true" data-display-description="true" data-display-extra-link="true" data-display-detail="true" data-order-by="name asc"/>
+        <button type="submit" aria-label="Search" title="Search" class="btn oe_search_button border border-start-0 px-4 bg-o-color-4">
+            <i class="oi oi-search"></i>
+        </button>
+    </div>
+
+            <input name="order" type="hidden" class="o_search_order_by" value="name asc"/>
+            
+    
+        </form>
+                        </div>
+                    </div>
+                </div>
+                <a data-bs-target="#o_search_modal" data-bs-toggle="modal" role="button" title="Search" class="btn rounded-circle p-1 lh-1 o_navlink_background text-reset o_not_editable">
+                    <i class="oi oi-search fa-stack lh-lg"></i>
+                </a>
+        </li>
+                    
+        <li class="">
+                <div data-name="Text" class="s_text_block ">
+                    <a href="tel:+1 (650) 555-0111" class="nav-link o_nav-link_secondary p-2">
+                        <i class="fa fa-1x fa-fw fa-phone me-1"></i>
+                        <span class="o_force_ltr"><small>+1 (650) 555-0111</small></span>
+                    </a>
+                </div>
+        </li>
+                    
+                    
+        <li data-name="Language Selector" class="o_header_language_selector ">
+        
+        
+        </li>
+                    
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary">Sign in</a>
+            </li>
+                    
+        
+        
+                    
+        <li class="">
+            <div class="oe_structure oe_structure_solo ">
+                <section class="oe_unremovable oe_unmovable s_text_block" data-snippet="s_text_block" data-name="Text">
+                    <div class="container">
+                        <a href="/contactus" class="oe_unremovable btn btn-primary btn_cta">Contact Us</a>
+                    </div>
+                </section>
+            </div>
+        </li>
+                </ul>
+            </div>
+        
+    </nav>
+    <nav data-name="Navbar" aria-label="Mobile" class="navbar  navbar-light o_colored_level o_cc o_header_mobile d-block d-lg-none shadow-sm ">
+        
+
+        <div id="o_main_nav" class="container flex-wrap justify-content-between">
+            
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo ">
+            
+            <span role="img" aria-label="Logo of My Website" title="My Website"><img src="/web/image/website/1/logo/My%20Website?unique=4ce1ed5" class="img img-fluid" width="95" height="40" alt="My Website" loading="lazy"/></span>
+        </a>
+    
+            <ul class="o_header_mobile_buttons_wrap navbar-nav flex-row align-items-center gap-2 mb-0">
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart  ">
+                <a href="/shop/cart" class="o_navlink_background_hover btn position-relative rounded-circle border-0 p-1 text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-primary position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+                <li>
+                    <button class="nav-link btn me-auto p-2 o_not_editable" type="button" data-bs-toggle="offcanvas" data-bs-target="#top_menu_collapse_mobile" aria-controls="top_menu_collapse_mobile" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </li>
+            </ul>
+            <div id="top_menu_collapse_mobile" class="offcanvas offcanvas-end o_navbar_mobile">
+                <div class="offcanvas-header justify-content-end o_not_editable">
+                    <button type="button" class="nav-link btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column justify-content-between h-100 w-100">
+                    <ul class="navbar-nav">
+                        
+        <li class="">
+    <form method="get" class="o_searchbar_form o_wait_lazy_js s_searchbar_input " action="/website/search" data-snippet="s_searchbar_input">
+            <div role="search" class="input-group mb-3">
+        <input type="search" name="search" class="search-query form-control oe_search_box border-0 bg-light rounded-start-pill text-bg-light ps-3" placeholder="Search..." data-search-type="all" data-limit="0" data-display-image="true" data-display-description="true" data-display-extra-link="true" data-display-detail="true" data-order-by="name asc"/>
+        <button type="submit" aria-label="Search" title="Search" class="btn oe_search_button rounded-end-pill bg-o-color-3 pe-3">
+            <i class="oi oi-search"></i>
+        </button>
+    </div>
+
+            <input name="order" type="hidden" class="o_search_order_by" value="name asc"/>
+            
+    
+        </form>
+        </li>
+                        
+    <ul id="top_menu" role="menu" class="nav navbar-nav  ">
+        
+
+                            
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/" class="nav-link ">
+            <span>Home</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/shop" class="nav-link ">
+            <span>Shop</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/event" class="nav-link ">
+            <span>Events</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/contactus" class="nav-link ">
+            <span>Contact us</span>
+        </a>
+    </li>
+                        
+    </ul>
+                        
+        <li class="">
+                <div data-name="Text" class="s_text_block mt-2 border-top pt-2 o_border_contrast">
+                    <a href="tel:+1 (650) 555-0111" class="nav-link o_nav-link_secondary p-2">
+                        <i class="fa fa-1x fa-fw fa-phone me-1"></i>
+                        <span class="o_force_ltr"><small>+1 (650) 555-0111</small></span>
+                    </a>
+                </div>
+        </li>
+                        
+                    </ul>
+                    <ul class="navbar-nav gap-2 mt-3 w-100">
+                        
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary w-100">Sign in</a>
+            </li>
+                        
+        
+        
+                        
+        <li data-name="Language Selector" class="o_header_language_selector ">
+        
+        
+        </li>
+                        
+        <li class="">
+            <div class="oe_structure oe_structure_solo ">
+                <section class="oe_unremovable oe_unmovable s_text_block" data-snippet="s_text_block" data-name="Text">
+                    <div class="container">
+                        <a href="/contactus" class="oe_unremovable btn btn-primary btn_cta w-100">Contact Us</a>
+                    </div>
+                </section>
+            </div>
+        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </nav>
+    
+        </header>
+                <main>
+                    
+            <div id="wrap">
+                
+                <div class="oe_structure oe_empty">
+                    <section class="s_text_image pt104 pb104" data-snippet="s_image_text" data-name="Image - Text">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4 pb32">
+                                    <img class="img img-fluid mx-auto" src="/web_editor/shape/http_routing/404.svg?c2=o-color-2" loading="lazy"/>
+                                </div>
+                                <div class="col-lg-8 text-lg-start text-center my-auto">
+                                    <h1 class="visually-hidden">Error 404</h1>
+                                    <h2>We couldn't find the page you're looking for!</h2>
+                                    <p></p>
+                                    <p><b>Don't panic.</b> If you think it's our mistake, please send us a message on <a href="/contactus">this page</a>.</p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="s_hr pt32 pb48" data-snippet="s_hr" data-name="Separator">
+                                        <hr class="w-100 mx-auto" style="border-top-width: 1px; border-top-style: solid; border-top-color: var(--400);"/>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="text-center">Maybe you were looking for one of these <b>popular pages?</b></p>
+                                    <ul class="list-inline text-center">
+                                        <li class="list-inline-item mb-2"><a href="/" class="btn btn-primary">Home</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        
+        <div id="o_shared_blocks" class="oe_unremovable"></div>
+                </main>
+                <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc ">
+                    <div id="footer" class="oe_structure oe_structure_solo">
+            <section class="s_text_block pt40 pb16" data-snippet="s_text_block" data-name="Text">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 pt24 pb24">
+                            <h5 class="mb-3">Useful Links</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Legal</a></li>
+                                
+                                <li><a href="/contactus">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-5 pt24 pb24">
+                            <h5 class="mb-3">About us</h5>
+                            <p>We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build great products to solve your business problems.
+                            <br/><br/>Our products are designed for small to medium size companies willing to optimize their performance.</p>
+                        </div>
+                        <div id="connect" class="col-lg-4 offset-lg-1 pt24 pb24">
+                            <h5 class="mb-3">Connect with us</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-comment fa-fw me-2"></i><span><a href="/contactus">Contact us</a></span></li>
+                                <li><i class="fa fa-envelope fa-fw me-2"></i><span><a href="mailto:info@yourcompany.example.com">info@yourcompany.example.com</a></span></li>
+                                <li><i class="fa fa-phone fa-fw me-2"></i><span class="o_force_ltr"><a href="tel:+1(650)555-0111">+1 (650) 555-0111</a></span></li>
+                            </ul>
+                            <div class="s_social_media text-start o_not_editable" data-snippet="s_social_media" data-name="Social Media" contenteditable="false">
+                                <h5 class="s_social_media_title d-none" contenteditable="true">Follow us</h5>
+                                <a href="/website/social/facebook" class="s_social_media_facebook" target="_blank">
+                                    <i class="fa fa-facebook rounded-circle shadow-sm o_editable_media"></i>
+                                </a>
+                                <a href="/website/social/twitter" class="s_social_media_twitter" target="_blank">
+                                    <i class="fa fa-twitter rounded-circle shadow-sm o_editable_media"></i>
+                                </a>
+                                <a href="/website/social/linkedin" class="s_social_media_linkedin" target="_blank">
+                                    <i class="fa fa-linkedin rounded-circle shadow-sm o_editable_media"></i>
+                                </a>
+                                <a href="/" class="text-800">
+                                    <i class="fa fa-home rounded-circle shadow-sm o_editable_media"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <div class="o_footer_copyright o_colored_level o_cc" data-name="Copyright">
+                        <div class="container py-3">
+                            <div class="row">
+                                <div class="col-sm text-center text-sm-start text-muted">
+                                    <span class="o_footer_copyright_name me-2">Copyright &copy; Company name</span>
+        
+        
+    </div>
+                                <div class="col-sm text-center text-sm-end o_not_editable">
+        <div class="o_brand_promotion">
+        Powered by 
+            <a target="_blank" class="badge text-bg-light" href="http://www.odoo.com?utm_source=db&amp;utm_medium=website">
+                <img alt="Odoo" src="/web/static/img/odoo_logo_tiny.png" width="62" height="20" style="width: auto; height: 1em; vertical-align: baseline;" loading="lazy"/>
+            </a>
+        - 
+                    The #1 <a target="_blank" href="http://www.odoo.com/app/ecommerce?utm_source=db&amp;utm_medium=website">Open Source eCommerce</a>
+                
+        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        
+        </body>
+</html>
+[2024-05-09T08:20:56.008+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-09T08:20:56.012+0200] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/hooks/http.py", line 197, in check_response
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: NOT FOUND for url: http://20.164.146.60/http:/localhost:3000/jobs/get_job_postings
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/operators/http.py", line 166, in execute
+    return self.execute_sync(context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/operators/http.py", line 170, in execute_sync
+    response = self.hook.run(self.endpoint, self.data, self.headers, self.extra_options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/hooks/http.py", line 187, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/hooks/http.py", line 238, in run_and_check
+    self.check_response(response)
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/hooks/http.py", line 201, in check_response
+    raise AirflowException(str(response.status_code) + ":" + response.reason)
+airflow.exceptions.AirflowException: 404:NOT FOUND
+[2024-05-09T08:20:56.017+0200] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=fetch_jobs, task_id=fetch_job_postings, execution_date=20240508T000000, start_date=20240509T062055, end_date=20240509T062056
+[2024-05-09T08:20:56.026+0200] {standard_task_runner.py:110} ERROR - Failed to execute job 909 for task fetch_job_postings (404:NOT FOUND; 36542)
+[2024-05-09T08:20:56.057+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-09T08:20:56.068+0200] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-09T08:20:56.069+0200] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-05-09T08:45:21.775+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-09T08:45:21.795+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_jobs.fetch_job_postings scheduled__2024-05-08T00:00:00+00:00 [queued]>
+[2024-05-09T08:45:21.807+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_jobs.fetch_job_postings scheduled__2024-05-08T00:00:00+00:00 [queued]>
+[2024-05-09T08:45:21.808+0200] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-05-09T08:45:21.837+0200] {taskinstance.py:2327} INFO - Executing <Task(SimpleHttpOperator): fetch_job_postings> on 2024-05-08 00:00:00+00:00
+[2024-05-09T08:45:21.851+0200] {standard_task_runner.py:63} INFO - Started process 57407 to run task
+[2024-05-09T08:45:21.858+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_jobs', 'fetch_job_postings', 'scheduled__2024-05-08T00:00:00+00:00', '--job-id', '909', '--raw', '--subdir', 'DAGS_FOLDER/job_postings_dag.py', '--cfg-path', '/tmp/tmp8cy87k1h']
+[2024-05-09T08:45:21.862+0200] {standard_task_runner.py:91} INFO - Job 909: Subtask fetch_job_postings
+[2024-05-09T08:45:21.933+0200] {task_command.py:426} INFO - Running <TaskInstance: fetch_jobs.fetch_job_postings scheduled__2024-05-08T00:00:00+00:00 [running]> on host kali
+[2024-05-09T08:45:22.008+0200] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow-munya' AIRFLOW_CTX_DAG_ID='fetch_jobs' AIRFLOW_CTX_TASK_ID='fetch_job_postings' AIRFLOW_CTX_EXECUTION_DATE='2024-05-08T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-08T00:00:00+00:00'
+[2024-05-09T08:45:22.011+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-09T08:45:22.011+0200] {http.py:169} INFO - Calling HTTP method
+[2024-05-09T08:45:22.017+0200] {base.py:84} INFO - Using connection ID 'odoo_api_connection' for task execution.
+[2024-05-09T08:45:22.021+0200] {base.py:84} INFO - Using connection ID 'odoo_api_connection' for task execution.
+[2024-05-09T08:45:50.149+0200] {http.py:199} ERROR - HTTP error: NOT FOUND
+[2024-05-09T08:45:50.151+0200] {http.py:200} ERROR - <!DOCTYPE html>
+<html lang="en-US" data-website-id="1" data-main-object="ir.ui.view(251,)" data-add2cart-redirect="1">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="generator" content="Odoo"/>
+            
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Page Not Found | My Website"/>
+        <meta property="og:site_name" content="My Company"/>
+        <meta property="og:url" content="http://20.164.146.60/jobs/get_job_postings"/>
+        <meta property="og:image" content="http://20.164.146.60/web/image/website/1/logo?unique=4ce1ed5"/>
+            
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="Page Not Found | My Website"/>
+        <meta name="twitter:image" content="http://20.164.146.60/web/image/website/1/logo/300x300?unique=4ce1ed5"/>
+        
+        <link rel="canonical" href="http://20.164.146.60/jobs/get_job_postings"/>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+        <title> Page Not Found | My Website </title>
+        <link type="image/x-icon" rel="shortcut icon" href="/web/image/website/1/favicon?unique=4ce1ed5"/>
+        <link rel="preload" href="/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin=""/>
+        <link type="text/css" rel="stylesheet" href="/web/assets/1/690a1a2/web.assets_frontend.min.css"/>
+        <script id="web.layout.odooscript" type="text/javascript">
+            var odoo = {
+                csrf_token: "3574c52f217f69d188059413403e8895a50f3591o1746773125",
+                debug: "",
+            };
+        </script>
+        <script type="text/javascript">
+            odoo.__session_info__ = {"is_admin": false, "is_system": false, "is_website_user": true, "user_id": false, "is_frontend": true, "profile_session": null, "profile_collectors": null, "profile_params": null, "show_effect": true, "currencies": {"128": {"symbol": "\u062f.\u0625", "position": "after", "digits": [69, 2]}, "1": {"symbol": "$", "position": "before", "digits": [69, 2]}, "122": {"symbol": "Z$", "position": "after", "digits": [69, 2]}}, "bundle_params": {"lang": "en_US", "website_id": 1}, "translationURL": "/website/translations", "cache_hashes": {"translations": "cbebced6f01173ddf1a38c14ca385d3ab73761ed"}, "geoip_country_code": null, "geoip_phone_code": null, "lang_url_code": "en"};
+            if (!/(^|;\s)tz=/.test(document.cookie)) {
+                const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                document.cookie = `tz=${userTZ}; path=/`;
+            }
+        </script>
+        <script type="text/javascript" defer="defer" src="/web/assets/1/ccbdc8a/web.assets_frontend_minimal.min.js" onerror="__odooAssetError=1"></script>
+        <script type="text/javascript" defer="defer" data-src="/web/assets/1/5ec08cc/web.assets_frontend_lazy.min.js" onerror="__odooAssetError=1"></script>
+        
+        
+    </head>
+    <body>
+
+
+
+        <div id="wrapwrap" class="   ">
+                <header id="top" data-anchor="true" data-name="Header" class="   o_header_standard" style=" ">
+                    
+    <nav data-name="Navbar" aria-label="Main" class="navbar navbar-expand-lg navbar-light o_colored_level o_cc d-none d-lg-block shadow-sm ">
+        
+
+            <div id="o_main_nav" class="container">
+                
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo me-4">
+            
+            <span role="img" aria-label="Logo of My Website" title="My Website"><img src="/web/image/website/1/logo/My%20Website?unique=4ce1ed5" class="img img-fluid" width="95" height="40" alt="My Website" loading="lazy"/></span>
+        </a>
+    
+                
+    <ul id="top_menu" role="menu" class="nav navbar-nav o_menu_loading me-auto">
+        
+
+                    
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/" class="nav-link ">
+            <span>Home</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/shop" class="nav-link ">
+            <span>Shop</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/event" class="nav-link ">
+            <span>Events</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/contactus" class="nav-link ">
+            <span>Contact us</span>
+        </a>
+    </li>
+                
+    </ul>
+                
+                <ul class="navbar-nav align-items-center gap-2 flex-shrink-0 justify-content-end ps-3">
+                    
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart  ">
+                <a href="/shop/cart" class="o_navlink_background btn position-relative rounded-circle p-1 text-center text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-primary position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+        <li class="">
+                <div class="modal fade" id="o_search_modal" aria-hidden="true" tabindex="-1">
+                    <div class="modal-dialog modal-lg pt-5">
+                        <div class="modal-content mt-5">
+    <form method="get" class="o_searchbar_form o_wait_lazy_js s_searchbar_input " action="/website/search" data-snippet="s_searchbar_input">
+            <div role="search" class="input-group input-group-lg">
+        <input type="search" name="search" class="search-query form-control oe_search_box border-0 bg-light border border-end-0 p-3" placeholder="Search..." data-search-type="all" data-limit="5" data-display-image="true" data-display-description="true" data-display-extra-link="true" data-display-detail="true" data-order-by="name asc"/>
+        <button type="submit" aria-label="Search" title="Search" class="btn oe_search_button border border-start-0 px-4 bg-o-color-4">
+            <i class="oi oi-search"></i>
+        </button>
+    </div>
+
+            <input name="order" type="hidden" class="o_search_order_by" value="name asc"/>
+            
+    
+        </form>
+                        </div>
+                    </div>
+                </div>
+                <a data-bs-target="#o_search_modal" data-bs-toggle="modal" role="button" title="Search" class="btn rounded-circle p-1 lh-1 o_navlink_background text-reset o_not_editable">
+                    <i class="oi oi-search fa-stack lh-lg"></i>
+                </a>
+        </li>
+                    
+        <li class="">
+                <div data-name="Text" class="s_text_block ">
+                    <a href="tel:+1 (650) 555-0111" class="nav-link o_nav-link_secondary p-2">
+                        <i class="fa fa-1x fa-fw fa-phone me-1"></i>
+                        <span class="o_force_ltr"><small>+1 (650) 555-0111</small></span>
+                    </a>
+                </div>
+        </li>
+                    
+                    
+        <li data-name="Language Selector" class="o_header_language_selector ">
+        
+        
+        </li>
+                    
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary">Sign in</a>
+            </li>
+                    
+        
+        
+                    
+        <li class="">
+            <div class="oe_structure oe_structure_solo ">
+                <section class="oe_unremovable oe_unmovable s_text_block" data-snippet="s_text_block" data-name="Text">
+                    <div class="container">
+                        <a href="/contactus" class="oe_unremovable btn btn-primary btn_cta">Contact Us</a>
+                    </div>
+                </section>
+            </div>
+        </li>
+                </ul>
+            </div>
+        
+    </nav>
+    <nav data-name="Navbar" aria-label="Mobile" class="navbar  navbar-light o_colored_level o_cc o_header_mobile d-block d-lg-none shadow-sm ">
+        
+
+        <div id="o_main_nav" class="container flex-wrap justify-content-between">
+            
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo ">
+            
+            <span role="img" aria-label="Logo of My Website" title="My Website"><img src="/web/image/website/1/logo/My%20Website?unique=4ce1ed5" class="img img-fluid" width="95" height="40" alt="My Website" loading="lazy"/></span>
+        </a>
+    
+            <ul class="o_header_mobile_buttons_wrap navbar-nav flex-row align-items-center gap-2 mb-0">
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart  ">
+                <a href="/shop/cart" class="o_navlink_background_hover btn position-relative rounded-circle border-0 p-1 text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-primary position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+                <li>
+                    <button class="nav-link btn me-auto p-2 o_not_editable" type="button" data-bs-toggle="offcanvas" data-bs-target="#top_menu_collapse_mobile" aria-controls="top_menu_collapse_mobile" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </li>
+            </ul>
+            <div id="top_menu_collapse_mobile" class="offcanvas offcanvas-end o_navbar_mobile">
+                <div class="offcanvas-header justify-content-end o_not_editable">
+                    <button type="button" class="nav-link btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column justify-content-between h-100 w-100">
+                    <ul class="navbar-nav">
+                        
+        <li class="">
+    <form method="get" class="o_searchbar_form o_wait_lazy_js s_searchbar_input " action="/website/search" data-snippet="s_searchbar_input">
+            <div role="search" class="input-group mb-3">
+        <input type="search" name="search" class="search-query form-control oe_search_box border-0 bg-light rounded-start-pill text-bg-light ps-3" placeholder="Search..." data-search-type="all" data-limit="0" data-display-image="true" data-display-description="true" data-display-extra-link="true" data-display-detail="true" data-order-by="name asc"/>
+        <button type="submit" aria-label="Search" title="Search" class="btn oe_search_button rounded-end-pill bg-o-color-3 pe-3">
+            <i class="oi oi-search"></i>
+        </button>
+    </div>
+
+            <input name="order" type="hidden" class="o_search_order_by" value="name asc"/>
+            
+    
+        </form>
+        </li>
+                        
+    <ul id="top_menu" role="menu" class="nav navbar-nav  ">
+        
+
+                            
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/" class="nav-link ">
+            <span>Home</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/shop" class="nav-link ">
+            <span>Shop</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/event" class="nav-link ">
+            <span>Events</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/contactus" class="nav-link ">
+            <span>Contact us</span>
+        </a>
+    </li>
+                        
+    </ul>
+                        
+        <li class="">
+                <div data-name="Text" class="s_text_block mt-2 border-top pt-2 o_border_contrast">
+                    <a href="tel:+1 (650) 555-0111" class="nav-link o_nav-link_secondary p-2">
+                        <i class="fa fa-1x fa-fw fa-phone me-1"></i>
+                        <span class="o_force_ltr"><small>+1 (650) 555-0111</small></span>
+                    </a>
+                </div>
+        </li>
+                        
+                    </ul>
+                    <ul class="navbar-nav gap-2 mt-3 w-100">
+                        
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary w-100">Sign in</a>
+            </li>
+                        
+        
+        
+                        
+        <li data-name="Language Selector" class="o_header_language_selector ">
+        
+        
+        </li>
+                        
+        <li class="">
+            <div class="oe_structure oe_structure_solo ">
+                <section class="oe_unremovable oe_unmovable s_text_block" data-snippet="s_text_block" data-name="Text">
+                    <div class="container">
+                        <a href="/contactus" class="oe_unremovable btn btn-primary btn_cta w-100">Contact Us</a>
+                    </div>
+                </section>
+            </div>
+        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </nav>
+    
+        </header>
+                <main>
+                    
+            <div id="wrap">
+                
+                <div class="oe_structure oe_empty">
+                    <section class="s_text_image pt104 pb104" data-snippet="s_image_text" data-name="Image - Text">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4 pb32">
+                                    <img class="img img-fluid mx-auto" src="/web_editor/shape/http_routing/404.svg?c2=o-color-2" loading="lazy"/>
+                                </div>
+                                <div class="col-lg-8 text-lg-start text-center my-auto">
+                                    <h1 class="visually-hidden">Error 404</h1>
+                                    <h2>We couldn't find the page you're looking for!</h2>
+                                    <p></p>
+                                    <p><b>Don't panic.</b> If you think it's our mistake, please send us a message on <a href="/contactus">this page</a>.</p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="s_hr pt32 pb48" data-snippet="s_hr" data-name="Separator">
+                                        <hr class="w-100 mx-auto" style="border-top-width: 1px; border-top-style: solid; border-top-color: var(--400);"/>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <p class="text-center">Maybe you were looking for one of these <b>popular pages?</b></p>
+                                    <ul class="list-inline text-center">
+                                        <li class="list-inline-item mb-2"><a href="/" class="btn btn-primary">Home</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        
+        <div id="o_shared_blocks" class="oe_unremovable"></div>
+                </main>
+                <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc ">
+                    <div id="footer" class="oe_structure oe_structure_solo">
+            <section class="s_text_block pt40 pb16" data-snippet="s_text_block" data-name="Text">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 pt24 pb24">
+                            <h5 class="mb-3">Useful Links</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Legal</a></li>
+                                
+                                <li><a href="/contactus">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-5 pt24 pb24">
+                            <h5 class="mb-3">About us</h5>
+                            <p>We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build great products to solve your business problems.
+                            <br/><br/>Our products are designed for small to medium size companies willing to optimize their performance.</p>
+                        </div>
+                        <div id="connect" class="col-lg-4 offset-lg-1 pt24 pb24">
+                            <h5 class="mb-3">Connect with us</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-comment fa-fw me-2"></i><span><a href="/contactus">Contact us</a></span></li>
+                                <li><i class="fa fa-envelope fa-fw me-2"></i><span><a href="mailto:info@yourcompany.example.com">info@yourcompany.example.com</a></span></li>
+                                <li><i class="fa fa-phone fa-fw me-2"></i><span class="o_force_ltr"><a href="tel:+1(650)555-0111">+1 (650) 555-0111</a></span></li>
+                            </ul>
+                            <div class="s_social_media text-start o_not_editable" data-snippet="s_social_media" data-name="Social Media" contenteditable="false">
+                                <h5 class="s_social_media_title d-none" contenteditable="true">Follow us</h5>
+                                <a href="/website/social/facebook" class="s_social_media_facebook" target="_blank">
+                                    <i class="fa fa-facebook rounded-circle shadow-sm o_editable_media"></i>
+                                </a>
+                                <a href="/website/social/twitter" class="s_social_media_twitter" target="_blank">
+                                    <i class="fa fa-twitter rounded-circle shadow-sm o_editable_media"></i>
+                                </a>
+                                <a href="/website/social/linkedin" class="s_social_media_linkedin" target="_blank">
+                                    <i class="fa fa-linkedin rounded-circle shadow-sm o_editable_media"></i>
+                                </a>
+                                <a href="/" class="text-800">
+                                    <i class="fa fa-home rounded-circle shadow-sm o_editable_media"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <div class="o_footer_copyright o_colored_level o_cc" data-name="Copyright">
+                        <div class="container py-3">
+                            <div class="row">
+                                <div class="col-sm text-center text-sm-start text-muted">
+                                    <span class="o_footer_copyright_name me-2">Copyright &copy; Company name</span>
+        
+        
+    </div>
+                                <div class="col-sm text-center text-sm-end o_not_editable">
+        <div class="o_brand_promotion">
+        Powered by 
+            <a target="_blank" class="badge text-bg-light" href="http://www.odoo.com?utm_source=db&amp;utm_medium=website">
+                <img alt="Odoo" src="/web/static/img/odoo_logo_tiny.png" width="62" height="20" style="width: auto; height: 1em; vertical-align: baseline;" loading="lazy"/>
+            </a>
+        - 
+                    The #1 <a target="_blank" href="http://www.odoo.com/app/ecommerce?utm_source=db&amp;utm_medium=website">Open Source eCommerce</a>
+                
+        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        
+        </body>
+</html>
+[2024-05-09T08:45:50.152+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-09T08:45:50.166+0200] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/hooks/http.py", line 197, in check_response
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: NOT FOUND for url: http://20.164.146.60/jobs/get_job_postings
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/operators/http.py", line 166, in execute
+    return self.execute_sync(context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/operators/http.py", line 170, in execute_sync
+    response = self.hook.run(self.endpoint, self.data, self.headers, self.extra_options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/hooks/http.py", line 187, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/hooks/http.py", line 238, in run_and_check
+    self.check_response(response)
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/hooks/http.py", line 201, in check_response
+    raise AirflowException(str(response.status_code) + ":" + response.reason)
+airflow.exceptions.AirflowException: 404:NOT FOUND
+[2024-05-09T08:45:50.181+0200] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=fetch_jobs, task_id=fetch_job_postings, execution_date=20240508T000000, start_date=20240509T064521, end_date=20240509T064550
+[2024-05-09T08:45:50.205+0200] {standard_task_runner.py:110} ERROR - Failed to execute job 909 for task fetch_job_postings (404:NOT FOUND; 57407)
+[2024-05-09T08:45:50.232+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-09T08:45:50.258+0200] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-09T08:45:50.260+0200] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-05-09T08:52:23.162+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-09T08:52:23.177+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_jobs.fetch_job_postings scheduled__2024-05-08T00:00:00+00:00 [queued]>
+[2024-05-09T08:52:23.186+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_jobs.fetch_job_postings scheduled__2024-05-08T00:00:00+00:00 [queued]>
+[2024-05-09T08:52:23.186+0200] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-05-09T08:52:23.205+0200] {taskinstance.py:2327} INFO - Executing <Task(SimpleHttpOperator): fetch_job_postings> on 2024-05-08 00:00:00+00:00
+[2024-05-09T08:52:23.214+0200] {standard_task_runner.py:63} INFO - Started process 62628 to run task
+[2024-05-09T08:52:23.222+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_jobs', 'fetch_job_postings', 'scheduled__2024-05-08T00:00:00+00:00', '--job-id', '909', '--raw', '--subdir', 'DAGS_FOLDER/job_postings_dag.py', '--cfg-path', '/tmp/tmpcrdl5hdh']
+[2024-05-09T08:52:23.225+0200] {standard_task_runner.py:91} INFO - Job 909: Subtask fetch_job_postings
+[2024-05-09T08:52:23.282+0200] {task_command.py:426} INFO - Running <TaskInstance: fetch_jobs.fetch_job_postings scheduled__2024-05-08T00:00:00+00:00 [running]> on host kali
+[2024-05-09T08:52:23.402+0200] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow-munya' AIRFLOW_CTX_DAG_ID='fetch_jobs' AIRFLOW_CTX_TASK_ID='fetch_job_postings' AIRFLOW_CTX_EXECUTION_DATE='2024-05-08T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-08T00:00:00+00:00'
+[2024-05-09T08:52:23.406+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-09T08:52:23.406+0200] {http.py:169} INFO - Calling HTTP method
+[2024-05-09T08:52:23.418+0200] {base.py:84} INFO - Using connection ID 'odoo_api_connection' for task execution.
+[2024-05-09T08:52:23.426+0200] {base.py:84} INFO - Using connection ID 'odoo_api_connection' for task execution.
+[2024-05-09T08:52:23.430+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-09T08:52:23.431+0200] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 454, in send
+    conn = self.get_connection(request.url, proxies)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 356, in get_connection
+    conn = self.poolmanager.connection_from_url(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/poolmanager.py", line 299, in connection_from_url
+    return self.connection_from_host(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/poolmanager.py", line 246, in connection_from_host
+    return self.connection_from_context(request_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/poolmanager.py", line 258, in connection_from_context
+    raise URLSchemeUnknown(scheme)
+urllib3.exceptions.URLSchemeUnknown: Not supported URL scheme hhttp
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/operators/http.py", line 166, in execute
+    return self.execute_sync(context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/operators/http.py", line 170, in execute_sync
+    response = self.hook.run(self.endpoint, self.data, self.headers, self.extra_options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/hooks/http.py", line 187, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/hooks/http.py", line 235, in run_and_check
+    response = session.send(prepped_request, **send_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 456, in send
+    raise InvalidURL(e, request=request)
+requests.exceptions.InvalidURL: Not supported URL scheme hhttp
+[2024-05-09T08:52:23.446+0200] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=fetch_jobs, task_id=fetch_job_postings, execution_date=20240508T000000, start_date=20240509T065223, end_date=20240509T065223
+[2024-05-09T08:52:23.463+0200] {standard_task_runner.py:110} ERROR - Failed to execute job 909 for task fetch_job_postings (Not supported URL scheme hhttp; 62628)
+[2024-05-09T08:52:23.514+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-09T08:52:23.540+0200] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-09T08:52:23.541+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

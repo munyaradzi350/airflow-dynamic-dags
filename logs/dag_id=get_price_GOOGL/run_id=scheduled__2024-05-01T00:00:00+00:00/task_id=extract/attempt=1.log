@@ -1,0 +1,17 @@
+[2024-05-02T08:27:31.517+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-02T08:27:31.537+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_price_GOOGL.extract scheduled__2024-05-01T00:00:00+00:00 [queued]>
+[2024-05-02T08:27:31.544+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_price_GOOGL.extract scheduled__2024-05-01T00:00:00+00:00 [queued]>
+[2024-05-02T08:27:31.544+0200] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-05-02T08:27:31.558+0200] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2024-05-01 00:00:00+00:00
+[2024-05-02T08:27:31.563+0200] {standard_task_runner.py:63} INFO - Started process 236307 to run task
+[2024-05-02T08:27:31.567+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'get_price_GOOGL', 'extract', 'scheduled__2024-05-01T00:00:00+00:00', '--job-id', '323', '--raw', '--subdir', 'DAGS_FOLDER/get_price_GOOGL.py', '--cfg-path', '/tmp/tmpdyolqj3q']
+[2024-05-02T08:27:31.569+0200] {standard_task_runner.py:91} INFO - Job 323: Subtask extract
+[2024-05-02T08:27:31.604+0200] {task_command.py:426} INFO - Running <TaskInstance: get_price_GOOGL.extract scheduled__2024-05-01T00:00:00+00:00 [running]> on host kali
+[2024-05-02T08:27:31.814+0200] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_price_GOOGL' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2024-05-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-01T00:00:00+00:00'
+[2024-05-02T08:27:31.815+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-02T08:27:31.816+0200] {python.py:237} INFO - Done. Returned value was: 126
+[2024-05-02T08:27:31.816+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-02T08:27:31.831+0200] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=get_price_GOOGL, task_id=extract, execution_date=20240501T000000, start_date=20240502T062731, end_date=20240502T062731
+[2024-05-02T08:27:31.860+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-02T08:27:31.886+0200] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-05-02T08:27:31.889+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

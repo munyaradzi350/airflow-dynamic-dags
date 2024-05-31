@@ -1,0 +1,132 @@
+[2024-05-21T08:24:41.557+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-21T08:24:41.579+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: doctors_api_dag.get_token scheduled__2024-05-20T00:00:00+00:00 [queued]>
+[2024-05-21T08:24:41.586+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: doctors_api_dag.get_token scheduled__2024-05-20T00:00:00+00:00 [queued]>
+[2024-05-21T08:24:41.587+0200] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-05-21T08:24:41.611+0200] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_token> on 2024-05-20 00:00:00+00:00
+[2024-05-21T08:24:41.619+0200] {standard_task_runner.py:63} INFO - Started process 349058 to run task
+[2024-05-21T08:24:41.625+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'doctors_api_dag', 'get_token', 'scheduled__2024-05-20T00:00:00+00:00', '--job-id', '1173', '--raw', '--subdir', 'DAGS_FOLDER/eezimeds_doctors.py', '--cfg-path', '/tmp/tmplsy2pkgi']
+[2024-05-21T08:24:41.629+0200] {standard_task_runner.py:91} INFO - Job 1173: Subtask get_token
+[2024-05-21T08:24:41.690+0200] {task_command.py:426} INFO - Running <TaskInstance: doctors_api_dag.get_token scheduled__2024-05-20T00:00:00+00:00 [running]> on host kali
+[2024-05-21T08:24:41.770+0200] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='doctors_api_dag' AIRFLOW_CTX_TASK_ID='get_token' AIRFLOW_CTX_EXECUTION_DATE='2024-05-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-20T00:00:00+00:00'
+[2024-05-21T08:24:41.773+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-21T08:24:41.774+0200] {token_retrieval.py:47} INFO - Token is missing or expired, fetching a new one.
+[2024-05-21T08:24:41.781+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-21T08:24:41.782+0200] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f473c43dc50>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='lemur-5.cloud-iam.com', port=443): Max retries exceeded with url: /auth/realms/eezimeds/protocol/openid-connect/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f473c43dc50>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/airflow/dags/eezimeds_doctors.py", line 25, in retrieve_token
+    token = get_fresh_token()
+            ^^^^^^^^^^^^^^^^^
+  File "/home/munya/airflow/scripts/token_retrieval.py", line 57, in get_fresh_token
+    return token_manager.get_token()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/airflow/scripts/token_retrieval.py", line 48, in get_token
+    self.get_fresh_token()
+  File "/home/munya/airflow/scripts/token_retrieval.py", line 23, in get_fresh_token
+    response = requests.post(url, data=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='lemur-5.cloud-iam.com', port=443): Max retries exceeded with url: /auth/realms/eezimeds/protocol/openid-connect/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f473c43dc50>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2024-05-21T08:24:41.798+0200] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=doctors_api_dag, task_id=get_token, run_id=scheduled__2024-05-20T00:00:00+00:00, execution_date=20240520T000000, start_date=20240521T062441, end_date=20240521T062441
+[2024-05-21T08:24:41.812+0200] {standard_task_runner.py:110} ERROR - Failed to execute job 1173 for task get_token (HTTPSConnectionPool(host='lemur-5.cloud-iam.com', port=443): Max retries exceeded with url: /auth/realms/eezimeds/protocol/openid-connect/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f473c43dc50>: Failed to establish a new connection: [Errno -2] Name or service not known')); 349058)
+[2024-05-21T08:24:41.836+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-21T08:24:41.865+0200] {logging_mixin.py:188} WARNING - /home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/baseoperator.py:1296 AirflowProviderDeprecationWarning: Call to deprecated class SimpleHttpOperator. (Class `SimpleHttpOperator` is deprecated and will be removed in a future release. Please use `HttpOperator` instead.)
+[2024-05-21T08:24:41.883+0200] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-21T08:24:41.884+0200] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-05-21T16:13:22.752+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-21T16:13:22.762+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: doctors_api_dag.get_token scheduled__2024-05-20T00:00:00+00:00 [queued]>
+[2024-05-21T16:13:22.767+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: doctors_api_dag.get_token scheduled__2024-05-20T00:00:00+00:00 [queued]>
+[2024-05-21T16:13:22.767+0200] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-05-21T16:13:22.781+0200] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_token> on 2024-05-20 00:00:00+00:00
+[2024-05-21T16:13:22.786+0200] {standard_task_runner.py:63} INFO - Started process 12637 to run task
+[2024-05-21T16:13:22.789+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'doctors_api_dag', 'get_token', 'scheduled__2024-05-20T00:00:00+00:00', '--job-id', '1191', '--raw', '--subdir', 'DAGS_FOLDER/eezimeds_doctors.py', '--cfg-path', '/tmp/tmpi7s095r9']
+[2024-05-21T16:13:22.792+0200] {standard_task_runner.py:91} INFO - Job 1191: Subtask get_token
+[2024-05-21T16:13:22.831+0200] {task_command.py:426} INFO - Running <TaskInstance: doctors_api_dag.get_token scheduled__2024-05-20T00:00:00+00:00 [running]> on host kali
+[2024-05-21T16:13:22.882+0200] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='doctors_api_dag' AIRFLOW_CTX_TASK_ID='get_token' AIRFLOW_CTX_EXECUTION_DATE='2024-05-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-20T00:00:00+00:00'
+[2024-05-21T16:13:22.883+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-21T16:13:22.884+0200] {token_retrieval.py:47} INFO - Token is missing or expired, fetching a new one.
+[2024-05-21T16:13:25.659+0200] {token_retrieval.py:26} INFO - Request URL: https://lemur-5.cloud-iam.com/auth/realms/eezimeds/protocol/openid-connect/token
+[2024-05-21T16:13:25.659+0200] {token_retrieval.py:27} INFO - Request Payload: {'grant_type': 'password', 'username': 'mushange88@gmail.com', 'password': 'makodoctor', 'client_id': 'Eezimeds-React-Client-App', 'client_secret': '7B5aJZaFiiSscBtQulVxSYZBzVS5mrOf', 'scope': 'openid'}
+[2024-05-21T16:13:25.660+0200] {token_retrieval.py:28} INFO - Response Status Code: 200
+[2024-05-21T16:13:25.660+0200] {token_retrieval.py:29} INFO - Response Content: b'{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ0dE0wcDBMVkpQVHhiNEJTYUpxNTR6OV9femFRMG5uWkRyYnBSNWd4T3c4In0.eyJleHAiOjE3MTYzMDQ0MDUsImlhdCI6MTcxNjMwMDgwNSwianRpIjoiNzdmMDJjN2YtNzA3ZS00YzI1LWIwODAtOWVlYzMxN2JmYTZkIiwiaXNzIjoiaHR0cHM6Ly9sZW11ci01LmNsb3VkLWlhbS5jb20vYXV0aC9yZWFsbXMvZWV6aW1lZHMiLCJhdWQiOlsicmVhbG0tbWFuYWdlbWVudCIsImFjY291bnQiXSwic3ViIjoiYWRmMWEyYjItNmJhZi00ODZlLTlhNTAtMTU5ZDQ1ZTgyNzZlIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiRWV6aW1lZHMtUmVhY3QtQ2xpZW50LUFwcCIsInNlc3Npb25fc3RhdGUiOiJmMWZkZmFkMy00MTFlLTRkNDgtYTk1MS0zZWE5MmNlZjkzZjUiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly8yMC4xNjQuMjE0LjIyNjozMDYwIiwiaHR0cHM6Ly9ncmVlbi1mbG93ZXItMDQzMDBhMzBmLjUuYXp1cmVzdGF0aWNhcHBzLm5ldCIsImh0dHBzOi8vaGFwcHktYnVzaC0wZjZlZTNjMTAuNC5henVyZXN0YXRpY2FwcHMubmV0IiwiaHR0cDovL2xvY2FsaG9zdDozMDYxIiwiaHR0cDovL2xvY2FsaG9zdDozMDYwIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cHM6Ly9ncmVlbi10cmVlLTA2NTJmOGMxMC40LmF6dXJlc3RhdGljYXBwcy5uZXQiLCJodHRwOi8vbG9jYWxob3N0OjMwOTkiLCJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJodHRwOi8vbG9jYWxob3N0OjUxNzMiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImVlemltZWR6LXJvbGVzLXN1cmdlcmllcy12aWV3IiwiZWV6aW1lZHotcm9sZXMtYXBwb2ludG1lbnRzLWFtbWVuZCIsImVlemltZWR6LXJvbGVzLXByZXNjcmlwdGlvbnMtdmlldyIsImVlemltZWR6LXJvbGVzLWxhYnRlc3RzLWFtbWVuZCIsImVlemltZWR6LXJvbGVzLWFkbWlzc2lvbnMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYm9va2luZ3MtdmlldyIsImVlemltZWR6LXJvbGVzLWRydWdoaXN0b3J5LXZpZXciLCJlZXppbWVkei1yb2xlcy1zaWNrbm90ZXMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtbGFidGVzdHMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYWRtaXNzaW9ucy12aWV3IiwiZWV6aW1lZHotcm9sZXMtZHJ1Z2hpc3RvcnktYW1tZW5kIiwib2ZmbGluZV9hY2Nlc3MiLCJlZXppbWVkei1yb2xlcy1zdXJnZXJpZXMtYW1tZW5kIiwidW1hX2F1dGhvcml6YXRpb24iLCJlZXppbWVkei1yb2xlcy1sYWJ0ZXN0cy12aWV3IiwiZWV6aW1lZHotcm9sZXMtbm90ZXMtdmlldyIsImVlemltZWR6LXJvbGVzLWRydWdoaXN0b3J5LWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLWJvb2tpbmdzLWNyZWF0ZSIsImRlZmF1bHQtcm9sZXMtZWV6aW1lZHMiLCJlZXppbWVkei1yb2xlcy1hcHBvaW50bWVudHMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtbm90ZXMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtc3VyZ2VyaWVzLWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLXhyYXlzLWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLXNpY2tub3Rlcy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy1ub3Rlcy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy1hcHBvaW50bWVudHMtdmlldyIsImVlemltZWR6LXJvbGVzLXByZXNjcmlwdGlvbnMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYm9va2luZ3MtYW1tZW5kIiwiZWV6aW1lZHotcm9sZXMteHJheXMtdmlldyIsImVlemltZWRzLXJvbGVzLXBhdGllbnQtZGVmYXVsdHMiLCJlZXppbWVkei1yb2xlcy1zaWNrbm90ZXMtdmlldyIsImVlemltZWR6LXJvbGVzLWFkbWlzc2lvbnMtYW1tZW5kIiwiZWV6aW1lZHotcm9sZXMtcHJlc2NyaXB0aW9ucy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy14cmF5cy1hbW1lbmQiXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbIm1hbmFnZS11c2VycyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInNpZCI6ImYxZmRmYWQzLTQxMWUtNGQ0OC1hOTUxLTNlYTkyY2VmOTNmNSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTWFrb21ib3Jlcm8gTXVzaGFuZ3dlIiwicHJlZmVycmVkX3VzZXJuYW1lIjoibXVzaGFuZ2U4OEBnbWFpbC5jb20iLCJnaXZlbl9uYW1lIjoiTWFrb21ib3Jlcm8iLCJmYW1pbHlfbmFtZSI6Ik11c2hhbmd3ZSIsImVtYWlsIjoibXVzaGFuZ2U4OEBnbWFpbC5jb20ifQ.n0lD7-d1w6ZAvDGXfIm_WOscW_t-HoyKnnAfJQfA5IRatYIuG3tuqSqjlceLWBScSkWGYLEB_dCZ2vRj2S3NfhNjbIujrBXdsBPsy0p3FMqPiDmA89VMikoCrhNbN8tTxp48UsrbQygwG8j_7YYUSTH_xx-M9KSqfWIJzepGtMYA8eawqbVMlAuXRqZVsRz3sR-q8zb-fVI1bdjivKAkGzTBotiYzQHIXD5SHLBpk0Uw86sgEI9ISSrjfckdytq3tK2Uh-PVehXO_RjLjJDqZ3QveIoEMGZ_BaFWbrixyNjCC4KWePrvJbn_2g4Dvj6l7BSPwYBo-jhICL-7xwDB0A","expires_in":3600,"refresh_expires_in":1800,"refresh_token":"eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJiZWVkMmRhOS03YzYwLTQ5YWUtYTc3Yy1hMmQ2YjkzNDQwNGIifQ.eyJleHAiOjE3MTYzMDI2MDUsImlhdCI6MTcxNjMwMDgwNSwianRpIjoiOTNlZWU1YzctNzFiYi00MmZiLTgzN2YtZDkzYThkZjE4YWZiIiwiaXNzIjoiaHR0cHM6Ly9sZW11ci01LmNsb3VkLWlhbS5jb20vYXV0aC9yZWFsbXMvZWV6aW1lZHMiLCJhdWQiOiJodHRwczovL2xlbXVyLTUuY2xvdWQtaWFtLmNvbS9hdXRoL3JlYWxtcy9lZXppbWVkcyIsInN1YiI6ImFkZjFhMmIyLTZiYWYtNDg2ZS05YTUwLTE1OWQ0NWU4Mjc2ZSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJFZXppbWVkcy1SZWFjdC1DbGllbnQtQXBwIiwic2Vzc2lvbl9zdGF0ZSI6ImYxZmRmYWQzLTQxMWUtNGQ0OC1hOTUxLTNlYTkyY2VmOTNmNSIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiJmMWZkZmFkMy00MTFlLTRkNDgtYTk1MS0zZWE5MmNlZjkzZjUifQ.WE701juTQMCoNQF4j0wW7v77llWhuMc6uCRIwYhyxK8ZKn9HeYf0YAsP7mYC_ygsmPYw8tej0iKdKgAhbDaEvg","token_type":"Bearer","id_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ0dE0wcDBMVkpQVHhiNEJTYUpxNTR6OV9femFRMG5uWkRyYnBSNWd4T3c4In0.eyJleHAiOjE3MTYzMDQ0MDUsImlhdCI6MTcxNjMwMDgwNSwiYXV0aF90aW1lIjowLCJqdGkiOiIwNGMwNzI1Ni0yYmY2LTRlZmEtYjk4OC02ODI2YWVmYTA4MDUiLCJpc3MiOiJodHRwczovL2xlbXVyLTUuY2xvdWQtaWFtLmNvbS9hdXRoL3JlYWxtcy9lZXppbWVkcyIsImF1ZCI6IkVlemltZWRzLVJlYWN0LUNsaWVudC1BcHAiLCJzdWIiOiJhZGYxYTJiMi02YmFmLTQ4NmUtOWE1MC0xNTlkNDVlODI3NmUiLCJ0eXAiOiJJRCIsImF6cCI6IkVlemltZWRzLVJlYWN0LUNsaWVudC1BcHAiLCJzZXNzaW9uX3N0YXRlIjoiZjFmZGZhZDMtNDExZS00ZDQ4LWE5NTEtM2VhOTJjZWY5M2Y1IiwiYXRfaGFzaCI6IkxmSE1TN2VHc1ZqY2NfQWRPSkdvQ2ciLCJhY3IiOiIxIiwic2lkIjoiZjFmZGZhZDMtNDExZS00ZDQ4LWE5NTEtM2VhOTJjZWY5M2Y1IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5hbWUiOiJNYWtvbWJvcmVybyBNdXNoYW5nd2UiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJtdXNoYW5nZTg4QGdtYWlsLmNvbSIsImdpdmVuX25hbWUiOiJNYWtvbWJvcmVybyIsImZhbWlseV9uYW1lIjoiTXVzaGFuZ3dlIiwiZW1haWwiOiJtdXNoYW5nZTg4QGdtYWlsLmNvbSJ9.iQUx-BhwM1vrxOSswm3lYoE_rAfrsHgUNTCYjhq2cqzOg2cDoOEy7oBR8wOB8uKfGgOpy49CSs_PaWwwa9-W4BALC6roiemMtfy3844nmWQbgfTDB9at-N0yYwwPEi7oqBEdG3uRRY7CoYZPoBKdWJrEFMRgjV6Jarjt-EJXSkuKwOo5FGmZ0c230uoQ3p0sbl8zBBzOKMIS4eP4usHuqZcTtWMsCR7TSjLC9KM7VS7sGWXPaoAwwzoFaJUTgBauFIVOwTueNcdcKFn90irJTcIARmbFz5dVXvWjulV9hS0q52zbwaFpjBmz8C2f68sHFg4A37s7NMu5KaxicdGamQ","not-before-policy":0,"session_state":"f1fdfad3-411e-4d48-a951-3ea92cef93f5","scope":"openid profile email"}'
+[2024-05-21T16:13:25.660+0200] {token_retrieval.py:42} INFO - Token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ0dE0wcDBMVkpQVHhiNEJTYUpxNTR6OV9femFRMG5uWkRyYnBSNWd4T3c4In0.eyJleHAiOjE3MTYzMDQ0MDUsImlhdCI6MTcxNjMwMDgwNSwianRpIjoiNzdmMDJjN2YtNzA3ZS00YzI1LWIwODAtOWVlYzMxN2JmYTZkIiwiaXNzIjoiaHR0cHM6Ly9sZW11ci01LmNsb3VkLWlhbS5jb20vYXV0aC9yZWFsbXMvZWV6aW1lZHMiLCJhdWQiOlsicmVhbG0tbWFuYWdlbWVudCIsImFjY291bnQiXSwic3ViIjoiYWRmMWEyYjItNmJhZi00ODZlLTlhNTAtMTU5ZDQ1ZTgyNzZlIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiRWV6aW1lZHMtUmVhY3QtQ2xpZW50LUFwcCIsInNlc3Npb25fc3RhdGUiOiJmMWZkZmFkMy00MTFlLTRkNDgtYTk1MS0zZWE5MmNlZjkzZjUiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly8yMC4xNjQuMjE0LjIyNjozMDYwIiwiaHR0cHM6Ly9ncmVlbi1mbG93ZXItMDQzMDBhMzBmLjUuYXp1cmVzdGF0aWNhcHBzLm5ldCIsImh0dHBzOi8vaGFwcHktYnVzaC0wZjZlZTNjMTAuNC5henVyZXN0YXRpY2FwcHMubmV0IiwiaHR0cDovL2xvY2FsaG9zdDozMDYxIiwiaHR0cDovL2xvY2FsaG9zdDozMDYwIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cHM6Ly9ncmVlbi10cmVlLTA2NTJmOGMxMC40LmF6dXJlc3RhdGljYXBwcy5uZXQiLCJodHRwOi8vbG9jYWxob3N0OjMwOTkiLCJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJodHRwOi8vbG9jYWxob3N0OjUxNzMiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImVlemltZWR6LXJvbGVzLXN1cmdlcmllcy12aWV3IiwiZWV6aW1lZHotcm9sZXMtYXBwb2ludG1lbnRzLWFtbWVuZCIsImVlemltZWR6LXJvbGVzLXByZXNjcmlwdGlvbnMtdmlldyIsImVlemltZWR6LXJvbGVzLWxhYnRlc3RzLWFtbWVuZCIsImVlemltZWR6LXJvbGVzLWFkbWlzc2lvbnMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYm9va2luZ3MtdmlldyIsImVlemltZWR6LXJvbGVzLWRydWdoaXN0b3J5LXZpZXciLCJlZXppbWVkei1yb2xlcy1zaWNrbm90ZXMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtbGFidGVzdHMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYWRtaXNzaW9ucy12aWV3IiwiZWV6aW1lZHotcm9sZXMtZHJ1Z2hpc3RvcnktYW1tZW5kIiwib2ZmbGluZV9hY2Nlc3MiLCJlZXppbWVkei1yb2xlcy1zdXJnZXJpZXMtYW1tZW5kIiwidW1hX2F1dGhvcml6YXRpb24iLCJlZXppbWVkei1yb2xlcy1sYWJ0ZXN0cy12aWV3IiwiZWV6aW1lZHotcm9sZXMtbm90ZXMtdmlldyIsImVlemltZWR6LXJvbGVzLWRydWdoaXN0b3J5LWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLWJvb2tpbmdzLWNyZWF0ZSIsImRlZmF1bHQtcm9sZXMtZWV6aW1lZHMiLCJlZXppbWVkei1yb2xlcy1hcHBvaW50bWVudHMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtbm90ZXMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtc3VyZ2VyaWVzLWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLXhyYXlzLWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLXNpY2tub3Rlcy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy1ub3Rlcy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy1hcHBvaW50bWVudHMtdmlldyIsImVlemltZWR6LXJvbGVzLXByZXNjcmlwdGlvbnMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYm9va2luZ3MtYW1tZW5kIiwiZWV6aW1lZHotcm9sZXMteHJheXMtdmlldyIsImVlemltZWRzLXJvbGVzLXBhdGllbnQtZGVmYXVsdHMiLCJlZXppbWVkei1yb2xlcy1zaWNrbm90ZXMtdmlldyIsImVlemltZWR6LXJvbGVzLWFkbWlzc2lvbnMtYW1tZW5kIiwiZWV6aW1lZHotcm9sZXMtcHJlc2NyaXB0aW9ucy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy14cmF5cy1hbW1lbmQiXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbIm1hbmFnZS11c2VycyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInNpZCI6ImYxZmRmYWQzLTQxMWUtNGQ0OC1hOTUxLTNlYTkyY2VmOTNmNSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTWFrb21ib3Jlcm8gTXVzaGFuZ3dlIiwicHJlZmVycmVkX3VzZXJuYW1lIjoibXVzaGFuZ2U4OEBnbWFpbC5jb20iLCJnaXZlbl9uYW1lIjoiTWFrb21ib3Jlcm8iLCJmYW1pbHlfbmFtZSI6Ik11c2hhbmd3ZSIsImVtYWlsIjoibXVzaGFuZ2U4OEBnbWFpbC5jb20ifQ.n0lD7-d1w6ZAvDGXfIm_WOscW_t-HoyKnnAfJQfA5IRatYIuG3tuqSqjlceLWBScSkWGYLEB_dCZ2vRj2S3NfhNjbIujrBXdsBPsy0p3FMqPiDmA89VMikoCrhNbN8tTxp48UsrbQygwG8j_7YYUSTH_xx-M9KSqfWIJzepGtMYA8eawqbVMlAuXRqZVsRz3sR-q8zb-fVI1bdjivKAkGzTBotiYzQHIXD5SHLBpk0Uw86sgEI9ISSrjfckdytq3tK2Uh-PVehXO_RjLjJDqZ3QveIoEMGZ_BaFWbrixyNjCC4KWePrvJbn_2g4Dvj6l7BSPwYBo-jhICL-7xwDB0A
+[2024-05-21T16:13:25.660+0200] {token_retrieval.py:43} INFO - Token expires in: 3600 seconds (at 2024-05-21 17:13:25.660408)
+[2024-05-21T16:13:25.672+0200] {logging_mixin.py:188} INFO - Retrieved Token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ0dE0wcDBMVkpQVHhiNEJTYUpxNTR6OV9femFRMG5uWkRyYnBSNWd4T3c4In0.eyJleHAiOjE3MTYzMDQ0MDUsImlhdCI6MTcxNjMwMDgwNSwianRpIjoiNzdmMDJjN2YtNzA3ZS00YzI1LWIwODAtOWVlYzMxN2JmYTZkIiwiaXNzIjoiaHR0cHM6Ly9sZW11ci01LmNsb3VkLWlhbS5jb20vYXV0aC9yZWFsbXMvZWV6aW1lZHMiLCJhdWQiOlsicmVhbG0tbWFuYWdlbWVudCIsImFjY291bnQiXSwic3ViIjoiYWRmMWEyYjItNmJhZi00ODZlLTlhNTAtMTU5ZDQ1ZTgyNzZlIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiRWV6aW1lZHMtUmVhY3QtQ2xpZW50LUFwcCIsInNlc3Npb25fc3RhdGUiOiJmMWZkZmFkMy00MTFlLTRkNDgtYTk1MS0zZWE5MmNlZjkzZjUiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly8yMC4xNjQuMjE0LjIyNjozMDYwIiwiaHR0cHM6Ly9ncmVlbi1mbG93ZXItMDQzMDBhMzBmLjUuYXp1cmVzdGF0aWNhcHBzLm5ldCIsImh0dHBzOi8vaGFwcHktYnVzaC0wZjZlZTNjMTAuNC5henVyZXN0YXRpY2FwcHMubmV0IiwiaHR0cDovL2xvY2FsaG9zdDozMDYxIiwiaHR0cDovL2xvY2FsaG9zdDozMDYwIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cHM6Ly9ncmVlbi10cmVlLTA2NTJmOGMxMC40LmF6dXJlc3RhdGljYXBwcy5uZXQiLCJodHRwOi8vbG9jYWxob3N0OjMwOTkiLCJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJodHRwOi8vbG9jYWxob3N0OjUxNzMiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImVlemltZWR6LXJvbGVzLXN1cmdlcmllcy12aWV3IiwiZWV6aW1lZHotcm9sZXMtYXBwb2ludG1lbnRzLWFtbWVuZCIsImVlemltZWR6LXJvbGVzLXByZXNjcmlwdGlvbnMtdmlldyIsImVlemltZWR6LXJvbGVzLWxhYnRlc3RzLWFtbWVuZCIsImVlemltZWR6LXJvbGVzLWFkbWlzc2lvbnMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYm9va2luZ3MtdmlldyIsImVlemltZWR6LXJvbGVzLWRydWdoaXN0b3J5LXZpZXciLCJlZXppbWVkei1yb2xlcy1zaWNrbm90ZXMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtbGFidGVzdHMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYWRtaXNzaW9ucy12aWV3IiwiZWV6aW1lZHotcm9sZXMtZHJ1Z2hpc3RvcnktYW1tZW5kIiwib2ZmbGluZV9hY2Nlc3MiLCJlZXppbWVkei1yb2xlcy1zdXJnZXJpZXMtYW1tZW5kIiwidW1hX2F1dGhvcml6YXRpb24iLCJlZXppbWVkei1yb2xlcy1sYWJ0ZXN0cy12aWV3IiwiZWV6aW1lZHotcm9sZXMtbm90ZXMtdmlldyIsImVlemltZWR6LXJvbGVzLWRydWdoaXN0b3J5LWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLWJvb2tpbmdzLWNyZWF0ZSIsImRlZmF1bHQtcm9sZXMtZWV6aW1lZHMiLCJlZXppbWVkei1yb2xlcy1hcHBvaW50bWVudHMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtbm90ZXMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtc3VyZ2VyaWVzLWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLXhyYXlzLWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLXNpY2tub3Rlcy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy1ub3Rlcy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy1hcHBvaW50bWVudHMtdmlldyIsImVlemltZWR6LXJvbGVzLXByZXNjcmlwdGlvbnMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYm9va2luZ3MtYW1tZW5kIiwiZWV6aW1lZHotcm9sZXMteHJheXMtdmlldyIsImVlemltZWRzLXJvbGVzLXBhdGllbnQtZGVmYXVsdHMiLCJlZXppbWVkei1yb2xlcy1zaWNrbm90ZXMtdmlldyIsImVlemltZWR6LXJvbGVzLWFkbWlzc2lvbnMtYW1tZW5kIiwiZWV6aW1lZHotcm9sZXMtcHJlc2NyaXB0aW9ucy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy14cmF5cy1hbW1lbmQiXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbIm1hbmFnZS11c2VycyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInNpZCI6ImYxZmRmYWQzLTQxMWUtNGQ0OC1hOTUxLTNlYTkyY2VmOTNmNSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTWFrb21ib3Jlcm8gTXVzaGFuZ3dlIiwicHJlZmVycmVkX3VzZXJuYW1lIjoibXVzaGFuZ2U4OEBnbWFpbC5jb20iLCJnaXZlbl9uYW1lIjoiTWFrb21ib3Jlcm8iLCJmYW1pbHlfbmFtZSI6Ik11c2hhbmd3ZSIsImVtYWlsIjoibXVzaGFuZ2U4OEBnbWFpbC5jb20ifQ.n0lD7-d1w6ZAvDGXfIm_WOscW_t-HoyKnnAfJQfA5IRatYIuG3tuqSqjlceLWBScSkWGYLEB_dCZ2vRj2S3NfhNjbIujrBXdsBPsy0p3FMqPiDmA89VMikoCrhNbN8tTxp48UsrbQygwG8j_7YYUSTH_xx-M9KSqfWIJzepGtMYA8eawqbVMlAuXRqZVsRz3sR-q8zb-fVI1bdjivKAkGzTBotiYzQHIXD5SHLBpk0Uw86sgEI9ISSrjfckdytq3tK2Uh-PVehXO_RjLjJDqZ3QveIoEMGZ_BaFWbrixyNjCC4KWePrvJbn_2g4Dvj6l7BSPwYBo-jhICL-7xwDB0A
+[2024-05-21T16:13:25.672+0200] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-21T16:13:25.673+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-21T16:13:25.677+0200] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=doctors_api_dag, task_id=get_token, run_id=scheduled__2024-05-20T00:00:00+00:00, execution_date=20240520T000000, start_date=20240521T141322, end_date=20240521T141325
+[2024-05-21T16:13:25.699+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-21T16:13:25.717+0200] {logging_mixin.py:188} WARNING - /home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/baseoperator.py:1296 AirflowProviderDeprecationWarning: Call to deprecated class SimpleHttpOperator. (Class `SimpleHttpOperator` is deprecated and will be removed in a future release. Please use `HttpOperator` instead.)
+[2024-05-21T16:13:25.741+0200] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-05-21T16:13:25.746+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

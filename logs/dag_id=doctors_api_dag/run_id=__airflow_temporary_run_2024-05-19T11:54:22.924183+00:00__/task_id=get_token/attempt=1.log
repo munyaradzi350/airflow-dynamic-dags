@@ -1,0 +1,53 @@
+[2024-05-19T13:54:25.934+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-19T13:54:25.943+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: doctors_api_dag.get_token __airflow_temporary_run_2024-05-19T11:54:22.924183+00:00__ [queued]>
+[2024-05-19T13:54:25.948+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: doctors_api_dag.get_token __airflow_temporary_run_2024-05-19T11:54:22.924183+00:00__ [queued]>
+[2024-05-19T13:54:25.949+0200] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-05-19T13:54:25.960+0200] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_token> on 2024-05-19 11:54:22.924158+00:00
+[2024-05-19T13:54:25.966+0200] {standard_task_runner.py:63} INFO - Started process 110758 to run task
+[2024-05-19T13:54:25.970+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'doctors_api_dag', 'get_token', '__airflow_temporary_run_2024-05-19T11:54:22.924183+00:00__', '--job-id', '1148', '--raw', '--subdir', 'DAGS_FOLDER/eezimeds_doctors.py', '--cfg-path', '/tmp/tmp2ss2oopq']
+[2024-05-19T13:54:25.972+0200] {standard_task_runner.py:91} INFO - Job 1148: Subtask get_token
+[2024-05-19T13:54:26.024+0200] {task_command.py:426} INFO - Running <TaskInstance: doctors_api_dag.get_token __airflow_temporary_run_2024-05-19T11:54:22.924183+00:00__ [running]> on host kali
+[2024-05-19T13:54:26.074+0200] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='doctors_api_dag' AIRFLOW_CTX_TASK_ID='get_token' AIRFLOW_CTX_EXECUTION_DATE='2024-05-19T11:54:22.924158+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='__airflow_temporary_run_2024-05-19T11:54:22.924183+00:00__'
+[2024-05-19T13:54:26.075+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-19T13:54:28.884+0200] {token_retrieval.py:19} INFO - Request URL: https://lemur-5.cloud-iam.com/auth/realms/eezimeds/protocol/openid-connect/token
+[2024-05-19T13:54:28.885+0200] {token_retrieval.py:20} INFO - Request Payload: {'grant_type': 'password', 'username': 'mushange88@gmail.com', 'password': 'makodoctor', 'client_id': 'Eezimeds-React-Client-App', 'client_secret': '7B5aJZaFiiSscBtQulVxSYZBzVS5mrOf'}
+[2024-05-19T13:54:28.885+0200] {token_retrieval.py:21} INFO - Response Status Code: 200
+[2024-05-19T13:54:28.885+0200] {token_retrieval.py:22} INFO - Response Content: b'{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ0dE0wcDBMVkpQVHhiNEJTYUpxNTR6OV9femFRMG5uWkRyYnBSNWd4T3c4In0.eyJleHAiOjE3MTYxMjMyNjgsImlhdCI6MTcxNjExOTY2OCwianRpIjoiNTBmYjQ0ZTAtNDhhOC00MTQ5LWIxNTAtMGI5MDg4MGM2Yzk3IiwiaXNzIjoiaHR0cHM6Ly9sZW11ci01LmNsb3VkLWlhbS5jb20vYXV0aC9yZWFsbXMvZWV6aW1lZHMiLCJhdWQiOlsicmVhbG0tbWFuYWdlbWVudCIsImFjY291bnQiXSwic3ViIjoiYWRmMWEyYjItNmJhZi00ODZlLTlhNTAtMTU5ZDQ1ZTgyNzZlIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiRWV6aW1lZHMtUmVhY3QtQ2xpZW50LUFwcCIsInNlc3Npb25fc3RhdGUiOiIwMjcyMjZmOS1jM2RkLTRhODYtOGU3ZC02NGUwZTA5YjBlMzkiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly8yMC4xNjQuMjE0LjIyNjozMDYwIiwiaHR0cHM6Ly9ncmVlbi1mbG93ZXItMDQzMDBhMzBmLjUuYXp1cmVzdGF0aWNhcHBzLm5ldCIsImh0dHBzOi8vaGFwcHktYnVzaC0wZjZlZTNjMTAuNC5henVyZXN0YXRpY2FwcHMubmV0IiwiaHR0cDovL2xvY2FsaG9zdDozMDYxIiwiaHR0cDovL2xvY2FsaG9zdDozMDYwIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cHM6Ly9ncmVlbi10cmVlLTA2NTJmOGMxMC40LmF6dXJlc3RhdGljYXBwcy5uZXQiLCJodHRwOi8vbG9jYWxob3N0OjMwOTkiLCJodHRwOi8vbG9jYWxob3N0OjMwMDAiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImVlemltZWR6LXJvbGVzLXN1cmdlcmllcy12aWV3IiwiZWV6aW1lZHotcm9sZXMtYXBwb2ludG1lbnRzLWFtbWVuZCIsImVlemltZWR6LXJvbGVzLXByZXNjcmlwdGlvbnMtdmlldyIsImVlemltZWR6LXJvbGVzLWxhYnRlc3RzLWFtbWVuZCIsImVlemltZWR6LXJvbGVzLWFkbWlzc2lvbnMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYm9va2luZ3MtdmlldyIsImVlemltZWR6LXJvbGVzLWRydWdoaXN0b3J5LXZpZXciLCJlZXppbWVkei1yb2xlcy1zaWNrbm90ZXMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtbGFidGVzdHMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYWRtaXNzaW9ucy12aWV3IiwiZWV6aW1lZHotcm9sZXMtZHJ1Z2hpc3RvcnktYW1tZW5kIiwib2ZmbGluZV9hY2Nlc3MiLCJlZXppbWVkei1yb2xlcy1zdXJnZXJpZXMtYW1tZW5kIiwidW1hX2F1dGhvcml6YXRpb24iLCJlZXppbWVkei1yb2xlcy1sYWJ0ZXN0cy12aWV3IiwiZWV6aW1lZHotcm9sZXMtbm90ZXMtdmlldyIsImVlemltZWR6LXJvbGVzLWRydWdoaXN0b3J5LWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLWJvb2tpbmdzLWNyZWF0ZSIsImRlZmF1bHQtcm9sZXMtZWV6aW1lZHMiLCJlZXppbWVkei1yb2xlcy1hcHBvaW50bWVudHMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtbm90ZXMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtc3VyZ2VyaWVzLWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLXhyYXlzLWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLXNpY2tub3Rlcy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy1ub3Rlcy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy1hcHBvaW50bWVudHMtdmlldyIsImVlemltZWR6LXJvbGVzLXByZXNjcmlwdGlvbnMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYm9va2luZ3MtYW1tZW5kIiwiZWV6aW1lZHotcm9sZXMteHJheXMtdmlldyIsImVlemltZWRzLXJvbGVzLXBhdGllbnQtZGVmYXVsdHMiLCJlZXppbWVkei1yb2xlcy1zaWNrbm90ZXMtdmlldyIsImVlemltZWR6LXJvbGVzLWFkbWlzc2lvbnMtYW1tZW5kIiwiZWV6aW1lZHotcm9sZXMtcHJlc2NyaXB0aW9ucy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy14cmF5cy1hbW1lbmQiXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbIm1hbmFnZS11c2VycyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwic2lkIjoiMDI3MjI2ZjktYzNkZC00YTg2LThlN2QtNjRlMGUwOWIwZTM5IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5hbWUiOiJNYWtvbWJvcmVybyBNdXNoYW5nd2UiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJtdXNoYW5nZTg4QGdtYWlsLmNvbSIsImdpdmVuX25hbWUiOiJNYWtvbWJvcmVybyIsImZhbWlseV9uYW1lIjoiTXVzaGFuZ3dlIiwiZW1haWwiOiJtdXNoYW5nZTg4QGdtYWlsLmNvbSJ9.jx5eahWWYCsuQToz2SRb8kz587AdUJ4Tk93fPfjftfYx5BAqXD3w9LsLxBOX0LDmu6uouolNzyEe-JezP77ScdN_lLZ90XGw-qEggWbmUAcSF0CHtRNce5kaw7i0-YZbz0NBjzzhAHml2Uo4EhbLS2Q8SsrYxrzhcyLPjJ5G-z363TLYrexJeFguskEv5Z2J2oS2dZo4riLqeZdupG7F_vTovHpZUAObDbbe2M6CE5GgkyMOzGEVrwAQ8efx4bsG2yzm9AmjrUDjP_3cg7uxSmnpZs5G4zYJEwQtDzeJkYJk5LHa2A6oJt9nLTYCjoSt2GshBH_JJpmnVadpCw4mHg","expires_in":3600,"refresh_expires_in":1800,"refresh_token":"eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJiZWVkMmRhOS03YzYwLTQ5YWUtYTc3Yy1hMmQ2YjkzNDQwNGIifQ.eyJleHAiOjE3MTYxMjE0NjgsImlhdCI6MTcxNjExOTY2OCwianRpIjoiNWFiYjE1YzEtM2NjNi00YmMzLWEyNjktMDI1Zjk2ZjEzY2JjIiwiaXNzIjoiaHR0cHM6Ly9sZW11ci01LmNsb3VkLWlhbS5jb20vYXV0aC9yZWFsbXMvZWV6aW1lZHMiLCJhdWQiOiJodHRwczovL2xlbXVyLTUuY2xvdWQtaWFtLmNvbS9hdXRoL3JlYWxtcy9lZXppbWVkcyIsInN1YiI6ImFkZjFhMmIyLTZiYWYtNDg2ZS05YTUwLTE1OWQ0NWU4Mjc2ZSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJFZXppbWVkcy1SZWFjdC1DbGllbnQtQXBwIiwic2Vzc2lvbl9zdGF0ZSI6IjAyNzIyNmY5LWMzZGQtNGE4Ni04ZTdkLTY0ZTBlMDliMGUzOSIsInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsInNpZCI6IjAyNzIyNmY5LWMzZGQtNGE4Ni04ZTdkLTY0ZTBlMDliMGUzOSJ9.oKJr-qaJ7ziT-tkC-mgMaaahI1xNOQ1_R9DxazWfX1w776B6QqYtC3Ct_JE47reTyFUyiKnpp46cDV3-9n5ApA","token_type":"Bearer","not-before-policy":0,"session_state":"027226f9-c3dd-4a86-8e7d-64e0e09b0e39","scope":"profile email"}'
+[2024-05-19T13:54:28.888+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-19T13:54:28.888+0200] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/airflow/dags/eezimeds_doctors.py", line 26, in retrieve_token
+    ti.xcom_push(key='api_token', value=token)
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3197, in xcom_push
+    XCom.set(
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/xcom.py", line 223, in set
+    raise ValueError(f"DAG run not found on DAG {dag_id!r} with ID {run_id!r}")
+ValueError: DAG run not found on DAG 'doctors_api_dag' with ID '__airflow_temporary_run_2024-05-19T11:54:22.924183+00:00__'
+[2024-05-19T13:54:28.893+0200] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=doctors_api_dag, task_id=get_token, run_id=__airflow_temporary_run_2024-05-19T11:54:22.924183+00:00__, execution_date=20240519T115422, start_date=20240519T115425, end_date=20240519T115428
+[2024-05-19T13:54:28.900+0200] {standard_task_runner.py:110} ERROR - Failed to execute job 1148 for task get_token ((sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO task_fail (task_id, dag_id, run_id, map_index, start_date, end_date, duration) VALUES (?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('get_token', 'doctors_api_dag', '__airflow_temporary_run_2024-05-19T11:54:22.924183+00:00__', -1, '2024-05-19 11:54:25.943754', '2024-05-19 11:54:28.892669', 2)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 110758)
+[2024-05-19T13:54:28.921+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-19T13:54:28.927+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

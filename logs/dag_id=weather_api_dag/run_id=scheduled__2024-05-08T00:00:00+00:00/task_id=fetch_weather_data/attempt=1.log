@@ -1,0 +1,39 @@
+[2024-05-09T12:47:37.833+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-09T12:47:37.854+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_api_dag.fetch_weather_data scheduled__2024-05-08T00:00:00+00:00 [queued]>
+[2024-05-09T12:47:37.865+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_api_dag.fetch_weather_data scheduled__2024-05-08T00:00:00+00:00 [queued]>
+[2024-05-09T12:47:37.865+0200] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-05-09T12:47:37.892+0200] {taskinstance.py:2327} INFO - Executing <Task(HttpOperator): fetch_weather_data> on 2024-05-08 00:00:00+00:00
+[2024-05-09T12:47:37.903+0200] {standard_task_runner.py:63} INFO - Started process 253605 to run task
+[2024-05-09T12:47:37.909+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'weather_api_dag', 'fetch_weather_data', 'scheduled__2024-05-08T00:00:00+00:00', '--job-id', '930', '--raw', '--subdir', 'DAGS_FOLDER/weather_data.py', '--cfg-path', '/tmp/tmp5fk3jnpv']
+[2024-05-09T12:47:37.913+0200] {standard_task_runner.py:91} INFO - Job 930: Subtask fetch_weather_data
+[2024-05-09T12:47:37.977+0200] {task_command.py:426} INFO - Running <TaskInstance: weather_api_dag.fetch_weather_data scheduled__2024-05-08T00:00:00+00:00 [running]> on host kali
+[2024-05-09T12:47:38.086+0200] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_api_dag' AIRFLOW_CTX_TASK_ID='fetch_weather_data' AIRFLOW_CTX_EXECUTION_DATE='2024-05-08T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-08T00:00:00+00:00'
+[2024-05-09T12:47:38.089+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-09T12:47:38.089+0200] {http.py:169} INFO - Calling HTTP method
+[2024-05-09T12:47:38.100+0200] {base.py:84} INFO - Using connection ID 'weather_api' for task execution.
+[2024-05-09T12:47:38.107+0200] {base.py:84} INFO - Using connection ID 'weather_api' for task execution.
+[2024-05-09T12:47:58.076+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-09T12:47:58.154+0200] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=weather_api_dag, task_id=fetch_weather_data, execution_date=20240508T000000, start_date=20240509T104737, end_date=20240509T104758
+[2024-05-09T12:47:58.250+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-09T12:47:58.281+0200] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-09T12:47:58.283+0200] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-05-09T12:52:11.143+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-09T12:52:11.165+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_api_dag.fetch_weather_data scheduled__2024-05-08T00:00:00+00:00 [queued]>
+[2024-05-09T12:52:11.179+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_api_dag.fetch_weather_data scheduled__2024-05-08T00:00:00+00:00 [queued]>
+[2024-05-09T12:52:11.179+0200] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-05-09T12:52:11.198+0200] {taskinstance.py:2327} INFO - Executing <Task(HttpOperator): fetch_weather_data> on 2024-05-08 00:00:00+00:00
+[2024-05-09T12:52:11.208+0200] {standard_task_runner.py:63} INFO - Started process 257276 to run task
+[2024-05-09T12:52:11.215+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'weather_api_dag', 'fetch_weather_data', 'scheduled__2024-05-08T00:00:00+00:00', '--job-id', '930', '--raw', '--subdir', 'DAGS_FOLDER/weather_data.py', '--cfg-path', '/tmp/tmpt8rsqm_i']
+[2024-05-09T12:52:11.219+0200] {standard_task_runner.py:91} INFO - Job 930: Subtask fetch_weather_data
+[2024-05-09T12:52:11.282+0200] {task_command.py:426} INFO - Running <TaskInstance: weather_api_dag.fetch_weather_data scheduled__2024-05-08T00:00:00+00:00 [running]> on host kali
+[2024-05-09T12:52:11.412+0200] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_api_dag' AIRFLOW_CTX_TASK_ID='fetch_weather_data' AIRFLOW_CTX_EXECUTION_DATE='2024-05-08T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-08T00:00:00+00:00'
+[2024-05-09T12:52:11.414+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-09T12:52:11.414+0200] {http.py:169} INFO - Calling HTTP method
+[2024-05-09T12:52:11.423+0200] {base.py:84} INFO - Using connection ID 'weather_api' for task execution.
+[2024-05-09T12:52:11.428+0200] {base.py:84} INFO - Using connection ID 'weather_api' for task execution.
+[2024-05-09T12:52:22.039+0200] {http.py:208} INFO - {"coord":{"lon":32.6709,"lat":-18.9707},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":298.05,"feels_like":297.48,"temp_min":298.05,"temp_max":298.05,"pressure":1017,"humidity":34,"sea_level":1017,"grnd_level":897},"visibility":10000,"wind":{"speed":3.1,"deg":105,"gust":2.9},"clouds":{"all":3},"dt":1715251344,"sys":{"country":"ZW","sunrise":1715227613,"sunset":1715268279},"timezone":7200,"id":884979,"name":"Mutare","cod":200}
+[2024-05-09T12:52:22.043+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-09T12:52:22.085+0200] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=weather_api_dag, task_id=fetch_weather_data, execution_date=20240508T000000, start_date=20240509T105211, end_date=20240509T105222
+[2024-05-09T12:52:22.163+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-09T12:52:22.188+0200] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-09T12:52:22.189+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

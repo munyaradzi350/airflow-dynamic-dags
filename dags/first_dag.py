@@ -1,6 +1,6 @@
 from airflow import DAG
-from airflow.operators.bash_operator import BashOperator
-from airflow.operators.python_operator import PythonOperator
+from airflow.operators.bash import BashOperator
+from airflow.operators.python import PythonOperator
 import datetime as dt
 
 def print_world():
@@ -13,9 +13,9 @@ default_args = {
     'retry_delay': dt.timedelta(minutes=5),
 }
 
-with DAG('airflow_tut_v02',
+with DAG('airflow3',
          default_args=default_args,
-         schedule_interval='0 * * * *',
+         schedule='@weekly',
          ) as dag:
     print_hello = BashOperator(task_id='print_hello',
                                bash_command='echo "hello"')

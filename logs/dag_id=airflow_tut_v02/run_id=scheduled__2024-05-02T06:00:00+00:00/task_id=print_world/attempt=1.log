@@ -1,0 +1,18 @@
+[2024-05-02T09:24:29.884+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-02T09:24:29.904+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: airflow_tut_v02.print_world scheduled__2024-05-02T06:00:00+00:00 [queued]>
+[2024-05-02T09:24:29.910+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: airflow_tut_v02.print_world scheduled__2024-05-02T06:00:00+00:00 [queued]>
+[2024-05-02T09:24:29.910+0200] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-05-02T09:24:29.921+0200] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): print_world> on 2024-05-02 06:00:00+00:00
+[2024-05-02T09:24:29.927+0200] {standard_task_runner.py:63} INFO - Started process 261026 to run task
+[2024-05-02T09:24:29.930+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'airflow_tut_v02', 'print_world', 'scheduled__2024-05-02T06:00:00+00:00', '--job-id', '369', '--raw', '--subdir', '/home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/dags.py', '--cfg-path', '/tmp/tmpcn2jkf2r']
+[2024-05-02T09:24:29.933+0200] {standard_task_runner.py:91} INFO - Job 369: Subtask print_world
+[2024-05-02T09:24:29.964+0200] {task_command.py:426} INFO - Running <TaskInstance: airflow_tut_v02.print_world scheduled__2024-05-02T06:00:00+00:00 [running]> on host kali
+[2024-05-02T09:24:30.164+0200] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Munyah' AIRFLOW_CTX_DAG_ID='airflow_tut_v02' AIRFLOW_CTX_TASK_ID='print_world' AIRFLOW_CTX_EXECUTION_DATE='2024-05-02T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-02T06:00:00+00:00'
+[2024-05-02T09:24:30.165+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-02T09:24:30.166+0200] {logging_mixin.py:188} INFO - world
+[2024-05-02T09:24:30.166+0200] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-02T09:24:30.166+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-02T09:24:30.171+0200] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=airflow_tut_v02, task_id=print_world, execution_date=20240502T060000, start_date=20240502T072429, end_date=20240502T072430
+[2024-05-02T09:24:30.226+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-02T09:24:30.269+0200] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-02T09:24:30.270+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,1 @@
+[2024-05-21T16:42:26.278+0200] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: doctors_api_dag.retrieve_doctors scheduled__2024-05-21T14:38:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

@@ -1,0 +1,49 @@
+[2024-05-11T11:12:02.510+0200] {processor.py:161} INFO - Started process (PID=123533) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:12:02.511+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-11T11:12:02.512+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:12:02.512+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:12:02.522+0200] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:12:02.543+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:12:02.543+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:12:02.560+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:12:02.560+0200] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:12:02.577+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.072 seconds
+[2024-05-11T11:15:50.788+0200] {processor.py:161} INFO - Started process (PID=128339) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:15:50.790+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-11T11:15:50.796+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:50.795+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:15:50.833+0200] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:15:50.918+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:50.917+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:15:50.979+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:50.978+0200] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:15:51.035+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.266 seconds
+[2024-05-11T11:16:53.103+0200] {processor.py:161} INFO - Started process (PID=129658) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:16:53.104+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-11T11:16:53.106+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:53.105+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:16:53.115+0200] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:16:53.133+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:53.133+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:16:53.149+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:53.149+0200] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:16:53.166+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.068 seconds
+[2024-05-11T11:17:54.136+0200] {processor.py:161} INFO - Started process (PID=130893) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:17:54.137+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-11T11:17:54.139+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:54.138+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:17:54.149+0200] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:17:54.168+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:54.168+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:17:54.184+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:54.184+0200] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:17:54.201+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.070 seconds
+[2024-05-11T11:18:56.715+0200] {processor.py:161} INFO - Started process (PID=132231) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:18:56.716+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-11T11:18:56.717+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:56.717+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:18:56.727+0200] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:18:56.745+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:56.744+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:18:56.760+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:56.760+0200] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:18:56.777+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.067 seconds
+[2024-05-11T11:20:03.254+0200] {processor.py:161} INFO - Started process (PID=133572) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:20:03.257+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-11T11:20:03.262+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:03.261+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:20:03.301+0200] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:20:03.351+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:03.351+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:20:03.369+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:03.368+0200] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:20:03.387+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.152 seconds
+[2024-05-11T11:21:09.687+0200] {processor.py:161} INFO - Started process (PID=134900) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:21:09.688+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-11T11:21:09.690+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:09.690+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:21:09.705+0200] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-11T11:21:09.733+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:09.733+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:21:09.758+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:09.758+0200] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:21:09.785+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.107 seconds

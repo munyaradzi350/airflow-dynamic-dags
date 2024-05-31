@@ -1,0 +1,894 @@
+[2024-05-08T13:31:29.057+0200] {processor.py:161} INFO - Started process (PID=260263) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:31:29.060+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:31:29.065+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:31:29.063+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:31:29.108+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:31:29.449+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:31:29.448+0200] {override.py:1829} INFO - Created Permission View: can read on DAG:fetch_job_postings
+[2024-05-08T13:31:29.482+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:31:29.481+0200] {override.py:1829} INFO - Created Permission View: can delete on DAG:fetch_job_postings
+[2024-05-08T13:31:29.511+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:31:29.510+0200] {override.py:1829} INFO - Created Permission View: can edit on DAG:fetch_job_postings
+[2024-05-08T13:31:29.514+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:31:29.513+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:31:29.557+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:31:29.556+0200] {dag.py:3118} INFO - Creating ORM DAG for fetch_job_postings
+[2024-05-08T13:31:29.593+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:31:29.592+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:31:29.659+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.627 seconds
+[2024-05-08T13:32:26.930+0200] {processor.py:161} INFO - Started process (PID=260999) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:32:26.931+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:32:26.932+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:32:26.932+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:32:26.941+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:32:26.955+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:32:26.955+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:32:26.973+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:32:26.972+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:32:26.995+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.071 seconds
+[2024-05-08T13:32:58.189+0200] {processor.py:161} INFO - Started process (PID=261392) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:32:58.194+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:32:58.198+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:32:58.196+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:32:58.243+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:32:58.304+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:32:58.303+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:32:58.392+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:32:58.391+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:32:58.464+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.302 seconds
+[2024-05-08T13:33:29.016+0200] {processor.py:161} INFO - Started process (PID=261828) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:33:29.017+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:33:29.018+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:33:29.017+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:33:29.026+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:33:29.039+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:33:29.039+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:33:29.059+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:33:29.059+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:33:29.080+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.070 seconds
+[2024-05-08T13:34:00.903+0200] {processor.py:161} INFO - Started process (PID=262257) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:34:00.906+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:34:00.909+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:34:00.908+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:34:00.938+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:34:00.982+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:34:00.981+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:34:01.044+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:34:01.043+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:34:01.108+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.224 seconds
+[2024-05-08T13:34:32.919+0200] {processor.py:161} INFO - Started process (PID=262693) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:34:32.920+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:34:32.921+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:34:32.921+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:34:32.929+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:34:32.942+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:34:32.941+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:34:32.958+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:34:32.957+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:34:32.975+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.062 seconds
+[2024-05-08T13:35:04.069+0200] {processor.py:161} INFO - Started process (PID=263124) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:35:04.070+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:35:04.071+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:35:04.070+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:35:04.079+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:35:04.090+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:35:04.090+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:35:04.107+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:35:04.107+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:35:04.123+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.059 seconds
+[2024-05-08T13:35:39.079+0200] {processor.py:161} INFO - Started process (PID=263564) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:35:39.082+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:35:39.086+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:35:39.084+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:35:39.120+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:35:39.180+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:35:39.179+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:35:39.245+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:35:39.245+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:35:39.302+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.248 seconds
+[2024-05-08T13:36:13.754+0200] {processor.py:161} INFO - Started process (PID=264005) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:36:13.758+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:36:13.762+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:36:13.760+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:36:13.797+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:36:13.846+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:36:13.845+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:36:13.915+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:36:13.915+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:36:13.977+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.247 seconds
+[2024-05-08T13:36:46.926+0200] {processor.py:161} INFO - Started process (PID=264417) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:36:46.927+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:36:46.928+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:36:46.928+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:36:46.936+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:36:46.950+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:36:46.950+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:36:46.968+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:36:46.968+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:36:46.985+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.065 seconds
+[2024-05-08T13:37:18.820+0200] {processor.py:161} INFO - Started process (PID=264845) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:37:18.823+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:37:18.828+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:37:18.826+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:37:18.867+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:37:18.929+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:37:18.928+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:37:19.019+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:37:19.018+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:37:19.096+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.307 seconds
+[2024-05-08T13:37:49.336+0200] {processor.py:161} INFO - Started process (PID=265242) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:37:49.339+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:37:49.342+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:37:49.341+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:37:49.371+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:37:49.420+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:37:49.419+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:37:49.483+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:37:49.482+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:37:49.536+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.221 seconds
+[2024-05-08T13:38:21.131+0200] {processor.py:161} INFO - Started process (PID=265646) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:38:21.132+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:38:21.133+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:38:21.133+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:38:21.142+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:38:21.155+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:38:21.155+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:38:21.174+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:38:21.173+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:38:21.195+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.069 seconds
+[2024-05-08T13:39:20.090+0200] {processor.py:161} INFO - Started process (PID=266483) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:39:20.093+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:39:20.096+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:39:20.095+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:39:20.126+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:39:20.183+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:39:20.182+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:39:20.270+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:39:20.270+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:39:20.329+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.261 seconds
+[2024-05-08T13:40:19.159+0200] {processor.py:161} INFO - Started process (PID=267382) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:40:19.160+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:40:19.161+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:40:19.161+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:40:19.173+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:40:19.194+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:40:19.194+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:40:19.227+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:40:19.227+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:40:19.255+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.106 seconds
+[2024-05-08T13:41:18.993+0200] {processor.py:161} INFO - Started process (PID=268307) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:41:18.994+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:41:18.995+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:41:18.995+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:41:19.004+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:41:19.017+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:41:19.017+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:41:19.035+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:41:19.034+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:41:19.054+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.066 seconds
+[2024-05-08T13:41:49.835+0200] {processor.py:161} INFO - Started process (PID=268768) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:41:49.836+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:41:49.837+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:41:49.837+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:41:49.845+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:41:49.866+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:41:49.865+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:41:49.888+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:41:49.888+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:41:49.904+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.074 seconds
+[2024-05-08T13:42:20.743+0200] {processor.py:161} INFO - Started process (PID=269186) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:42:20.744+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:42:20.745+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:42:20.744+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:42:20.752+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:42:20.765+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:42:20.764+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:42:20.781+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:42:20.781+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:42:20.796+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.059 seconds
+[2024-05-08T13:42:55.145+0200] {processor.py:161} INFO - Started process (PID=269600) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:42:55.152+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:42:55.157+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:42:55.156+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:42:55.175+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:42:55.198+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:42:55.197+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:42:55.229+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:42:55.229+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:42:55.268+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.140 seconds
+[2024-05-08T13:43:30.263+0200] {processor.py:161} INFO - Started process (PID=270066) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:43:30.266+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:43:30.270+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:43:30.268+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:43:30.300+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:43:30.346+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:43:30.345+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:43:30.410+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:43:30.409+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:43:30.471+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.227 seconds
+[2024-05-08T13:44:00.661+0200] {processor.py:161} INFO - Started process (PID=270471) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:44:00.662+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:44:00.663+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:44:00.663+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:44:00.671+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:44:00.685+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:44:00.685+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:44:00.703+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:44:00.703+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:44:00.724+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.069 seconds
+[2024-05-08T13:44:32.564+0200] {processor.py:161} INFO - Started process (PID=270891) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:44:32.567+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:44:32.570+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:44:32.569+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:44:32.600+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:44:32.649+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:44:32.648+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:44:32.722+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:44:32.721+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:44:32.786+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.243 seconds
+[2024-05-08T13:45:09.565+0200] {processor.py:161} INFO - Started process (PID=271346) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:45:09.567+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:45:09.568+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:45:09.568+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:45:09.582+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:45:09.604+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:45:09.604+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:45:09.638+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:45:09.637+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:45:09.673+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.118 seconds
+[2024-05-08T13:45:45.318+0200] {processor.py:161} INFO - Started process (PID=271821) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:45:45.325+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:45:45.330+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:45:45.329+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:45:45.378+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:45:45.442+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:45:45.441+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:45:45.532+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:45:45.531+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:45:45.610+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.321 seconds
+[2024-05-08T13:46:16.878+0200] {processor.py:161} INFO - Started process (PID=272252) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:46:16.879+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:46:16.880+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:46:16.880+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:46:16.892+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:46:16.907+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:46:16.906+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:46:16.926+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:46:16.926+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:46:16.945+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.071 seconds
+[2024-05-08T13:46:48.264+0200] {processor.py:161} INFO - Started process (PID=272675) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:46:48.265+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:46:48.266+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:46:48.265+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:46:48.277+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:46:48.294+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:46:48.294+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:46:48.324+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:46:48.323+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:46:48.365+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.108 seconds
+[2024-05-08T13:47:19.512+0200] {processor.py:161} INFO - Started process (PID=273109) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:47:19.513+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:47:19.514+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:47:19.513+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:47:19.522+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:47:19.535+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:47:19.534+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:47:19.551+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:47:19.551+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:47:19.567+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.061 seconds
+[2024-05-08T13:47:51.961+0200] {processor.py:161} INFO - Started process (PID=273533) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:47:51.962+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:47:51.963+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:47:51.963+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:47:51.971+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:47:51.984+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:47:51.983+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:47:52.000+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:47:52.000+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:47:52.016+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.060 seconds
+[2024-05-08T13:48:22.795+0200] {processor.py:161} INFO - Started process (PID=273953) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:48:22.796+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:48:22.797+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:48:22.797+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:48:22.805+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:48:22.818+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:48:22.817+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:48:22.835+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:48:22.835+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:48:22.852+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.063 seconds
+[2024-05-08T13:49:23.687+0200] {processor.py:161} INFO - Started process (PID=274808) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:49:23.688+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:49:23.690+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:49:23.689+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:49:23.702+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:49:23.722+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:49:23.721+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:49:23.762+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:49:23.762+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:49:23.800+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.122 seconds
+[2024-05-08T13:49:54.664+0200] {processor.py:161} INFO - Started process (PID=275208) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:49:54.666+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:49:54.669+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:49:54.668+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:49:54.698+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:49:54.744+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:49:54.743+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:49:54.811+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:49:54.811+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:49:54.880+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.236 seconds
+[2024-05-08T13:50:26.805+0200] {processor.py:161} INFO - Started process (PID=275620) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:50:26.806+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:50:26.807+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:50:26.806+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:50:26.816+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:50:26.831+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:50:26.831+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:50:26.851+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:50:26.851+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:50:26.871+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.072 seconds
+[2024-05-08T13:50:59.713+0200] {processor.py:161} INFO - Started process (PID=276335) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:50:59.714+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:50:59.715+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:50:59.714+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:50:59.725+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:50:59.743+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:50:59.743+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:50:59.764+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:50:59.763+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:50:59.787+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.081 seconds
+[2024-05-08T13:51:32.028+0200] {processor.py:161} INFO - Started process (PID=276808) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:51:32.029+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:51:32.030+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:51:32.030+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:51:32.039+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:51:32.052+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:51:32.052+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:51:32.072+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:51:32.072+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:51:32.091+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.069 seconds
+[2024-05-08T13:52:02.957+0200] {processor.py:161} INFO - Started process (PID=277222) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:52:02.961+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:52:02.965+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:52:02.963+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:52:03.000+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:52:03.051+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:52:03.050+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:52:03.114+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:52:03.113+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:52:03.173+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.240 seconds
+[2024-05-08T13:52:35.488+0200] {processor.py:161} INFO - Started process (PID=277644) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:52:35.489+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:52:35.490+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:52:35.490+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:52:35.498+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:52:35.515+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:52:35.515+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:52:35.533+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:52:35.533+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:52:35.551+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.067 seconds
+[2024-05-08T13:53:10.672+0200] {processor.py:161} INFO - Started process (PID=278142) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:53:10.673+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:53:10.674+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:53:10.674+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:53:10.682+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:53:10.694+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:53:10.693+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:53:10.711+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:53:10.710+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:53:10.727+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.059 seconds
+[2024-05-08T13:54:02.882+0200] {processor.py:161} INFO - Started process (PID=278858) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:54:02.884+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:54:02.885+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:54:02.885+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:54:02.898+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:54:02.921+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:54:02.920+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:54:02.957+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:54:02.957+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:54:02.994+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.119 seconds
+[2024-05-08T13:54:39.444+0200] {processor.py:161} INFO - Started process (PID=279346) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:54:39.446+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:54:39.447+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:54:39.446+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:54:39.460+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:54:39.477+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:54:39.477+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:54:39.503+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:54:39.502+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:54:39.531+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.093 seconds
+[2024-05-08T13:55:10.558+0200] {processor.py:161} INFO - Started process (PID=279778) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:55:10.560+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:55:10.561+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:55:10.561+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:55:10.573+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:55:10.596+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:55:10.596+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:55:10.615+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:55:10.615+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:55:10.635+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.085 seconds
+[2024-05-08T13:55:42.394+0200] {processor.py:161} INFO - Started process (PID=280241) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:55:42.395+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:55:42.396+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:55:42.396+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:55:42.407+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:55:42.423+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:55:42.423+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:55:42.445+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:55:42.445+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:55:42.469+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.081 seconds
+[2024-05-08T13:56:43.002+0200] {processor.py:161} INFO - Started process (PID=281051) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:56:43.003+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:56:43.004+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:56:43.004+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:56:43.012+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:56:43.029+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:56:43.029+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:56:43.050+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:56:43.050+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:56:43.069+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.075 seconds
+[2024-05-08T13:57:15.745+0200] {processor.py:161} INFO - Started process (PID=281496) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:57:15.747+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:57:15.748+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:57:15.747+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:57:15.761+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:57:15.786+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:57:15.785+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:57:15.818+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:57:15.817+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:57:15.854+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.117 seconds
+[2024-05-08T13:57:50.279+0200] {processor.py:161} INFO - Started process (PID=281971) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:57:50.283+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:57:50.287+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:57:50.285+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:57:50.327+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:57:50.405+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:57:50.404+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:57:50.467+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:57:50.466+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:57:50.532+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.283 seconds
+[2024-05-08T13:58:22.847+0200] {processor.py:161} INFO - Started process (PID=282399) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:58:22.848+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:58:22.849+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:58:22.849+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:58:22.852+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:58:22.851+0200] {dagbag.py:350} ERROR - Failed to import: /home/munya/airflow/dags/job_postings_dag.py
+Traceback (most recent call last):
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/munya/airflow/dags/job_postings_dag.py", line 17
+    fetch_job_postings_task = SimpleHttpOperator(
+    ^^^^^^^^^^^^^^^^^^^^^^^
+IndentationError: expected an indented block after 'with' statement on line 11
+[2024-05-08T13:58:22.852+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:58:22.868+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.026 seconds
+[2024-05-08T13:58:55.936+0200] {processor.py:161} INFO - Started process (PID=282859) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:58:55.941+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:58:55.947+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:58:55.944+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:58:56.009+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:58:56.004+0200] {dagbag.py:350} ERROR - Failed to import: /home/munya/airflow/dags/job_postings_dag.py
+Traceback (most recent call last):
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/munya/airflow/dags/job_postings_dag.py", line 28, in <module>
+    fetch_job_postings_task
+NameError: name 'fetch_job_postings_task' is not defined
+[2024-05-08T13:58:56.012+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:58:56.118+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.221 seconds
+[2024-05-08T13:59:30.064+0200] {processor.py:161} INFO - Started process (PID=283303) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:59:30.065+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T13:59:30.066+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:59:30.065+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:59:30.074+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T13:59:30.086+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:59:30.086+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T13:59:30.102+0200] {logging_mixin.py:188} INFO - [2024-05-08T13:59:30.102+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T13:59:30.122+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.063 seconds
+[2024-05-08T14:00:14.898+0200] {processor.py:161} INFO - Started process (PID=283902) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:00:14.902+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:00:14.906+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:00:14.904+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:00:14.939+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:00:14.984+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:00:14.984+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:00:15.073+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:00:15.072+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:00:15.137+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.270 seconds
+[2024-05-08T14:01:00.486+0200] {processor.py:161} INFO - Started process (PID=284582) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:01:00.487+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:01:00.488+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:01:00.487+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:01:00.496+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:01:00.588+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:01:00.588+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:01:00.608+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:01:00.607+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:01:00.629+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.149 seconds
+[2024-05-08T14:01:31.246+0200] {processor.py:161} INFO - Started process (PID=284961) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:01:31.247+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:01:31.248+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:01:31.247+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:01:31.257+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:01:31.274+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:01:31.274+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:01:31.292+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:01:31.292+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:01:31.309+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.071 seconds
+[2024-05-08T14:02:04.318+0200] {processor.py:161} INFO - Started process (PID=285446) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:02:04.319+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:02:04.320+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:02:04.320+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:02:04.328+0200] {processor.py:840} INFO - DAG(s) 'fetch_job_postings' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:02:04.339+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:02:04.339+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:02:04.355+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:02:04.355+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_job_postings to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:02:04.372+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.059 seconds
+[2024-05-08T14:02:35.779+0200] {processor.py:161} INFO - Started process (PID=285864) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:02:35.783+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:02:35.787+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:02:35.785+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:02:35.838+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:02:36.256+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:02:36.254+0200] {override.py:1829} INFO - Created Permission View: can read on DAG:fetch_jobs
+[2024-05-08T14:02:36.292+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:02:36.291+0200] {override.py:1829} INFO - Created Permission View: can delete on DAG:fetch_jobs
+[2024-05-08T14:02:36.317+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:02:36.315+0200] {override.py:1829} INFO - Created Permission View: can edit on DAG:fetch_jobs
+[2024-05-08T14:02:36.319+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:02:36.318+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:02:36.380+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:02:36.379+0200] {dag.py:3118} INFO - Creating ORM DAG for fetch_jobs
+[2024-05-08T14:02:36.425+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:02:36.424+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:02:36.511+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.760 seconds
+[2024-05-08T14:03:08.464+0200] {processor.py:161} INFO - Started process (PID=286281) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:03:08.465+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:03:08.466+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:03:08.465+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:03:08.477+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:03:08.494+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:03:08.494+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:03:08.522+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:03:08.522+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:03:08.544+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.087 seconds
+[2024-05-08T14:03:40.502+0200] {processor.py:161} INFO - Started process (PID=286706) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:03:40.503+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:03:40.504+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:03:40.504+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:03:40.517+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:03:40.539+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:03:40.539+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:03:40.574+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:03:40.573+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:03:40.601+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.108 seconds
+[2024-05-08T14:04:12.703+0200] {processor.py:161} INFO - Started process (PID=287109) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:04:12.709+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:04:12.713+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:04:12.712+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:04:12.727+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:04:12.746+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:04:12.746+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:04:12.765+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:04:12.765+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:04:12.782+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.091 seconds
+[2024-05-08T14:04:44.618+0200] {processor.py:161} INFO - Started process (PID=287546) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:04:44.619+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:04:44.620+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:04:44.620+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:04:44.628+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:04:44.642+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:04:44.641+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:04:44.663+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:04:44.663+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:04:44.681+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.068 seconds
+[2024-05-08T14:05:16.159+0200] {processor.py:161} INFO - Started process (PID=287974) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:05:16.162+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:05:16.166+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:05:16.164+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:05:16.202+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:05:16.258+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:05:16.257+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:05:16.340+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:05:16.339+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:05:16.410+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.275 seconds
+[2024-05-08T14:05:50.920+0200] {processor.py:161} INFO - Started process (PID=288395) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:05:50.923+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:05:50.927+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:05:50.925+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:05:50.963+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:05:51.020+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:05:51.019+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:05:51.103+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:05:51.102+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:05:51.236+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.342 seconds
+[2024-05-08T14:06:58.203+0200] {processor.py:161} INFO - Started process (PID=289320) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:06:58.204+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:06:58.205+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:06:58.205+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:06:58.213+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:06:58.227+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:06:58.227+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:06:58.245+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:06:58.244+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:06:58.261+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.063 seconds
+[2024-05-08T14:07:34.238+0200] {processor.py:161} INFO - Started process (PID=289849) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:07:34.239+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:07:34.240+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:07:34.240+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:07:34.250+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:07:34.264+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:07:34.264+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:07:34.283+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:07:34.283+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:07:34.304+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.072 seconds
+[2024-05-08T14:08:03.461+0200] {processor.py:161} INFO - Started process (PID=290262) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:08:03.462+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:08:03.463+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:08:03.463+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:08:03.473+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:08:03.552+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:08:03.551+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:08:03.567+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:08:03.567+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:08:03.584+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.128 seconds
+[2024-05-08T14:08:34.175+0200] {processor.py:161} INFO - Started process (PID=290714) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:08:34.176+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:08:34.179+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:08:34.179+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:08:34.191+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:08:34.209+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:08:34.209+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:08:34.234+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:08:34.234+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:08:34.280+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.128 seconds
+[2024-05-08T14:09:14.221+0200] {processor.py:161} INFO - Started process (PID=291268) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:09:14.225+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:09:14.229+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:09:14.227+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:09:14.260+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:09:14.304+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:09:14.304+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:09:14.365+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:09:14.364+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:09:14.417+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.223 seconds
+[2024-05-08T14:09:48.134+0200] {processor.py:161} INFO - Started process (PID=291719) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:09:48.142+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:09:48.154+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:09:48.144+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:09:48.236+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:09:48.358+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:09:48.352+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:09:48.459+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:09:48.458+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:09:48.532+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.427 seconds
+[2024-05-08T14:10:49.104+0200] {processor.py:161} INFO - Started process (PID=292481) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:10:49.106+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:10:49.107+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:10:49.106+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:10:49.114+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:10:49.126+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:10:49.126+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:10:49.142+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:10:49.142+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:10:49.165+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.066 seconds
+[2024-05-08T14:11:24.617+0200] {processor.py:161} INFO - Started process (PID=292949) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:11:24.618+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:11:24.619+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:11:24.619+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:11:24.627+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:11:24.639+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:11:24.638+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:11:24.655+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:11:24.655+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:11:24.673+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.061 seconds
+[2024-05-08T14:11:56.426+0200] {processor.py:161} INFO - Started process (PID=293356) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:11:56.427+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:11:56.428+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:11:56.428+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:11:56.436+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:11:56.450+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:11:56.450+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:11:56.469+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:11:56.468+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:11:56.488+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.068 seconds
+[2024-05-08T14:12:55.261+0200] {processor.py:161} INFO - Started process (PID=294101) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:12:55.262+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:12:55.262+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:12:55.262+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:12:55.269+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:12:55.282+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:12:55.281+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:12:55.298+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:12:55.298+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:12:55.314+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.059 seconds
+[2024-05-08T14:13:30.090+0200] {processor.py:161} INFO - Started process (PID=294531) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:13:30.091+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:13:30.092+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:13:30.092+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:13:30.104+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:13:30.122+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:13:30.121+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:13:30.148+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:13:30.148+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:13:30.170+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.089 seconds
+[2024-05-08T14:14:05.498+0200] {processor.py:161} INFO - Started process (PID=295009) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:14:05.499+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:14:05.500+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:14:05.500+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:14:05.509+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:14:05.621+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:14:05.620+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:14:05.635+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:14:05.635+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:14:05.654+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.163 seconds
+[2024-05-08T14:14:35.910+0200] {processor.py:161} INFO - Started process (PID=295426) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:14:35.911+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:14:35.912+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:14:35.911+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:14:35.922+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:14:35.941+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:14:35.940+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:14:35.959+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:14:35.959+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:14:35.976+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.072 seconds
+[2024-05-08T14:15:39.402+0200] {processor.py:161} INFO - Started process (PID=296290) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:15:39.405+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:15:39.408+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:15:39.407+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:15:39.443+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:15:39.506+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:15:39.505+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:15:39.578+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:15:39.577+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:15:39.663+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.281 seconds
+[2024-05-08T14:16:12.297+0200] {processor.py:161} INFO - Started process (PID=296710) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:16:12.298+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:16:12.299+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:16:12.299+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:16:12.308+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:16:12.326+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:16:12.325+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:16:12.347+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:16:12.346+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:16:12.369+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.079 seconds
+[2024-05-08T14:16:43.682+0200] {processor.py:161} INFO - Started process (PID=297153) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:16:43.683+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:16:43.684+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:16:43.683+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:16:43.692+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:16:43.703+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:16:43.703+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:16:43.719+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:16:43.719+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:16:43.734+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.058 seconds
+[2024-05-08T14:17:44.072+0200] {processor.py:161} INFO - Started process (PID=297947) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:17:44.073+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:17:44.074+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:17:44.074+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:17:44.082+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:17:44.094+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:17:44.093+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:17:44.109+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:17:44.109+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:17:44.126+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.058 seconds
+[2024-05-08T14:18:16.632+0200] {processor.py:161} INFO - Started process (PID=298389) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:18:16.633+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:18:16.634+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:18:16.634+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:18:16.642+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:18:16.654+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:18:16.654+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:18:16.670+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:18:16.670+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:18:16.686+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.059 seconds
+[2024-05-08T14:18:47.225+0200] {processor.py:161} INFO - Started process (PID=298797) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:18:47.227+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:18:47.228+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:18:47.227+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:18:47.236+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:18:47.252+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:18:47.252+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:18:47.272+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:18:47.272+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:18:47.295+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.075 seconds
+[2024-05-08T14:19:17.850+0200] {processor.py:161} INFO - Started process (PID=299191) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:19:17.851+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:19:17.852+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:19:17.851+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:19:17.860+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:19:17.874+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:19:17.873+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:19:17.892+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:19:17.892+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:19:17.910+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.066 seconds
+[2024-05-08T14:19:53.574+0200] {processor.py:161} INFO - Started process (PID=299644) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:19:53.575+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:19:53.576+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:19:53.576+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:19:53.585+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:19:53.599+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:19:53.599+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:19:53.616+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:19:53.616+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:19:53.793+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.227 seconds
+[2024-05-08T14:20:37.297+0200] {processor.py:161} INFO - Started process (PID=300215) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:20:37.298+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:20:37.299+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:20:37.299+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:20:37.308+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:20:37.323+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:20:37.323+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:20:37.344+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:20:37.344+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:20:37.723+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.433 seconds
+[2024-05-08T14:21:17.912+0200] {processor.py:161} INFO - Started process (PID=300783) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:21:17.913+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:21:17.914+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:21:17.914+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:21:17.924+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:21:17.938+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:21:17.938+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:21:17.958+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:21:17.958+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:21:17.982+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.076 seconds
+[2024-05-08T14:21:50.899+0200] {processor.py:161} INFO - Started process (PID=301232) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:21:50.900+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:21:50.901+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:21:50.901+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:21:50.910+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:21:50.925+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:21:50.924+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:21:50.948+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:21:50.947+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:21:50.969+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.075 seconds
+[2024-05-08T14:22:23.574+0200] {processor.py:161} INFO - Started process (PID=301767) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:22:23.576+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:22:23.578+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:22:23.577+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:22:23.588+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:22:23.606+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:22:23.606+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:22:23.629+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:22:23.628+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:22:23.650+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.082 seconds
+[2024-05-08T14:23:17.707+0200] {processor.py:161} INFO - Started process (PID=302580) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:23:17.708+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:23:17.709+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:23:17.708+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:23:17.720+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:23:17.736+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:23:17.736+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:23:17.757+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:23:17.757+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:23:17.777+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.076 seconds
+[2024-05-08T14:24:23.280+0200] {processor.py:161} INFO - Started process (PID=303517) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:24:23.281+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:24:23.282+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:24:23.282+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:24:23.291+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:24:23.305+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:24:23.305+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:24:23.326+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:24:23.326+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:24:23.350+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.078 seconds
+[2024-05-08T14:25:00.188+0200] {processor.py:161} INFO - Started process (PID=304065) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:25:00.191+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:25:00.195+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:25:00.194+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:25:00.232+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:25:00.287+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:25:00.286+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:25:00.363+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:25:00.362+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:25:00.440+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.282 seconds
+[2024-05-08T14:26:31.699+0200] {processor.py:161} INFO - Started process (PID=305362) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:26:31.701+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:26:31.702+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:26:31.702+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:26:31.716+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:26:31.893+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:26:31.892+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:26:31.908+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:26:31.908+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:26:31.926+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.243 seconds
+[2024-05-08T14:27:16.096+0200] {processor.py:161} INFO - Started process (PID=306131) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:27:16.098+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:27:16.099+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:27:16.098+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:27:16.107+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:27:16.194+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:27:16.194+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:27:16.203+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:27:16.203+0200] {dag.py:3118} INFO - Creating ORM DAG for fetch_jobs
+[2024-05-08T14:27:16.211+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:27:16.211+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:27:16.227+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.137 seconds
+[2024-05-08T14:27:47.342+0200] {processor.py:161} INFO - Started process (PID=306584) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:27:47.343+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:27:47.345+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:27:47.344+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:27:47.357+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:27:47.376+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:27:47.376+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:27:47.408+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:27:47.408+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:27:47.430+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.096 seconds
+[2024-05-08T14:28:51.161+0200] {processor.py:161} INFO - Started process (PID=307465) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:28:51.162+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:28:51.163+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:28:51.163+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:28:51.171+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:28:51.183+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:28:51.183+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:28:51.200+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:28:51.200+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:28:51.218+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.062 seconds
+[2024-05-08T14:29:25.302+0200] {processor.py:161} INFO - Started process (PID=307977) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:29:25.303+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:29:25.305+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:29:25.304+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:29:25.313+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:29:25.329+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:29:25.329+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:29:25.348+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:29:25.347+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:29:25.366+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.071 seconds
+[2024-05-08T14:29:58.897+0200] {processor.py:161} INFO - Started process (PID=308417) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:29:58.898+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:29:58.899+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:29:58.899+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:29:58.907+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:29:58.919+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:29:58.918+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:29:58.934+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:29:58.934+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:29:58.949+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.058 seconds
+[2024-05-08T14:30:34.398+0200] {processor.py:161} INFO - Started process (PID=308872) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:30:34.399+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:30:34.400+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:30:34.399+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:30:34.408+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:30:34.424+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:30:34.423+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:30:34.445+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:30:34.445+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:30:34.469+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.079 seconds
+[2024-05-08T14:31:12.055+0200] {processor.py:161} INFO - Started process (PID=309306) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:31:12.058+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:31:12.061+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:31:12.059+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:31:12.089+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:31:12.135+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:31:12.134+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:31:12.198+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:31:12.197+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:31:12.261+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.225 seconds
+[2024-05-08T14:31:44.898+0200] {processor.py:161} INFO - Started process (PID=309809) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:31:44.901+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:31:44.902+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:31:44.902+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:31:44.919+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:31:44.940+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:31:44.940+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:31:44.967+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:31:44.967+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:31:44.992+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.105 seconds
+[2024-05-08T14:32:50.039+0200] {processor.py:161} INFO - Started process (PID=310708) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:32:50.043+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:32:50.047+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:32:50.045+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:32:50.085+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:32:50.144+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:32:50.143+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:32:50.232+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:32:50.231+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:32:50.305+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.290 seconds
+[2024-05-08T14:33:53.364+0200] {processor.py:161} INFO - Started process (PID=311589) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:33:53.366+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:33:53.367+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:33:53.366+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:33:53.375+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:33:53.387+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:33:53.387+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:33:53.402+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:33:53.402+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:33:53.420+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.061 seconds
+[2024-05-08T14:34:43.810+0200] {processor.py:161} INFO - Started process (PID=312254) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:34:43.811+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:34:43.812+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:34:43.812+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:34:43.823+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:34:43.839+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:34:43.839+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:34:43.858+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:34:43.858+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:34:43.878+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.072 seconds
+[2024-05-08T14:35:15.321+0200] {processor.py:161} INFO - Started process (PID=312669) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:35:15.325+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:35:15.328+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:35:15.327+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:35:15.363+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:35:15.415+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:35:15.414+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:35:15.448+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:35:15.448+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:35:15.468+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.169 seconds
+[2024-05-08T14:35:46.498+0200] {processor.py:161} INFO - Started process (PID=313059) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:35:46.499+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:35:46.500+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:35:46.500+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:35:46.508+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:35:46.522+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:35:46.522+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:35:46.539+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:35:46.539+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:35:46.556+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.064 seconds
+[2024-05-08T14:36:16.925+0200] {processor.py:161} INFO - Started process (PID=313466) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:36:16.926+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:36:16.927+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:36:16.927+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:36:16.938+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:36:16.954+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:36:16.954+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:36:16.974+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:36:16.974+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:36:16.994+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.076 seconds
+[2024-05-08T14:36:47.313+0200] {processor.py:161} INFO - Started process (PID=313949) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:36:47.314+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:36:47.315+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:36:47.314+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:36:47.322+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:36:47.334+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:36:47.334+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:36:47.351+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:36:47.351+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:36:47.369+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.061 seconds
+[2024-05-08T14:37:19.314+0200] {processor.py:161} INFO - Started process (PID=314363) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:37:19.315+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:37:19.316+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:37:19.316+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:37:19.326+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:37:19.342+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:37:19.342+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:37:19.363+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:37:19.363+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:37:19.385+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.080 seconds
+[2024-05-08T14:37:50.740+0200] {processor.py:161} INFO - Started process (PID=314863) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:37:50.742+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:37:50.743+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:37:50.742+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:37:50.750+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:37:50.762+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:37:50.762+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:37:50.777+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:37:50.777+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:37:50.794+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.060 seconds
+[2024-05-08T14:38:50.443+0200] {processor.py:161} INFO - Started process (PID=315748) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:38:50.444+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:38:50.445+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:38:50.445+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:38:50.454+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:38:50.468+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:38:50.468+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:38:50.486+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:38:50.486+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:38:50.504+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.067 seconds
+[2024-05-08T14:39:22.490+0200] {processor.py:161} INFO - Started process (PID=316223) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:39:22.491+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:39:22.492+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:39:22.492+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:39:22.501+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:39:22.516+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:39:22.515+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:39:22.536+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:39:22.535+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:39:22.555+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.071 seconds
+[2024-05-08T14:39:54.713+0200] {processor.py:161} INFO - Started process (PID=316657) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:39:54.714+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:39:54.715+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:39:54.714+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:39:54.722+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:39:54.734+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:39:54.734+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:39:54.750+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:39:54.750+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:39:54.766+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.059 seconds
+[2024-05-08T14:40:26.969+0200] {processor.py:161} INFO - Started process (PID=317065) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:40:26.972+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:40:26.975+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:40:26.974+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:40:27.004+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:40:27.048+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:40:27.047+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:40:27.112+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:40:27.111+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:40:27.167+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.217 seconds
+[2024-05-08T14:40:58.242+0200] {processor.py:161} INFO - Started process (PID=317453) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:40:58.243+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:40:58.244+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:40:58.244+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:40:58.252+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:40:58.264+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:40:58.264+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:40:58.279+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:40:58.279+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:40:58.297+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.060 seconds
+[2024-05-08T14:41:31.476+0200] {processor.py:161} INFO - Started process (PID=317981) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:41:31.480+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:41:31.484+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:41:31.482+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:41:31.523+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:41:31.588+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:41:31.587+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:41:31.671+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:41:31.670+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:41:31.737+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.289 seconds
+[2024-05-08T14:42:06.267+0200] {processor.py:161} INFO - Started process (PID=318427) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:42:06.268+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:42:06.269+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:42:06.268+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:42:06.276+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:42:06.288+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:42:06.288+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:42:06.304+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:42:06.304+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:42:06.321+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.059 seconds
+[2024-05-08T14:42:39.010+0200] {processor.py:161} INFO - Started process (PID=318931) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:42:39.011+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:42:39.012+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:42:39.012+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:42:39.021+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:42:39.035+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:42:39.035+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:42:39.053+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:42:39.053+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:42:39.070+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.065 seconds
+[2024-05-08T14:43:10.212+0200] {processor.py:161} INFO - Started process (PID=319335) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:43:10.214+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:43:10.214+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:43:10.214+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:43:10.224+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:43:10.240+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:43:10.240+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:43:10.261+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:43:10.261+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:43:10.281+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.074 seconds
+[2024-05-08T14:44:07.482+0200] {processor.py:161} INFO - Started process (PID=320200) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:44:07.484+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:44:07.484+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:44:07.484+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:44:07.492+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:44:07.505+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:44:07.504+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:44:07.520+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:44:07.520+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:44:07.536+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.058 seconds
+[2024-05-08T14:44:39.056+0200] {processor.py:161} INFO - Started process (PID=320601) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:44:39.057+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:44:39.057+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:44:39.057+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:44:39.065+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:44:39.077+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:44:39.077+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:44:39.092+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:44:39.092+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:44:39.116+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.065 seconds
+[2024-05-08T14:45:11.403+0200] {processor.py:161} INFO - Started process (PID=321113) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:45:11.404+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:45:11.405+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:45:11.404+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:45:11.412+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:45:11.426+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:45:11.425+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:45:11.443+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:45:11.443+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:45:11.469+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.072 seconds
+[2024-05-08T14:45:41.854+0200] {processor.py:161} INFO - Started process (PID=321518) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:45:41.855+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:45:41.856+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:45:41.856+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:45:41.867+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:45:41.882+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:45:41.882+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:45:41.902+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:45:41.902+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:45:41.922+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.074 seconds
+[2024-05-08T14:46:12.739+0200] {processor.py:161} INFO - Started process (PID=321942) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:46:12.740+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:46:12.740+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:46:12.740+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:46:12.749+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:46:12.762+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:46:12.761+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:46:12.779+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:46:12.779+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:46:12.797+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.064 seconds
+[2024-05-08T14:46:44.811+0200] {processor.py:161} INFO - Started process (PID=322369) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:46:44.812+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:46:44.813+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:46:44.813+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:46:44.823+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:46:44.836+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:46:44.836+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:46:44.856+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:46:44.856+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:46:44.875+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.070 seconds
+[2024-05-08T14:47:40.066+0200] {processor.py:161} INFO - Started process (PID=323142) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:47:40.067+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:47:40.068+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:47:40.068+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:47:40.077+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:47:40.090+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:47:40.090+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:47:40.107+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:47:40.107+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:47:40.131+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.070 seconds
+[2024-05-08T14:48:24.964+0200] {processor.py:161} INFO - Started process (PID=323749) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:48:24.973+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:48:24.974+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:48:24.974+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:48:25.015+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:48:25.059+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:48:25.059+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:48:25.134+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:48:25.134+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:48:25.210+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.287 seconds
+[2024-05-08T14:49:53.080+0200] {processor.py:161} INFO - Started process (PID=324810) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:49:53.081+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:49:53.082+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:49:53.081+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:49:53.093+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:49:53.111+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:49:53.111+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:49:53.136+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:49:53.136+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:49:53.375+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.304 seconds
+[2024-05-08T14:51:05.165+0200] {processor.py:161} INFO - Started process (PID=325703) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:51:05.170+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:51:05.171+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:51:05.170+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:51:05.182+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:51:05.200+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:51:05.200+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:51:05.226+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:51:05.226+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:51:05.499+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.342 seconds
+[2024-05-08T14:51:53.686+0200] {processor.py:161} INFO - Started process (PID=326334) to work on /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:51:53.687+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/job_postings_dag.py for tasks to queue
+[2024-05-08T14:51:53.688+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:51:53.688+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:51:53.698+0200] {processor.py:840} INFO - DAG(s) 'fetch_jobs' retrieved from /home/munya/airflow/dags/job_postings_dag.py
+[2024-05-08T14:51:53.712+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:51:53.711+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-08T14:51:53.730+0200] {logging_mixin.py:188} INFO - [2024-05-08T14:51:53.729+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_jobs to 2024-05-08 00:00:00+00:00, run_after=2024-05-09 00:00:00+00:00
+[2024-05-08T14:51:54.015+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/job_postings_dag.py took 0.335 seconds

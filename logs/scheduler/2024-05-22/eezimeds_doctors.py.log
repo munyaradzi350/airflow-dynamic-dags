@@ -1,0 +1,28 @@
+[2024-05-22T15:42:13.178+0200] {processor.py:161} INFO - Started process (PID=208946) to work on /home/munya/airflow/dags/eezimeds_doctors.py
+[2024-05-22T15:42:13.179+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/eezimeds_doctors.py for tasks to queue
+[2024-05-22T15:42:13.181+0200] {logging_mixin.py:188} INFO - [2024-05-22T15:42:13.181+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/eezimeds_doctors.py
+[2024-05-22T15:42:13.211+0200] {processor.py:840} INFO - DAG(s) 'doctors_api_dag' retrieved from /home/munya/airflow/dags/eezimeds_doctors.py
+[2024-05-22T15:42:13.221+0200] {logging_mixin.py:188} INFO - [2024-05-22T15:42:13.221+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-22T15:42:13.259+0200] {logging_mixin.py:188} INFO - [2024-05-22T15:42:13.258+0200] {dag.py:3954} INFO - Setting next_dagrun for doctors_api_dag to 2024-05-22 13:41:30+00:00, run_after=2024-05-22 13:42:00+00:00
+[2024-05-22T15:42:13.283+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/eezimeds_doctors.py took 0.115 seconds
+[2024-05-22T17:01:50.604+0200] {processor.py:161} INFO - Started process (PID=34699) to work on /home/munya/airflow/dags/eezimeds_doctors.py
+[2024-05-22T17:01:50.605+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/eezimeds_doctors.py for tasks to queue
+[2024-05-22T17:01:50.607+0200] {logging_mixin.py:188} INFO - [2024-05-22T17:01:50.607+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/eezimeds_doctors.py
+[2024-05-22T17:01:50.618+0200] {processor.py:840} INFO - DAG(s) 'doctors_api_dag' retrieved from /home/munya/airflow/dags/eezimeds_doctors.py
+[2024-05-22T17:01:50.625+0200] {logging_mixin.py:188} INFO - [2024-05-22T17:01:50.625+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-22T17:01:50.649+0200] {logging_mixin.py:188} INFO - [2024-05-22T17:01:50.649+0200] {dag.py:3954} INFO - Setting next_dagrun for doctors_api_dag to 2024-05-22 15:01:00+00:00, run_after=2024-05-22 15:01:30+00:00
+[2024-05-22T17:01:50.665+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/eezimeds_doctors.py took 0.067 seconds
+[2024-05-22T17:03:19.294+0200] {processor.py:161} INFO - Started process (PID=36497) to work on /home/munya/airflow/dags/eezimeds_doctors.py
+[2024-05-22T17:03:19.297+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/eezimeds_doctors.py for tasks to queue
+[2024-05-22T17:03:19.298+0200] {logging_mixin.py:188} INFO - [2024-05-22T17:03:19.298+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/eezimeds_doctors.py
+[2024-05-22T17:03:19.311+0200] {processor.py:840} INFO - DAG(s) 'doctors_api_dag' retrieved from /home/munya/airflow/dags/eezimeds_doctors.py
+[2024-05-22T17:03:19.439+0200] {logging_mixin.py:188} INFO - [2024-05-22T17:03:19.439+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-22T17:03:19.459+0200] {logging_mixin.py:188} INFO - [2024-05-22T17:03:19.459+0200] {dag.py:3954} INFO - Setting next_dagrun for doctors_api_dag to 2024-05-22 15:02:30+00:00, run_after=2024-05-22 15:03:00+00:00
+[2024-05-22T17:03:19.483+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/eezimeds_doctors.py took 0.198 seconds
+[2024-05-22T17:05:04.935+0200] {processor.py:161} INFO - Started process (PID=38427) to work on /home/munya/airflow/dags/eezimeds_doctors.py
+[2024-05-22T17:05:04.936+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/eezimeds_doctors.py for tasks to queue
+[2024-05-22T17:05:04.937+0200] {logging_mixin.py:188} INFO - [2024-05-22T17:05:04.937+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/munya/airflow/dags/eezimeds_doctors.py
+[2024-05-22T17:05:04.942+0200] {processor.py:840} INFO - DAG(s) 'doctors_api_dag' retrieved from /home/munya/airflow/dags/eezimeds_doctors.py
+[2024-05-22T17:05:04.960+0200] {logging_mixin.py:188} INFO - [2024-05-22T17:05:04.960+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-22T17:05:04.975+0200] {logging_mixin.py:188} INFO - [2024-05-22T17:05:04.975+0200] {dag.py:3954} INFO - Setting next_dagrun for doctors_api_dag to 2024-05-22 15:04:30+00:00, run_after=2024-05-22 15:05:00+00:00
+[2024-05-22T17:05:04.995+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/eezimeds_doctors.py took 0.066 seconds

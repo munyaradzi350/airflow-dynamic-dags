@@ -1,0 +1,42 @@
+[2024-05-11T11:15:30.476+0200] {processor.py:161} INFO - Started process (PID=127927) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:15:30.476+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2024-05-11T11:15:30.478+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:30.477+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:15:30.486+0200] {processor.py:840} INFO - DAG(s) 'example_setup_teardown_taskflow' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:15:30.500+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:30.500+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:15:30.516+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:30.515+0200] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown_taskflow to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:15:30.531+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.061 seconds
+[2024-05-11T11:16:32.958+0200] {processor.py:161} INFO - Started process (PID=129224) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:16:32.959+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2024-05-11T11:16:32.960+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:32.960+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:16:32.971+0200] {processor.py:840} INFO - DAG(s) 'example_setup_teardown_taskflow' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:16:32.988+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:32.988+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:16:33.007+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:33.007+0200] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown_taskflow to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:16:33.028+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.076 seconds
+[2024-05-11T11:17:32.468+0200] {processor.py:161} INFO - Started process (PID=130472) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:17:32.471+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2024-05-11T11:17:32.476+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:32.475+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:17:32.508+0200] {processor.py:840} INFO - DAG(s) 'example_setup_teardown_taskflow' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:17:32.560+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:32.560+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:17:32.618+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:32.617+0200] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown_taskflow to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:17:32.681+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.231 seconds
+[2024-05-11T11:18:34.918+0200] {processor.py:161} INFO - Started process (PID=131795) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:18:34.925+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2024-05-11T11:18:34.941+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:34.935+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:18:35.036+0200] {processor.py:840} INFO - DAG(s) 'example_setup_teardown_taskflow' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:18:35.208+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:35.203+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:18:35.362+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:35.361+0200] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown_taskflow to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:18:35.556+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.696 seconds
+[2024-05-11T11:19:41.788+0200] {processor.py:161} INFO - Started process (PID=133129) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:19:41.789+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2024-05-11T11:19:41.790+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:41.790+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:19:41.803+0200] {processor.py:840} INFO - DAG(s) 'example_setup_teardown_taskflow' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:19:41.824+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:41.824+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:19:41.850+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:41.850+0200] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown_taskflow to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:19:41.875+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.093 seconds
+[2024-05-11T11:20:48.930+0200] {processor.py:161} INFO - Started process (PID=134473) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:20:48.931+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2024-05-11T11:20:48.933+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:48.932+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:20:48.941+0200] {processor.py:840} INFO - DAG(s) 'example_setup_teardown_taskflow' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2024-05-11T11:20:48.955+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:48.955+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:20:48.970+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:48.970+0200] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown_taskflow to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:20:48.987+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.062 seconds

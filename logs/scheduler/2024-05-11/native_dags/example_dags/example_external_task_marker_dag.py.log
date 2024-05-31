@@ -1,0 +1,48 @@
+[2024-05-11T11:15:35.685+0200] {processor.py:161} INFO - Started process (PID=128026) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:15:35.685+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-05-11T11:15:35.687+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:35.686+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:15:35.692+0200] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:15:35.707+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:35.707+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-11T11:15:35.716+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:35.716+0200] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-05-11T11:15:35.719+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:35.718+0200] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-05-11T11:15:35.732+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.053 seconds
+[2024-05-11T11:16:39.134+0200] {processor.py:161} INFO - Started process (PID=129374) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:16:39.135+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-05-11T11:16:39.136+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:39.136+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:16:39.144+0200] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:16:39.170+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:39.169+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-11T11:16:39.186+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:39.185+0200] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-05-11T11:16:39.189+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:39.189+0200] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-05-11T11:16:39.206+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.079 seconds
+[2024-05-11T11:17:38.689+0200] {processor.py:161} INFO - Started process (PID=130602) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:17:38.690+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-05-11T11:17:38.691+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:38.691+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:17:38.698+0200] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:17:38.715+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:38.714+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-11T11:17:38.725+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:38.724+0200] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-05-11T11:17:38.728+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:38.727+0200] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-05-11T11:17:38.744+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.061 seconds
+[2024-05-11T11:18:41.684+0200] {processor.py:161} INFO - Started process (PID=131910) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:18:41.685+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-05-11T11:18:41.686+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:41.686+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:18:41.692+0200] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:18:41.714+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:41.714+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-11T11:18:41.725+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:41.724+0200] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-05-11T11:18:41.728+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:41.728+0200] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-05-11T11:18:41.742+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.063 seconds
+[2024-05-11T11:19:47.251+0200] {processor.py:161} INFO - Started process (PID=133238) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:19:47.253+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-05-11T11:19:47.259+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:47.258+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:19:47.280+0200] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:19:47.337+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:47.337+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-11T11:19:47.373+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:47.372+0200] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-05-11T11:19:47.383+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:47.382+0200] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-05-11T11:19:47.433+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.201 seconds
+[2024-05-11T11:20:55.564+0200] {processor.py:161} INFO - Started process (PID=134615) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:20:55.572+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-05-11T11:20:55.583+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:55.578+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:20:55.640+0200] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-05-11T11:20:55.724+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:55.724+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-11T11:20:55.739+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:55.739+0200] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-05-11T11:20:55.742+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:55.742+0200] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-05-11T11:20:55.758+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.220 seconds

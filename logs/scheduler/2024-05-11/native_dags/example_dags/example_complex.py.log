@@ -1,0 +1,49 @@
+[2024-05-11T11:11:45.563+0200] {processor.py:161} INFO - Started process (PID=123144) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:11:45.564+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-05-11T11:11:45.565+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:11:45.565+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:11:45.575+0200] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:11:45.608+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:11:45.608+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:11:45.618+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:11:45.618+0200] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-05-11T11:11:45.636+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.078 seconds
+[2024-05-11T11:15:48.474+0200] {processor.py:161} INFO - Started process (PID=128290) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:15:48.475+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-05-11T11:15:48.476+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:48.476+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:15:48.485+0200] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:15:48.506+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:48.506+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:15:48.515+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:48.515+0200] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-05-11T11:15:48.531+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.062 seconds
+[2024-05-11T11:16:51.827+0200] {processor.py:161} INFO - Started process (PID=129654) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:16:51.828+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-05-11T11:16:51.830+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:51.829+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:16:51.839+0200] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:16:51.861+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:51.860+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:16:51.870+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:51.870+0200] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-05-11T11:16:51.888+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.066 seconds
+[2024-05-11T11:17:51.864+0200] {processor.py:161} INFO - Started process (PID=130861) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:17:51.865+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-05-11T11:17:51.867+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:51.866+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:17:51.877+0200] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:17:51.908+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:51.908+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:17:51.920+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:51.920+0200] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-05-11T11:17:51.940+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.082 seconds
+[2024-05-11T11:18:54.442+0200] {processor.py:161} INFO - Started process (PID=132167) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:18:54.443+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-05-11T11:18:54.444+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:54.444+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:18:54.453+0200] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:18:54.474+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:54.473+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:18:54.483+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:54.482+0200] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-05-11T11:18:54.498+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.061 seconds
+[2024-05-11T11:19:59.691+0200] {processor.py:161} INFO - Started process (PID=133492) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:19:59.693+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-05-11T11:19:59.699+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:59.698+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:19:59.733+0200] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:19:59.813+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:59.813+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:19:59.847+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:59.847+0200] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-05-11T11:19:59.902+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.231 seconds
+[2024-05-11T11:21:08.165+0200] {processor.py:161} INFO - Started process (PID=134880) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:21:08.166+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-05-11T11:21:08.168+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:08.167+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:21:08.176+0200] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-05-11T11:21:08.197+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:08.197+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:21:08.206+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:08.206+0200] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-05-11T11:21:08.222+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.061 seconds

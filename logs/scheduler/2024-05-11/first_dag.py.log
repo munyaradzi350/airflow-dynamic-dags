@@ -1,0 +1,70 @@
+[2024-05-11T11:13:03.484+0200] {processor.py:161} INFO - Started process (PID=124835) to work on /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:13:03.485+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/first_dag.py for tasks to queue
+[2024-05-11T11:13:03.487+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:13:03.486+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:13:03.495+0200] {processor.py:840} INFO - DAG(s) 'airflow2' retrieved from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:13:03.513+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:13:03.513+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:13:03.529+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:13:03.528+0200] {dag.py:3954} INFO - Setting next_dagrun for airflow2 to 2024-05-05 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T11:13:03.545+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/first_dag.py took 0.065 seconds
+[2024-05-11T11:15:54.775+0200] {processor.py:161} INFO - Started process (PID=128422) to work on /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:15:54.776+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/first_dag.py for tasks to queue
+[2024-05-11T11:15:54.778+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:54.777+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:15:54.785+0200] {processor.py:840} INFO - DAG(s) 'airflow2' retrieved from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:15:54.799+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:54.799+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:15:54.817+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:54.816+0200] {dag.py:3954} INFO - Setting next_dagrun for airflow2 to 2024-05-05 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T11:15:54.834+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/first_dag.py took 0.064 seconds
+[2024-05-11T11:16:26.626+0200] {processor.py:161} INFO - Started process (PID=129071) to work on /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:16:26.627+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/first_dag.py for tasks to queue
+[2024-05-11T11:16:26.628+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:26.628+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:16:26.636+0200] {processor.py:840} INFO - DAG(s) 'airflow2' retrieved from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:16:26.648+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:26.648+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:16:26.664+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:26.664+0200] {dag.py:3954} INFO - Setting next_dagrun for airflow2 to 2024-05-05 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T11:16:26.682+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/first_dag.py took 0.062 seconds
+[2024-05-11T11:17:26.259+0200] {processor.py:161} INFO - Started process (PID=130355) to work on /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:17:26.262+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/first_dag.py for tasks to queue
+[2024-05-11T11:17:26.264+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:26.263+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:17:26.271+0200] {processor.py:840} INFO - DAG(s) 'airflow2' retrieved from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:17:26.285+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:26.285+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:17:26.303+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:26.303+0200] {dag.py:3954} INFO - Setting next_dagrun for airflow2 to 2024-05-05 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T11:17:26.321+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/first_dag.py took 0.067 seconds
+[2024-05-11T11:18:28.280+0200] {processor.py:161} INFO - Started process (PID=131651) to work on /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:18:28.281+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/first_dag.py for tasks to queue
+[2024-05-11T11:18:28.282+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:28.282+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:18:28.290+0200] {processor.py:840} INFO - DAG(s) 'airflow2' retrieved from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:18:28.302+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:28.302+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:18:28.318+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:28.318+0200] {dag.py:3954} INFO - Setting next_dagrun for airflow2 to 2024-05-05 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T11:18:28.334+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/first_dag.py took 0.059 seconds
+[2024-05-11T11:18:59.868+0200] {processor.py:161} INFO - Started process (PID=132286) to work on /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:18:59.869+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/first_dag.py for tasks to queue
+[2024-05-11T11:18:59.871+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:59.870+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:18:59.878+0200] {processor.py:840} INFO - DAG(s) 'airflow2' retrieved from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:18:59.891+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:59.891+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:18:59.906+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:59.906+0200] {dag.py:3954} INFO - Setting next_dagrun for airflow2 to 2024-05-05 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T11:18:59.923+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/first_dag.py took 0.060 seconds
+[2024-05-11T11:19:33.581+0200] {processor.py:161} INFO - Started process (PID=132968) to work on /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:19:33.584+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/first_dag.py for tasks to queue
+[2024-05-11T11:19:33.590+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:33.589+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:19:33.620+0200] {processor.py:840} INFO - DAG(s) 'airflow2' retrieved from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:19:33.669+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:33.668+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:19:33.731+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:33.730+0200] {dag.py:3954} INFO - Setting next_dagrun for airflow2 to 2024-05-05 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T11:19:33.790+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/first_dag.py took 0.227 seconds
+[2024-05-11T11:20:07.209+0200] {processor.py:161} INFO - Started process (PID=133653) to work on /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:20:07.210+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/first_dag.py for tasks to queue
+[2024-05-11T11:20:07.212+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:07.211+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:20:07.219+0200] {processor.py:840} INFO - DAG(s) 'airflow2' retrieved from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:20:07.231+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:07.231+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:20:07.247+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:07.246+0200] {dag.py:3954} INFO - Setting next_dagrun for airflow2 to 2024-05-05 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T11:20:07.262+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/first_dag.py took 0.058 seconds
+[2024-05-11T11:20:41.923+0200] {processor.py:161} INFO - Started process (PID=134352) to work on /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:20:41.926+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/first_dag.py for tasks to queue
+[2024-05-11T11:20:41.932+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:41.931+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:20:41.966+0200] {processor.py:840} INFO - DAG(s) 'airflow2' retrieved from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:20:42.034+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:42.034+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:20:42.127+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:42.126+0200] {dag.py:3954} INFO - Setting next_dagrun for airflow2 to 2024-05-05 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T11:20:42.185+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/first_dag.py took 0.281 seconds
+[2024-05-11T11:21:13.845+0200] {processor.py:161} INFO - Started process (PID=134984) to work on /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:21:13.846+0200] {processor.py:830} INFO - Processing file /home/munya/airflow/dags/first_dag.py for tasks to queue
+[2024-05-11T11:21:13.847+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:13.847+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:21:13.857+0200] {processor.py:840} INFO - DAG(s) 'airflow2' retrieved from /home/munya/airflow/dags/first_dag.py
+[2024-05-11T11:21:13.873+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:13.873+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:21:13.894+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:13.894+0200] {dag.py:3954} INFO - Setting next_dagrun for airflow2 to 2024-05-05 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T11:21:13.915+0200] {processor.py:183} INFO - Processing /home/munya/airflow/dags/first_dag.py took 0.078 seconds

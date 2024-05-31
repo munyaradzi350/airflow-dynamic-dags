@@ -1,0 +1,42 @@
+[2024-05-11T11:15:08.990+0200] {processor.py:161} INFO - Started process (PID=127499) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:15:08.991+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-11T11:15:08.992+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:08.992+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:15:09.174+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:15:09.174+0200] {utils.py:160} INFO - NumExpr defaulting to 4 threads.
+[2024-05-11T11:15:09.485+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:15:09.491+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.506 seconds
+[2024-05-11T11:16:09.947+0200] {processor.py:161} INFO - Started process (PID=128716) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:16:09.951+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-11T11:16:09.953+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:09.953+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:16:10.190+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:10.190+0200] {utils.py:160} INFO - NumExpr defaulting to 4 threads.
+[2024-05-11T11:16:10.531+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:16:10.537+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.597 seconds
+[2024-05-11T11:17:08.394+0200] {processor.py:161} INFO - Started process (PID=129991) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:17:08.395+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-11T11:17:08.397+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:08.396+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:17:08.609+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:17:08.609+0200] {utils.py:160} INFO - NumExpr defaulting to 4 threads.
+[2024-05-11T11:17:08.939+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:17:08.945+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.556 seconds
+[2024-05-11T11:18:10.247+0200] {processor.py:161} INFO - Started process (PID=131271) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:18:10.248+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-11T11:18:10.249+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:10.249+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:18:10.484+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:10.484+0200] {utils.py:160} INFO - NumExpr defaulting to 4 threads.
+[2024-05-11T11:18:10.869+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:18:10.878+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.637 seconds
+[2024-05-11T11:19:14.016+0200] {processor.py:161} INFO - Started process (PID=132588) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:19:14.017+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-11T11:19:14.018+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:14.018+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:19:14.201+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:14.201+0200] {utils.py:160} INFO - NumExpr defaulting to 4 threads.
+[2024-05-11T11:19:14.486+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:19:14.491+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.480 seconds
+[2024-05-11T11:20:22.475+0200] {processor.py:161} INFO - Started process (PID=133943) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:20:22.476+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-11T11:20:22.477+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:22.477+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:20:22.659+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:22.659+0200] {utils.py:160} INFO - NumExpr defaulting to 4 threads.
+[2024-05-11T11:20:22.959+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:20:22.964+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.494 seconds
+[2024-05-11T11:21:26.379+0200] {processor.py:161} INFO - Started process (PID=135247) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:21:26.380+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-11T11:21:26.382+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:26.382+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:21:26.615+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:26.614+0200] {utils.py:160} INFO - NumExpr defaulting to 4 threads.
+[2024-05-11T11:21:27.023+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-11T11:21:27.028+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.657 seconds

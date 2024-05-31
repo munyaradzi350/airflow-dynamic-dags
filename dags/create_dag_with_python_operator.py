@@ -32,7 +32,7 @@ def error_callback(context):
 
 with DAG(
     default_args=default_args,
-    dag_id='dag_with_python_operator_v02',
+    dag_id='dag_with_python_operator_v12',
     description='Creating this dag using python operator',
     start_date=datetime(2024, 4, 29),
     schedule_interval='@daily',

@@ -1,0 +1,108 @@
+[2024-05-08T14:27:54.755+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-08T14:27:54.764+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_jobs.fetch_job_postings __airflow_temporary_run_2024-05-08T12:27:49.109808+00:00__ [queued]>
+[2024-05-08T14:27:54.769+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_jobs.fetch_job_postings __airflow_temporary_run_2024-05-08T12:27:49.109808+00:00__ [queued]>
+[2024-05-08T14:27:54.770+0200] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-05-08T14:27:54.782+0200] {taskinstance.py:2327} INFO - Executing <Task(SimpleHttpOperator): fetch_job_postings> on 2024-05-08 12:27:49.109780+00:00
+[2024-05-08T14:27:54.787+0200] {standard_task_runner.py:63} INFO - Started process 306695 to run task
+[2024-05-08T14:27:54.791+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_jobs', 'fetch_job_postings', '__airflow_temporary_run_2024-05-08T12:27:49.109808+00:00__', '--job-id', '842', '--raw', '--subdir', 'DAGS_FOLDER/job_postings_dag.py', '--cfg-path', '/tmp/tmp3__6acim']
+[2024-05-08T14:27:54.792+0200] {standard_task_runner.py:91} INFO - Job 842: Subtask fetch_job_postings
+[2024-05-08T14:27:54.826+0200] {task_command.py:426} INFO - Running <TaskInstance: fetch_jobs.fetch_job_postings __airflow_temporary_run_2024-05-08T12:27:49.109808+00:00__ [running]> on host kali
+[2024-05-08T14:27:54.876+0200] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow-munya' AIRFLOW_CTX_DAG_ID='fetch_jobs' AIRFLOW_CTX_TASK_ID='fetch_job_postings' AIRFLOW_CTX_EXECUTION_DATE='2024-05-08T12:27:49.109780+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='__airflow_temporary_run_2024-05-08T12:27:49.109808+00:00__'
+[2024-05-08T14:27:54.878+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-08T14:27:54.878+0200] {http.py:169} INFO - Calling HTTP method
+[2024-05-08T14:27:54.882+0200] {base.py:84} INFO - Using connection ID 'http://localhost:3005' for task execution.
+[2024-05-08T14:27:54.885+0200] {base.py:84} INFO - Using connection ID 'http://localhost:3005' for task execution.
+[2024-05-08T14:28:22.919+0200] {http.py:242} WARNING - HTTPConnectionPool(host='jobs', port=80): Max retries exceeded with url: /get_job_postings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe07633d3d0>: Failed to establish a new connection: [Errno -2] Name or service not known')) Tenacity will retry to execute the operation
+[2024-05-08T14:28:22.920+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-08T14:28:22.921+0200] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 417, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.11/http/client.py", line 1298, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1344, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1293, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1052, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.11/http/client.py", line 990, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fe07633d3d0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 800, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='jobs', port=80): Max retries exceeded with url: /get_job_postings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe07633d3d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/operators/http.py", line 166, in execute
+    return self.execute_sync(context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/operators/http.py", line 170, in execute_sync
+    response = self.hook.run(self.endpoint, self.data, self.headers, self.extra_options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/hooks/http.py", line 187, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/hooks/http.py", line 243, in run_and_check
+    raise ex
+  File "/home/munya/.local/lib/python3.11/site-packages/airflow/providers/http/hooks/http.py", line 235, in run_and_check
+    response = session.send(prepped_request, **send_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='jobs', port=80): Max retries exceeded with url: /get_job_postings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe07633d3d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2024-05-08T14:28:22.940+0200] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=fetch_jobs, task_id=fetch_job_postings, execution_date=20240508T122749, start_date=20240508T122754, end_date=20240508T122822
+[2024-05-08T14:28:22.949+0200] {standard_task_runner.py:110} ERROR - Failed to execute job 842 for task fetch_job_postings ((sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO task_fail (task_id, dag_id, run_id, map_index, start_date, end_date, duration) VALUES (?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('fetch_job_postings', 'fetch_jobs', '__airflow_temporary_run_2024-05-08T12:27:49.109808+00:00__', -1, '2024-05-08 12:27:54.765061', '2024-05-08 12:28:22.940209', 28)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 306695)
+[2024-05-08T14:28:22.992+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-08T14:28:22.995+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

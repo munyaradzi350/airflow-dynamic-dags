@@ -1,0 +1,49 @@
+[2024-05-11T11:13:58.101+0200] {processor.py:161} INFO - Started process (PID=125975) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:13:58.101+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-11T11:13:58.103+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:13:58.103+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:13:58.108+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:13:58.121+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:13:58.121+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:13:58.136+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:13:58.136+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:13:58.154+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2024-05-11T11:16:01.460+0200] {processor.py:161} INFO - Started process (PID=128545) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:16:01.461+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-11T11:16:01.463+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:01.462+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:16:01.468+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:16:01.480+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:01.480+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:16:01.495+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:01.495+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:16:01.513+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2024-05-11T11:16:58.495+0200] {processor.py:161} INFO - Started process (PID=129776) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:16:58.496+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-11T11:16:58.497+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:58.497+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:16:58.503+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:16:58.517+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:58.517+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:16:58.537+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:16:58.537+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:16:58.555+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2024-05-11T11:18:01.043+0200] {processor.py:161} INFO - Started process (PID=131077) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:18:01.046+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-11T11:18:01.052+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:01.050+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:18:01.076+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:18:01.132+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:01.131+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:18:01.208+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:18:01.208+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:18:01.262+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.237 seconds
+[2024-05-11T11:19:07.555+0200] {processor.py:161} INFO - Started process (PID=132440) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:19:07.556+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-11T11:19:07.558+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:07.557+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:19:07.563+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:19:07.575+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:07.575+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:19:07.590+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:19:07.590+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:19:07.609+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.059 seconds
+[2024-05-11T11:20:13.477+0200] {processor.py:161} INFO - Started process (PID=133767) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:20:13.479+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-11T11:20:13.485+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:13.484+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:20:13.505+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:20:13.553+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:13.553+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:20:13.625+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:20:13.624+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:20:13.690+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.233 seconds
+[2024-05-11T11:21:18.355+0200] {processor.py:161} INFO - Started process (PID=135081) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:21:18.356+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-11T11:21:18.357+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:18.357+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:21:18.363+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T11:21:18.377+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:18.377+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T11:21:18.393+0200] {logging_mixin.py:188} INFO - [2024-05-11T11:21:18.393+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T11:21:18.409+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.059 seconds

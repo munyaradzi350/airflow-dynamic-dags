@@ -1,0 +1,86 @@
+[2024-05-23T17:48:44.240+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-23T17:48:44.262+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: doctors_api_dag.retrieve_doctors manual__2024-05-23T15:47:31.355736+00:00 [queued]>
+[2024-05-23T17:48:44.268+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: doctors_api_dag.retrieve_doctors manual__2024-05-23T15:47:31.355736+00:00 [queued]>
+[2024-05-23T17:48:44.268+0200] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2024-05-23T17:48:44.283+0200] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): retrieve_doctors> on 2024-05-23 15:47:31.355736+00:00
+[2024-05-23T17:48:44.290+0200] {standard_task_runner.py:63} INFO - Started process 372862 to run task
+[2024-05-23T17:48:44.293+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'doctors_api_dag', 'retrieve_doctors', 'manual__2024-05-23T15:47:31.355736+00:00', '--job-id', '1491', '--raw', '--subdir', 'DAGS_FOLDER/eezimeds_doctors.py', '--cfg-path', '/tmp/tmpgzp3efpl']
+[2024-05-23T17:48:44.296+0200] {standard_task_runner.py:91} INFO - Job 1491: Subtask retrieve_doctors
+[2024-05-23T17:48:44.332+0200] {task_command.py:426} INFO - Running <TaskInstance: doctors_api_dag.retrieve_doctors manual__2024-05-23T15:47:31.355736+00:00 [running]> on host kali
+[2024-05-23T17:48:44.392+0200] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='doctors_api_dag' AIRFLOW_CTX_TASK_ID='retrieve_doctors' AIRFLOW_CTX_EXECUTION_DATE='2024-05-23T15:47:31.355736+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-23T15:47:31.355736+00:00'
+[2024-05-23T17:48:44.393+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-23T17:48:44.400+0200] {logging_mixin.py:188} INFO - Retrieved token from XCom: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ0dE0wcDBMVkpQVHhiNEJTYUpxNTR6OV9femFRMG5uWkRyYnBSNWd4T3c4In0.eyJleHAiOjE3MTY0ODI4NzQsImlhdCI6MTcxNjQ3OTI3NCwianRpIjoiMjkzZDU0MzQtNTRhNi00MWY5LTlmOTAtMDljMmE2ZjBlYjRjIiwiaXNzIjoiaHR0cHM6Ly9sZW11ci01LmNsb3VkLWlhbS5jb20vYXV0aC9yZWFsbXMvZWV6aW1lZHMiLCJhdWQiOlsicmVhbG0tbWFuYWdlbWVudCIsImFjY291bnQiXSwic3ViIjoiYWRmMWEyYjItNmJhZi00ODZlLTlhNTAtMTU5ZDQ1ZTgyNzZlIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiRWV6aW1lZHMtUmVhY3QtQ2xpZW50LUFwcCIsInNlc3Npb25fc3RhdGUiOiIyNjZiMjU1OS0zZDAxLTQ0NWMtOWIxYi1kNjRjNDZjMDRlZmMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly8yMC4xNjQuMjE0LjIyNjozMDYwIiwiaHR0cHM6Ly9ncmVlbi1mbG93ZXItMDQzMDBhMzBmLjUuYXp1cmVzdGF0aWNhcHBzLm5ldCIsImh0dHBzOi8vaGFwcHktYnVzaC0wZjZlZTNjMTAuNC5henVyZXN0YXRpY2FwcHMubmV0IiwiaHR0cDovL2xvY2FsaG9zdDozMDYxIiwiaHR0cDovL2xvY2FsaG9zdDozMDYwIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cHM6Ly9ncmVlbi10cmVlLTA2NTJmOGMxMC40LmF6dXJlc3RhdGljYXBwcy5uZXQiLCJodHRwOi8vbG9jYWxob3N0OjMwOTkiLCJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJodHRwOi8vbG9jYWxob3N0OjUxNzMiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImVlemltZWR6LXJvbGVzLXN1cmdlcmllcy12aWV3IiwiZWV6aW1lZHotcm9sZXMtYXBwb2ludG1lbnRzLWFtbWVuZCIsImVlemltZWR6LXJvbGVzLXByZXNjcmlwdGlvbnMtdmlldyIsImVlemltZWR6LXJvbGVzLWxhYnRlc3RzLWFtbWVuZCIsImVlemltZWR6LXJvbGVzLWFkbWlzc2lvbnMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYm9va2luZ3MtdmlldyIsImVlemltZWR6LXJvbGVzLWRydWdoaXN0b3J5LXZpZXciLCJlZXppbWVkei1yb2xlcy1zaWNrbm90ZXMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtbGFidGVzdHMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYWRtaXNzaW9ucy12aWV3IiwiZWV6aW1lZHotcm9sZXMtZHJ1Z2hpc3RvcnktYW1tZW5kIiwib2ZmbGluZV9hY2Nlc3MiLCJlZXppbWVkei1yb2xlcy1zdXJnZXJpZXMtYW1tZW5kIiwidW1hX2F1dGhvcml6YXRpb24iLCJlZXppbWVkei1yb2xlcy1sYWJ0ZXN0cy12aWV3IiwiZWV6aW1lZHotcm9sZXMtbm90ZXMtdmlldyIsImVlemltZWR6LXJvbGVzLWRydWdoaXN0b3J5LWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLWJvb2tpbmdzLWNyZWF0ZSIsImRlZmF1bHQtcm9sZXMtZWV6aW1lZHMiLCJlZXppbWVkei1yb2xlcy1hcHBvaW50bWVudHMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtbm90ZXMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtc3VyZ2VyaWVzLWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLXhyYXlzLWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLXNpY2tub3Rlcy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy1ub3Rlcy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy1hcHBvaW50bWVudHMtdmlldyIsImVlemltZWR6LXJvbGVzLXByZXNjcmlwdGlvbnMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYm9va2luZ3MtYW1tZW5kIiwiZWV6aW1lZHotcm9sZXMteHJheXMtdmlldyIsImVlemltZWRzLXJvbGVzLXBhdGllbnQtZGVmYXVsdHMiLCJlZXppbWVkei1yb2xlcy1zaWNrbm90ZXMtdmlldyIsImVlemltZWR6LXJvbGVzLWFkbWlzc2lvbnMtYW1tZW5kIiwiZWV6aW1lZHotcm9sZXMtcHJlc2NyaXB0aW9ucy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy14cmF5cy1hbW1lbmQiXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbIm1hbmFnZS11c2VycyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInNpZCI6IjI2NmIyNTU5LTNkMDEtNDQ1Yy05YjFiLWQ2NGM0NmMwNGVmYyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTWFrb21ib3Jlcm8gTXVzaGFuZ3dlIiwicHJlZmVycmVkX3VzZXJuYW1lIjoibXVzaGFuZ2U4OEBnbWFpbC5jb20iLCJnaXZlbl9uYW1lIjoiTWFrb21ib3Jlcm8iLCJmYW1pbHlfbmFtZSI6Ik11c2hhbmd3ZSIsImVtYWlsIjoibXVzaGFuZ2U4OEBnbWFpbC5jb20ifQ.RnrCwwikhjYGdler7-KXOvSvNMXVQqStm2P57EPQ8oL9qY08O6NrcRDWeOPTNvRI9TjzIoKXUvtyGBGtPyU__doDiPSu9QHtxFcXhlPSAJ3tUIXlqY58qp5kqVm5CqxBunSx7zwmJSQvLaMwZkgbLUe8hnhPWHZ15DkBMwjER6Xr4xN34MgGEuBJ8dKtOmMOpxJJDbfXlnTqldWC7Yv3yqnYLgT0p40EbpCCCKI4fZQNmuVKpg8rYksE7DGE_RoMOh_-EZbUekG4zZaReBeIqivVeIlZ5AHLchND7Jzshc6xdw2YdFxS4iK_-GgAyD8hK3RmyinvjFTXjaCaeaA7eQ
+[2024-05-23T17:48:44.400+0200] {logging_mixin.py:188} INFO - Token before API call: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ0dE0wcDBMVkpQVHhiNEJTYUpxNTR6OV9femFRMG5uWkRyYnBSNWd4T3c4In0.eyJleHAiOjE3MTY0ODI4NzQsImlhdCI6MTcxNjQ3OTI3NCwianRpIjoiMjkzZDU0MzQtNTRhNi00MWY5LTlmOTAtMDljMmE2ZjBlYjRjIiwiaXNzIjoiaHR0cHM6Ly9sZW11ci01LmNsb3VkLWlhbS5jb20vYXV0aC9yZWFsbXMvZWV6aW1lZHMiLCJhdWQiOlsicmVhbG0tbWFuYWdlbWVudCIsImFjY291bnQiXSwic3ViIjoiYWRmMWEyYjItNmJhZi00ODZlLTlhNTAtMTU5ZDQ1ZTgyNzZlIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiRWV6aW1lZHMtUmVhY3QtQ2xpZW50LUFwcCIsInNlc3Npb25fc3RhdGUiOiIyNjZiMjU1OS0zZDAxLTQ0NWMtOWIxYi1kNjRjNDZjMDRlZmMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly8yMC4xNjQuMjE0LjIyNjozMDYwIiwiaHR0cHM6Ly9ncmVlbi1mbG93ZXItMDQzMDBhMzBmLjUuYXp1cmVzdGF0aWNhcHBzLm5ldCIsImh0dHBzOi8vaGFwcHktYnVzaC0wZjZlZTNjMTAuNC5henVyZXN0YXRpY2FwcHMubmV0IiwiaHR0cDovL2xvY2FsaG9zdDozMDYxIiwiaHR0cDovL2xvY2FsaG9zdDozMDYwIiwiaHR0cDovL2xvY2FsaG9zdDozMDAxIiwiaHR0cHM6Ly9ncmVlbi10cmVlLTA2NTJmOGMxMC40LmF6dXJlc3RhdGljYXBwcy5uZXQiLCJodHRwOi8vbG9jYWxob3N0OjMwOTkiLCJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJodHRwOi8vbG9jYWxob3N0OjUxNzMiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImVlemltZWR6LXJvbGVzLXN1cmdlcmllcy12aWV3IiwiZWV6aW1lZHotcm9sZXMtYXBwb2ludG1lbnRzLWFtbWVuZCIsImVlemltZWR6LXJvbGVzLXByZXNjcmlwdGlvbnMtdmlldyIsImVlemltZWR6LXJvbGVzLWxhYnRlc3RzLWFtbWVuZCIsImVlemltZWR6LXJvbGVzLWFkbWlzc2lvbnMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYm9va2luZ3MtdmlldyIsImVlemltZWR6LXJvbGVzLWRydWdoaXN0b3J5LXZpZXciLCJlZXppbWVkei1yb2xlcy1zaWNrbm90ZXMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtbGFidGVzdHMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYWRtaXNzaW9ucy12aWV3IiwiZWV6aW1lZHotcm9sZXMtZHJ1Z2hpc3RvcnktYW1tZW5kIiwib2ZmbGluZV9hY2Nlc3MiLCJlZXppbWVkei1yb2xlcy1zdXJnZXJpZXMtYW1tZW5kIiwidW1hX2F1dGhvcml6YXRpb24iLCJlZXppbWVkei1yb2xlcy1sYWJ0ZXN0cy12aWV3IiwiZWV6aW1lZHotcm9sZXMtbm90ZXMtdmlldyIsImVlemltZWR6LXJvbGVzLWRydWdoaXN0b3J5LWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLWJvb2tpbmdzLWNyZWF0ZSIsImRlZmF1bHQtcm9sZXMtZWV6aW1lZHMiLCJlZXppbWVkei1yb2xlcy1hcHBvaW50bWVudHMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtbm90ZXMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtc3VyZ2VyaWVzLWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLXhyYXlzLWNyZWF0ZSIsImVlemltZWR6LXJvbGVzLXNpY2tub3Rlcy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy1ub3Rlcy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy1hcHBvaW50bWVudHMtdmlldyIsImVlemltZWR6LXJvbGVzLXByZXNjcmlwdGlvbnMtY3JlYXRlIiwiZWV6aW1lZHotcm9sZXMtYm9va2luZ3MtYW1tZW5kIiwiZWV6aW1lZHotcm9sZXMteHJheXMtdmlldyIsImVlemltZWRzLXJvbGVzLXBhdGllbnQtZGVmYXVsdHMiLCJlZXppbWVkei1yb2xlcy1zaWNrbm90ZXMtdmlldyIsImVlemltZWR6LXJvbGVzLWFkbWlzc2lvbnMtYW1tZW5kIiwiZWV6aW1lZHotcm9sZXMtcHJlc2NyaXB0aW9ucy1hbW1lbmQiLCJlZXppbWVkei1yb2xlcy14cmF5cy1hbW1lbmQiXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbIm1hbmFnZS11c2VycyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInNpZCI6IjI2NmIyNTU5LTNkMDEtNDQ1Yy05YjFiLWQ2NGM0NmMwNGVmYyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTWFrb21ib3Jlcm8gTXVzaGFuZ3dlIiwicHJlZmVycmVkX3VzZXJuYW1lIjoibXVzaGFuZ2U4OEBnbWFpbC5jb20iLCJnaXZlbl9uYW1lIjoiTWFrb21ib3Jlcm8iLCJmYW1pbHlfbmFtZSI6Ik11c2hhbmd3ZSIsImVtYWlsIjoibXVzaGFuZ2U4OEBnbWFpbC5jb20ifQ.RnrCwwikhjYGdler7-KXOvSvNMXVQqStm2P57EPQ8oL9qY08O6NrcRDWeOPTNvRI9TjzIoKXUvtyGBGtPyU__doDiPSu9QHtxFcXhlPSAJ3tUIXlqY58qp5kqVm5CqxBunSx7zwmJSQvLaMwZkgbLUe8hnhPWHZ15DkBMwjER6Xr4xN34MgGEuBJ8dKtOmMOpxJJDbfXlnTqldWC7Yv3yqnYLgT0p40EbpCCCKI4fZQNmuVKpg8rYksE7DGE_RoMOh_-EZbUekG4zZaReBeIqivVeIlZ5AHLchND7Jzshc6xdw2YdFxS4iK_-GgAyD8hK3RmyinvjFTXjaCaeaA7eQ
+[2024-05-23T17:48:44.404+0200] {base.py:84} INFO - Using connection ID 'eezimeds_doctors' for task execution.
+[2024-05-23T18:40:50.143+0200] {local_task_job_runner.py:310} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2024-05-23T18:40:50.144+0200] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-05-23T18:40:50.153+0200] {process_utils.py:132} INFO - Sending 15 to group 372862. PIDs of all processes in the group: [372862]
+[2024-05-23T18:40:50.153+0200] {process_utils.py:87} INFO - Sending the signal 15 to group 372862
+[2024-05-23T18:40:50.154+0200] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-05-23T18:40:50.154+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-23T18:40:50.159+0200] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/airflow/dags/eezimeds_doctors.py", line 68, in call_api
+    with DAG(
+              
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/requests/sessions.py", line 747, in send
+    r.content
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/requests/models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/requests/models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/urllib3/response.py", line 628, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/urllib3/response.py", line 567, in read
+    data = self._fp_read(amt) if not fp_closed else b""
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/urllib3/response.py", line 533, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/http/client.py", line 473, in read
+    s = self.fp.read(amt)
+        ^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/ssl.py", line 1315, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/ssl.py", line 1167, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 2613, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2024-05-23T18:40:50.171+0200] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=doctors_api_dag, task_id=retrieve_doctors, run_id=manual__2024-05-23T15:47:31.355736+00:00, execution_date=20240523T154731, start_date=20240523T154844, end_date=20240523T164050
+[2024-05-23T18:40:50.180+0200] {standard_task_runner.py:110} ERROR - Failed to execute job 1491 for task retrieve_doctors ((sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO task_fail (task_id, dag_id, run_id, map_index, start_date, end_date, duration) VALUES (?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('retrieve_doctors', 'doctors_api_dag', 'manual__2024-05-23T15:47:31.355736+00:00', -1, '2024-05-23 15:48:44.262772', '2024-05-23 16:40:50.170805', 3125)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 372862)
+[2024-05-23T18:40:50.205+0200] {process_utils.py:80} INFO - Process psutil.Process(pid=372862, status='terminated', exitcode=1, started='17:48:43') (372862) terminated with exit code 1

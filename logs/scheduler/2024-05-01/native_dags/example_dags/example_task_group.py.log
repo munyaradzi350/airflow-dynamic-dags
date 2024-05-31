@@ -2182,3 +2182,577 @@
 [2024-05-01T15:30:24.474+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:30:24.473+0200] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-05-01T15:30:24.509+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:30:24.509+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
 [2024-05-01T15:30:24.819+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.416 seconds
+[2024-05-01T15:32:07.073+0200] {processor.py:161} INFO - Started process (PID=154616) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:32:07.075+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:32:07.076+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:32:07.076+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:32:07.091+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:32:07.120+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:32:07.119+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:32:07.153+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:32:07.152+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:32:07.189+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.128 seconds
+[2024-05-01T15:33:28.327+0200] {processor.py:161} INFO - Started process (PID=155814) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:33:28.329+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:33:28.331+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:33:28.330+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:33:28.350+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:33:28.388+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:33:28.388+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:33:28.431+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:33:28.431+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:33:28.480+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.166 seconds
+[2024-05-01T15:34:54.062+0200] {processor.py:161} INFO - Started process (PID=156934) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:34:54.066+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:34:54.069+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:34:54.067+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:34:54.088+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:34:54.128+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:34:54.128+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:34:54.168+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:34:54.168+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:34:54.203+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.159 seconds
+[2024-05-01T15:36:26.451+0200] {processor.py:161} INFO - Started process (PID=158003) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:36:26.455+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:36:26.459+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:36:26.457+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:36:26.479+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:36:26.515+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:36:26.514+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:36:26.559+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:36:26.558+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:36:26.608+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.204 seconds
+[2024-05-01T15:37:54.088+0200] {processor.py:161} INFO - Started process (PID=159008) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:37:54.091+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:37:54.093+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:37:54.092+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:37:54.131+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:37:54.198+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:37:54.197+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:37:54.237+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:37:54.236+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:37:54.273+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.209 seconds
+[2024-05-01T15:39:27.659+0200] {processor.py:161} INFO - Started process (PID=160167) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:39:27.661+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:39:27.664+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:39:27.663+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:39:27.685+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:39:27.733+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:39:27.732+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:39:27.789+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:39:27.788+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:39:27.838+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.193 seconds
+[2024-05-01T15:41:02.679+0200] {processor.py:161} INFO - Started process (PID=161217) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:41:02.683+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:41:02.688+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:41:02.686+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:41:02.715+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:41:02.759+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:41:02.758+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:41:02.812+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:41:02.811+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:41:02.868+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.236 seconds
+[2024-05-01T15:42:32.391+0200] {processor.py:161} INFO - Started process (PID=162237) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:42:32.393+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:42:32.396+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:42:32.394+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:42:32.420+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:42:32.455+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:42:32.455+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:42:32.497+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:42:32.496+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:42:32.539+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.166 seconds
+[2024-05-01T15:44:04.835+0200] {processor.py:161} INFO - Started process (PID=163288) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:44:04.837+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:44:04.840+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:44:04.839+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:44:04.861+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:44:04.907+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:44:04.907+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:44:04.945+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:44:04.945+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:44:04.981+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.163 seconds
+[2024-05-01T15:45:39.548+0200] {processor.py:161} INFO - Started process (PID=164377) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:45:39.551+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:45:39.556+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:45:39.552+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:45:39.583+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:45:39.630+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:45:39.629+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:45:39.698+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:45:39.698+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:45:39.819+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.298 seconds
+[2024-05-01T15:47:18.714+0200] {processor.py:161} INFO - Started process (PID=165510) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:47:18.715+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:47:18.717+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:47:18.717+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:47:18.739+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:47:18.783+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:47:18.782+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:47:18.839+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:47:18.838+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:47:18.890+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.191 seconds
+[2024-05-01T15:48:53.442+0200] {processor.py:161} INFO - Started process (PID=166569) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:48:53.445+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:48:53.449+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:48:53.447+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:48:53.479+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:48:53.552+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:48:53.551+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:48:53.633+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:48:53.632+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:48:53.706+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.287 seconds
+[2024-05-01T15:50:24.809+0200] {processor.py:161} INFO - Started process (PID=167596) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:50:24.812+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:50:24.814+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:50:24.813+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:50:24.836+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:50:24.882+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:50:24.882+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:50:25.204+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:50:25.203+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:50:25.263+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.469 seconds
+[2024-05-01T15:52:07.538+0200] {processor.py:161} INFO - Started process (PID=168885) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:52:07.541+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:52:07.544+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:52:07.543+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:52:07.571+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:52:07.622+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:52:07.622+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:52:08.008+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:52:08.008+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:52:08.080+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.560 seconds
+[2024-05-01T15:53:54.015+0200] {processor.py:161} INFO - Started process (PID=170062) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:53:54.018+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:53:54.022+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:53:54.020+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:53:54.054+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:53:54.128+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:53:54.126+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:53:54.209+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:53:54.209+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:53:54.586+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.592 seconds
+[2024-05-01T15:55:37.964+0200] {processor.py:161} INFO - Started process (PID=171301) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:55:37.965+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:55:37.967+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:55:37.966+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:55:37.983+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:55:38.012+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:55:38.012+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:55:38.047+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:55:38.047+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:55:38.080+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.126 seconds
+[2024-05-01T15:57:08.408+0200] {processor.py:161} INFO - Started process (PID=172379) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:57:08.410+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:57:08.413+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:57:08.412+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:57:08.438+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:57:08.485+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:57:08.484+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:57:08.517+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:57:08.516+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:57:08.545+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.154 seconds
+[2024-05-01T15:58:32.092+0200] {processor.py:161} INFO - Started process (PID=173317) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:58:32.094+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:58:32.095+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:58:32.095+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:58:32.108+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:58:32.134+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:58:32.134+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:58:32.165+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:58:32.164+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:58:32.202+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.119 seconds
+[2024-05-01T15:59:51.516+0200] {processor.py:161} INFO - Started process (PID=174227) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:59:51.519+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T15:59:51.522+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:59:51.521+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:59:51.550+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T15:59:51.601+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:59:51.600+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T15:59:51.637+0200] {logging_mixin.py:188} INFO - [2024-05-01T15:59:51.636+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T15:59:51.663+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.166 seconds
+[2024-05-01T16:00:56.528+0200] {processor.py:161} INFO - Started process (PID=175013) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:00:56.532+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:00:56.537+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:00:56.535+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:00:56.588+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:00:56.690+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:00:56.689+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:00:56.753+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:00:56.752+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:00:56.785+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.284 seconds
+[2024-05-01T16:01:58.711+0200] {processor.py:161} INFO - Started process (PID=175679) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:01:58.714+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:01:58.717+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:01:58.716+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:01:58.747+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:01:58.815+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:01:58.815+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:01:58.879+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:01:58.878+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:01:58.937+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.246 seconds
+[2024-05-01T16:03:20.445+0200] {processor.py:161} INFO - Started process (PID=176609) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:03:20.447+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:03:20.449+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:03:20.448+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:03:20.470+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:03:20.515+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:03:20.515+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:03:20.562+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:03:20.561+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:03:20.607+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.176 seconds
+[2024-05-01T16:04:42.024+0200] {processor.py:161} INFO - Started process (PID=177595) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:04:42.027+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:04:42.030+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:04:42.028+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:04:42.067+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:04:42.141+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:04:42.140+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:04:42.208+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:04:42.208+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:04:42.243+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.239 seconds
+[2024-05-01T16:06:02.827+0200] {processor.py:161} INFO - Started process (PID=178579) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:06:02.830+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:06:02.834+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:06:02.832+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:06:02.868+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:06:02.940+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:06:02.939+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:06:03.022+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:06:03.021+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:06:03.063+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.259 seconds
+[2024-05-01T16:07:23.474+0200] {processor.py:161} INFO - Started process (PID=179569) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:07:23.476+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:07:23.478+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:07:23.477+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:07:23.498+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:07:23.538+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:07:23.537+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:07:23.581+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:07:23.581+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:07:23.625+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.165 seconds
+[2024-05-01T16:08:45.977+0200] {processor.py:161} INFO - Started process (PID=180563) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:08:45.980+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:08:45.984+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:08:45.982+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:08:46.017+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:08:46.081+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:08:46.081+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:08:46.115+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:08:46.115+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:08:46.155+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.199 seconds
+[2024-05-01T16:10:08.298+0200] {processor.py:161} INFO - Started process (PID=181698) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:10:08.300+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:10:08.303+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:10:08.302+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:10:08.324+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:10:08.365+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:10:08.364+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:10:08.413+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:10:08.413+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:10:08.458+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.174 seconds
+[2024-05-01T16:11:22.996+0200] {processor.py:161} INFO - Started process (PID=182600) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:11:22.999+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:11:23.002+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:11:23.001+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:11:23.029+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:11:23.069+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:11:23.068+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:11:23.118+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:11:23.117+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:11:23.161+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.182 seconds
+[2024-05-01T16:12:42.559+0200] {processor.py:161} INFO - Started process (PID=183847) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:12:42.560+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:12:42.561+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:12:42.560+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:12:42.569+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:12:42.586+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:12:42.585+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:12:42.603+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:12:42.603+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:12:42.621+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.068 seconds
+[2024-05-01T16:13:42.870+0200] {processor.py:161} INFO - Started process (PID=184640) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:13:42.871+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:13:42.872+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:13:42.872+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:13:42.880+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:13:42.895+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:13:42.895+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:13:42.915+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:13:42.915+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:13:42.943+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.078 seconds
+[2024-05-01T16:14:54.635+0200] {processor.py:161} INFO - Started process (PID=185617) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:14:54.636+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:14:54.637+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:14:54.637+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:14:54.647+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:14:54.663+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:14:54.663+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:14:54.679+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:14:54.679+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:14:54.701+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.073 seconds
+[2024-05-01T16:15:59.382+0200] {processor.py:161} INFO - Started process (PID=186470) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:15:59.383+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:15:59.384+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:15:59.383+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:15:59.392+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:15:59.410+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:15:59.410+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:15:59.431+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:15:59.431+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:15:59.453+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.079 seconds
+[2024-05-01T16:17:09.220+0200] {processor.py:161} INFO - Started process (PID=187520) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:17:09.222+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:17:09.223+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:17:09.222+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:17:09.232+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:17:09.249+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:17:09.249+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:17:09.270+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:17:09.270+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:17:09.295+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.082 seconds
+[2024-05-01T16:18:20.826+0200] {processor.py:161} INFO - Started process (PID=188468) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:18:20.827+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:18:20.828+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:18:20.828+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:18:20.838+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:18:20.858+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:18:20.858+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:18:20.880+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:18:20.879+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:18:20.903+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.083 seconds
+[2024-05-01T16:19:25.060+0200] {processor.py:161} INFO - Started process (PID=189268) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:19:25.064+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:19:25.067+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:19:25.066+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:19:25.100+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:19:25.177+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:19:25.176+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:19:25.262+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:19:25.261+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:19:25.333+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.297 seconds
+[2024-05-01T16:20:39.890+0200] {processor.py:161} INFO - Started process (PID=190220) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:20:39.891+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:20:39.892+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:20:39.892+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:20:39.904+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:20:39.921+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:20:39.920+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:20:39.940+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:20:39.940+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:20:39.959+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.078 seconds
+[2024-05-01T16:21:57.457+0200] {processor.py:161} INFO - Started process (PID=191181) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:21:57.458+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:21:57.459+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:21:57.458+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:21:57.468+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:21:57.486+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:21:57.486+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:21:57.508+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:21:57.508+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:21:57.528+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.080 seconds
+[2024-05-01T16:23:08.336+0200] {processor.py:161} INFO - Started process (PID=192082) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:23:08.337+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:23:08.338+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:23:08.338+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:23:08.352+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:23:08.376+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:23:08.375+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:23:08.401+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:23:08.401+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:23:08.437+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.108 seconds
+[2024-05-01T16:24:23.386+0200] {processor.py:161} INFO - Started process (PID=193046) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:24:23.389+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:24:23.392+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:24:23.391+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:24:23.419+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:24:23.484+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:24:23.483+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:24:23.546+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:24:23.545+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:24:23.624+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.257 seconds
+[2024-05-01T16:25:34.988+0200] {processor.py:161} INFO - Started process (PID=193957) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:25:34.989+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:25:34.990+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:25:34.990+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:25:35.004+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:25:35.028+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:25:35.028+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:25:35.061+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:25:35.061+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:25:35.094+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.114 seconds
+[2024-05-01T16:26:49.856+0200] {processor.py:161} INFO - Started process (PID=195030) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:26:49.859+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:26:49.862+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:26:49.861+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:26:49.891+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:26:50.044+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:26:50.043+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:26:50.124+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:26:50.124+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:26:50.224+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.390 seconds
+[2024-05-01T16:28:03.461+0200] {processor.py:161} INFO - Started process (PID=196060) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:28:03.462+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:28:03.463+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:28:03.462+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:28:03.470+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:28:03.485+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:28:03.485+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:28:03.500+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:28:03.500+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:28:03.516+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.060 seconds
+[2024-05-01T16:29:08.552+0200] {processor.py:161} INFO - Started process (PID=196983) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:29:08.553+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:29:08.554+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:29:08.554+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:29:08.562+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:29:08.577+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:29:08.576+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:29:08.592+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:29:08.592+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:29:08.609+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.062 seconds
+[2024-05-01T16:30:09.287+0200] {processor.py:161} INFO - Started process (PID=197783) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:30:09.289+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:30:09.289+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:30:09.289+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:30:09.297+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:30:09.311+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:30:09.311+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:30:09.326+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:30:09.326+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:30:09.343+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.061 seconds
+[2024-05-01T16:31:13.322+0200] {processor.py:161} INFO - Started process (PID=198605) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:31:13.323+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:31:13.324+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:31:13.324+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:31:13.332+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:31:13.347+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:31:13.347+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:31:13.370+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:31:13.370+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:31:13.389+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.072 seconds
+[2024-05-01T16:32:21.626+0200] {processor.py:161} INFO - Started process (PID=199567) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:32:21.629+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:32:21.632+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:32:21.631+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:32:21.659+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:32:21.740+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:32:21.739+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:32:21.817+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:32:21.816+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:32:21.887+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.281 seconds
+[2024-05-01T16:33:32.526+0200] {processor.py:161} INFO - Started process (PID=200487) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:33:32.527+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:33:32.528+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:33:32.527+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:33:32.537+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:33:32.559+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:33:32.558+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:33:32.582+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:33:32.581+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:33:32.606+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.088 seconds
+[2024-05-01T16:34:36.953+0200] {processor.py:161} INFO - Started process (PID=201372) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:34:36.955+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:34:36.956+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:34:36.955+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:34:36.964+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:34:36.980+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:34:36.980+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:34:37.005+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:34:37.005+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:34:37.032+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.084 seconds
+[2024-05-01T16:35:44.028+0200] {processor.py:161} INFO - Started process (PID=202229) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:35:44.029+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:35:44.030+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:35:44.030+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:35:44.037+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:35:44.053+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:35:44.053+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:35:44.070+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:35:44.070+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:35:44.086+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.063 seconds
+[2024-05-01T16:36:49.385+0200] {processor.py:161} INFO - Started process (PID=203064) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:36:49.386+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:36:49.387+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:36:49.387+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:36:49.394+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:36:49.408+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:36:49.408+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:36:49.423+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:36:49.423+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:36:49.441+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.060 seconds
+[2024-05-01T16:38:01.184+0200] {processor.py:161} INFO - Started process (PID=203998) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:38:01.186+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:38:01.187+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:38:01.186+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:38:01.195+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:38:01.209+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:38:01.209+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:38:01.224+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:38:01.224+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:38:01.240+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.063 seconds
+[2024-05-01T16:39:11.595+0200] {processor.py:161} INFO - Started process (PID=204939) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:39:11.596+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:39:11.597+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:39:11.597+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:39:11.605+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:39:11.620+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:39:11.620+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:39:11.637+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:39:11.636+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:39:11.653+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.064 seconds
+[2024-05-01T16:40:17.328+0200] {processor.py:161} INFO - Started process (PID=205723) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:40:17.331+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:40:17.333+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:40:17.332+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:40:17.359+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:40:17.414+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:40:17.413+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:40:17.471+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:40:17.470+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:40:17.524+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.214 seconds
+[2024-05-01T16:41:21.715+0200] {processor.py:161} INFO - Started process (PID=206508) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:41:21.716+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:41:21.717+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:41:21.717+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:41:21.724+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:41:21.739+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:41:21.739+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:41:21.755+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:41:21.755+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:41:21.773+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.063 seconds
+[2024-05-01T16:42:27.614+0200] {processor.py:161} INFO - Started process (PID=207284) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:42:27.615+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:42:27.615+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:42:27.615+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:42:27.623+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:42:27.637+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:42:27.637+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:42:27.654+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:42:27.654+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:42:27.671+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.063 seconds
+[2024-05-01T16:43:35.802+0200] {processor.py:161} INFO - Started process (PID=208037) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:43:35.803+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:43:35.803+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:43:35.803+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:43:35.811+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:43:35.825+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:43:35.825+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:43:35.840+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:43:35.840+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:43:35.856+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2024-05-01T16:44:41.843+0200] {processor.py:161} INFO - Started process (PID=208780) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:44:41.844+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:44:41.845+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:44:41.844+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:44:41.852+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:44:41.866+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:44:41.866+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:44:41.881+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:44:41.881+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:44:41.897+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.060 seconds
+[2024-05-01T16:45:46.848+0200] {processor.py:161} INFO - Started process (PID=209525) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:45:46.849+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:45:46.849+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:45:46.849+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:45:46.857+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:45:46.871+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:45:46.871+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:45:46.886+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:45:46.886+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:45:46.902+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2024-05-01T16:46:51.294+0200] {processor.py:161} INFO - Started process (PID=210245) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:46:51.297+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:46:51.300+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:46:51.299+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:46:51.328+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:46:51.383+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:46:51.383+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:46:51.441+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:46:51.441+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:46:51.498+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.228 seconds
+[2024-05-01T16:47:55.400+0200] {processor.py:161} INFO - Started process (PID=210975) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:47:55.401+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:47:55.402+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:47:55.402+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:47:55.410+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:47:55.426+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:47:55.426+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:47:55.444+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:47:55.444+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:47:55.464+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2024-05-01T16:49:03.228+0200] {processor.py:161} INFO - Started process (PID=211723) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:49:03.229+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T16:49:03.230+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:49:03.230+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:49:03.237+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T16:49:03.251+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:49:03.251+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T16:49:03.267+0200] {logging_mixin.py:188} INFO - [2024-05-01T16:49:03.266+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T16:49:03.283+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2024-05-01T19:57:57.837+0200] {processor.py:161} INFO - Started process (PID=213896) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T19:57:57.840+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T19:57:57.843+0200] {logging_mixin.py:188} INFO - [2024-05-01T19:57:57.841+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T19:57:57.869+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T19:57:57.921+0200] {logging_mixin.py:188} INFO - [2024-05-01T19:57:57.920+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T19:57:57.965+0200] {logging_mixin.py:188} INFO - [2024-05-01T19:57:57.965+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T19:57:57.990+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.171 seconds
+[2024-05-01T19:59:21.640+0200] {processor.py:161} INFO - Started process (PID=215042) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T19:59:21.642+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T19:59:21.644+0200] {logging_mixin.py:188} INFO - [2024-05-01T19:59:21.643+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T19:59:21.663+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T19:59:21.700+0200] {logging_mixin.py:188} INFO - [2024-05-01T19:59:21.700+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T19:59:21.738+0200] {logging_mixin.py:188} INFO - [2024-05-01T19:59:21.737+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T19:59:21.776+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.151 seconds
+[2024-05-01T20:01:12.860+0200] {processor.py:161} INFO - Started process (PID=216447) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:01:12.866+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:01:12.875+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:01:12.872+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:01:12.934+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:01:13.052+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:01:13.050+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:01:13.127+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:01:13.127+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:01:13.170+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.343 seconds
+[2024-05-01T20:02:37.528+0200] {processor.py:161} INFO - Started process (PID=217608) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:02:37.530+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:02:37.532+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:02:37.532+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:02:37.552+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:02:37.590+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:02:37.590+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:02:37.637+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:02:37.636+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:02:37.683+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.167 seconds
+[2024-05-01T20:03:52.473+0200] {processor.py:161} INFO - Started process (PID=218491) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:03:52.475+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:03:52.478+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:03:52.477+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:03:52.505+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:03:52.558+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:03:52.557+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:03:52.614+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:03:52.613+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:03:52.667+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.213 seconds
+[2024-05-01T20:05:13.468+0200] {processor.py:161} INFO - Started process (PID=219384) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:05:13.471+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:05:13.474+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:05:13.473+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:05:13.500+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:05:13.554+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:05:13.553+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:05:13.614+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:05:13.613+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:05:13.681+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.231 seconds
+[2024-05-01T20:06:31.599+0200] {processor.py:161} INFO - Started process (PID=220237) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:06:31.604+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:06:31.609+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:06:31.607+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:06:31.651+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:06:31.719+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:06:31.719+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:06:31.780+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:06:31.779+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:06:31.849+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.281 seconds
+[2024-05-01T20:07:55.754+0200] {processor.py:161} INFO - Started process (PID=221704) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:07:55.757+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:07:55.760+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:07:55.758+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:07:55.787+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:07:55.839+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:07:55.838+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:07:55.897+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:07:55.897+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:07:55.955+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.220 seconds
+[2024-05-01T20:09:14.219+0200] {processor.py:161} INFO - Started process (PID=222639) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:09:14.222+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:09:14.226+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:09:14.224+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:09:14.263+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:09:14.329+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:09:14.329+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:09:14.419+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:09:14.418+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:09:14.471+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.278 seconds
+[2024-05-01T20:10:37.919+0200] {processor.py:161} INFO - Started process (PID=223596) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:10:37.924+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:10:37.929+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:10:37.927+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:10:37.976+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:10:38.057+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:10:38.056+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:10:38.091+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:10:38.091+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:10:38.134+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.249 seconds
+[2024-05-01T20:11:55.365+0200] {processor.py:161} INFO - Started process (PID=224499) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:11:55.366+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:11:55.368+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:11:55.368+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:11:55.387+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:11:55.432+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:11:55.431+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:11:55.478+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:11:55.477+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:11:55.531+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.179 seconds
+[2024-05-01T20:13:16.559+0200] {processor.py:161} INFO - Started process (PID=225605) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:13:16.562+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:13:16.565+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:13:16.564+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:13:16.592+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:13:16.647+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:13:16.646+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:13:16.711+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:13:16.710+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:13:16.764+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.223 seconds
+[2024-05-01T20:14:34.838+0200] {processor.py:161} INFO - Started process (PID=226512) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:14:34.843+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:14:34.846+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:14:34.845+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:14:34.875+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:14:34.934+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:14:34.934+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:14:34.985+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:14:34.985+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:14:35.034+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.214 seconds
+[2024-05-01T20:15:53.553+0200] {processor.py:161} INFO - Started process (PID=227453) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:15:53.556+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:15:53.558+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:15:53.557+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:15:53.576+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:15:53.635+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:15:53.634+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:15:53.690+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:15:53.690+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:15:53.748+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.212 seconds
+[2024-05-01T20:18:07.160+0200] {processor.py:161} INFO - Started process (PID=228964) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:18:07.164+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:18:07.166+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:18:07.165+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:18:07.182+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:18:07.214+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:18:07.213+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:18:07.256+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:18:07.256+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:18:07.298+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.155 seconds
+[2024-05-01T20:19:32.630+0200] {processor.py:161} INFO - Started process (PID=230181) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:19:32.633+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:19:32.637+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:19:32.635+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:19:32.662+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:19:32.701+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:19:32.700+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:19:32.752+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:19:32.751+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:19:32.795+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.181 seconds
+[2024-05-01T20:21:00.710+0200] {processor.py:161} INFO - Started process (PID=231120) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:21:00.712+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:21:00.716+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:21:00.714+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:21:00.740+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:21:00.780+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:21:00.780+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:21:00.819+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:21:00.819+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:21:00.855+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.167 seconds
+[2024-05-01T20:22:43.533+0200] {processor.py:161} INFO - Started process (PID=232294) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:22:43.534+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:22:43.536+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:22:43.536+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:22:43.551+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:22:43.580+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:22:43.580+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:22:43.610+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:22:43.610+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:22:43.782+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.259 seconds
+[2024-05-01T20:24:09.335+0200] {processor.py:161} INFO - Started process (PID=233274) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:24:09.337+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:24:09.339+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:24:09.338+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:24:09.357+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:24:09.397+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:24:09.396+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:24:09.439+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:24:09.439+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:24:09.474+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.154 seconds
+[2024-05-01T20:25:28.055+0200] {processor.py:161} INFO - Started process (PID=234149) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:25:28.057+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:25:28.059+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:25:28.058+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:25:28.076+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:25:28.115+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:25:28.115+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:25:28.149+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:25:28.149+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:25:28.181+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.139 seconds
+[2024-05-01T20:26:46.763+0200] {processor.py:161} INFO - Started process (PID=235023) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:26:46.766+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-01T20:26:46.770+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:26:46.768+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:26:46.793+0200] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-01T20:26:46.820+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:26:46.820+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T20:26:46.849+0200] {logging_mixin.py:188} INFO - [2024-05-01T20:26:46.849+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-05-01T20:26:46.881+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.144 seconds

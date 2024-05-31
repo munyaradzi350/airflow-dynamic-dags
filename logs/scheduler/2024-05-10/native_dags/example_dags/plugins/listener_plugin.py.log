@@ -1,0 +1,490 @@
+[2024-05-10T08:05:00.706+0200] {processor.py:161} INFO - Started process (PID=304319) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:05:00.709+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:05:00.710+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:05:00.710+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:05:00.718+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:05:00.754+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.070 seconds
+[2024-05-10T08:07:39.041+0200] {processor.py:161} INFO - Started process (PID=306869) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:07:39.045+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:07:39.047+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:07:39.046+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:07:39.055+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:07:39.086+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.054 seconds
+[2024-05-10T08:09:00.695+0200] {processor.py:161} INFO - Started process (PID=308143) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:09:00.697+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:09:00.698+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:09:00.698+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:09:00.702+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:09:00.718+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.034 seconds
+[2024-05-10T08:10:17.242+0200] {processor.py:161} INFO - Started process (PID=309445) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:10:17.247+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:10:17.250+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:10:17.249+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:10:17.259+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:10:17.279+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.051 seconds
+[2024-05-10T08:11:32.351+0200] {processor.py:161} INFO - Started process (PID=310667) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:11:32.353+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:11:32.358+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:11:32.354+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:11:32.363+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:11:32.379+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.039 seconds
+[2024-05-10T08:12:54.259+0200] {processor.py:161} INFO - Started process (PID=312332) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:12:54.260+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:12:54.261+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:12:54.260+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:12:54.263+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:12:54.274+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.023 seconds
+[2024-05-10T08:13:55.442+0200] {processor.py:161} INFO - Started process (PID=313485) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:13:55.443+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:13:55.444+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:13:55.444+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:13:55.446+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:13:55.457+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.022 seconds
+[2024-05-10T08:15:02.385+0200] {processor.py:161} INFO - Started process (PID=314821) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:15:02.386+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:15:02.388+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:15:02.387+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:15:02.391+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:15:02.402+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.022 seconds
+[2024-05-10T08:16:05.944+0200] {processor.py:161} INFO - Started process (PID=316004) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:16:05.946+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:16:05.946+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:16:05.946+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:16:05.949+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:16:05.960+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.023 seconds
+[2024-05-10T08:17:05.685+0200] {processor.py:161} INFO - Started process (PID=317094) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:17:05.686+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:17:05.687+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:17:05.687+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:17:05.690+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:17:05.700+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.021 seconds
+[2024-05-10T08:18:09.697+0200] {processor.py:161} INFO - Started process (PID=318384) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:18:09.699+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:18:09.700+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:18:09.699+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:18:09.704+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:18:09.716+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.026 seconds
+[2024-05-10T08:19:22.903+0200] {processor.py:161} INFO - Started process (PID=319658) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:19:22.904+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:19:22.905+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:19:22.904+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:19:22.908+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:19:22.920+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.024 seconds
+[2024-05-10T08:20:25.420+0200] {processor.py:161} INFO - Started process (PID=320752) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:20:25.422+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:20:25.423+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:20:25.422+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:20:25.427+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:20:25.440+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.030 seconds
+[2024-05-10T08:21:25.582+0200] {processor.py:161} INFO - Started process (PID=321871) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:21:25.583+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:21:25.584+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:21:25.584+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:21:25.586+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:21:25.597+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.023 seconds
+[2024-05-10T08:22:34.478+0200] {processor.py:161} INFO - Started process (PID=323178) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:22:34.479+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:22:34.480+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:22:34.479+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:22:34.482+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:22:34.494+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.023 seconds
+[2024-05-10T08:23:36.830+0200] {processor.py:161} INFO - Started process (PID=324315) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:23:36.831+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:23:36.832+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:23:36.832+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:23:36.835+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:23:36.846+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.024 seconds
+[2024-05-10T08:24:44.205+0200] {processor.py:161} INFO - Started process (PID=325489) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:24:44.206+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:24:44.207+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:24:44.207+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:24:44.210+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:24:44.221+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.023 seconds
+[2024-05-10T08:25:57.695+0200] {processor.py:161} INFO - Started process (PID=326818) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:25:57.710+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:25:57.716+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:25:57.714+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:25:57.747+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:25:57.837+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.223 seconds
+[2024-05-10T08:27:05.768+0200] {processor.py:161} INFO - Started process (PID=328028) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:27:05.770+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:27:05.772+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:27:05.771+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:27:05.784+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:27:05.807+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.066 seconds
+[2024-05-10T08:28:30.467+0200] {processor.py:161} INFO - Started process (PID=329509) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:28:30.469+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:28:30.470+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:28:30.469+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:28:30.476+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:28:30.501+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.047 seconds
+[2024-05-10T08:29:54.740+0200] {processor.py:161} INFO - Started process (PID=330990) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:29:54.741+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:29:54.743+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:29:54.742+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:29:54.755+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:29:54.778+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.057 seconds
+[2024-05-10T08:31:17.009+0200] {processor.py:161} INFO - Started process (PID=332404) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:31:17.011+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:31:17.013+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:31:17.012+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:31:17.018+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:31:17.032+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.035 seconds
+[2024-05-10T08:32:41.425+0200] {processor.py:161} INFO - Started process (PID=334060) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:32:41.427+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:32:41.429+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:32:41.428+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:32:41.434+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:32:41.456+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.047 seconds
+[2024-05-10T08:34:05.758+0200] {processor.py:161} INFO - Started process (PID=335656) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:34:05.760+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:34:05.761+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:34:05.760+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:34:05.765+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:34:05.788+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.041 seconds
+[2024-05-10T08:35:47.687+0200] {processor.py:161} INFO - Started process (PID=337315) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:35:47.690+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:35:47.692+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:35:47.691+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:35:47.699+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:35:47.723+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.051 seconds
+[2024-05-10T08:36:46.676+0200] {processor.py:161} INFO - Started process (PID=338216) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:36:46.696+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:36:46.727+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:36:46.726+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:36:46.780+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:36:46.919+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.309 seconds
+[2024-05-10T08:37:47.883+0200] {processor.py:161} INFO - Started process (PID=339139) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:37:47.889+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:37:47.893+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:37:47.890+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:37:47.903+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:37:47.935+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.080 seconds
+[2024-05-10T08:38:59.287+0200] {processor.py:161} INFO - Started process (PID=340443) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:38:59.288+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:38:59.294+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:38:59.292+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:38:59.299+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:38:59.317+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.058 seconds
+[2024-05-10T08:39:58.191+0200] {processor.py:161} INFO - Started process (PID=341389) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:39:58.194+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:39:58.199+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:39:58.198+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:39:58.204+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:39:58.225+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.051 seconds
+[2024-05-10T08:40:50.989+0200] {processor.py:161} INFO - Started process (PID=342226) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:40:50.991+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:40:50.993+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:40:50.992+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:40:50.998+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:40:51.016+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.040 seconds
+[2024-05-10T08:41:40.344+0200] {processor.py:161} INFO - Started process (PID=343089) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:41:40.365+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T08:41:40.367+0200] {logging_mixin.py:188} INFO - [2024-05-10T08:41:40.366+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:41:40.382+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T08:41:40.457+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.140 seconds
+[2024-05-10T15:03:45.186+0200] {processor.py:161} INFO - Started process (PID=14198) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:03:45.187+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:03:45.189+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:03:45.189+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:03:45.192+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:03:45.204+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.023 seconds
+[2024-05-10T15:04:57.142+0200] {processor.py:161} INFO - Started process (PID=15665) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:04:57.143+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:04:57.145+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:04:57.145+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:04:57.148+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:04:57.319+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.183 seconds
+[2024-05-10T15:06:11.765+0200] {processor.py:161} INFO - Started process (PID=17133) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:06:11.766+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:06:11.768+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:06:11.768+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:06:11.770+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:06:11.781+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.023 seconds
+[2024-05-10T15:07:21.847+0200] {processor.py:161} INFO - Started process (PID=18637) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:07:21.849+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:07:21.854+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:07:21.853+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:07:21.860+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:07:21.879+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.041 seconds
+[2024-05-10T15:08:35.087+0200] {processor.py:161} INFO - Started process (PID=20110) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:08:35.089+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:08:35.096+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:08:35.095+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:08:35.104+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:08:35.134+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.069 seconds
+[2024-05-10T15:13:12.461+0200] {processor.py:161} INFO - Started process (PID=21505) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:13:12.464+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:13:12.470+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:13:12.469+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:13:12.480+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:13:12.511+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.073 seconds
+[2024-05-10T15:14:12.248+0200] {processor.py:161} INFO - Started process (PID=22985) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:14:12.251+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:14:12.255+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:14:12.254+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:14:12.260+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:14:12.286+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.054 seconds
+[2024-05-10T15:15:31.625+0200] {processor.py:161} INFO - Started process (PID=24583) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:15:31.629+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:15:31.638+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:15:31.637+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:15:31.651+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:15:31.682+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.089 seconds
+[2024-05-10T15:16:50.288+0200] {processor.py:161} INFO - Started process (PID=26154) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:16:50.289+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:16:50.292+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:16:50.292+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:16:50.298+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:16:50.319+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.042 seconds
+[2024-05-10T15:18:12.907+0200] {processor.py:161} INFO - Started process (PID=27762) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:18:12.909+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:18:12.913+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:18:12.912+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:18:12.918+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:18:12.940+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.044 seconds
+[2024-05-10T15:19:34.105+0200] {processor.py:161} INFO - Started process (PID=29378) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:19:34.107+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:19:34.110+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:19:34.110+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:19:34.115+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:19:34.135+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.041 seconds
+[2024-05-10T15:20:52.281+0200] {processor.py:161} INFO - Started process (PID=30926) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:20:52.285+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:20:52.292+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:20:52.290+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:20:52.301+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:20:52.339+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.080 seconds
+[2024-05-10T15:22:12.900+0200] {processor.py:161} INFO - Started process (PID=32503) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:22:12.901+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:22:12.905+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:22:12.904+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:22:12.910+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:22:12.929+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.040 seconds
+[2024-05-10T15:23:34.338+0200] {processor.py:161} INFO - Started process (PID=34113) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:23:34.341+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:23:34.348+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:23:34.347+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:23:34.359+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:23:34.410+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.097 seconds
+[2024-05-10T15:24:51.247+0200] {processor.py:161} INFO - Started process (PID=35654) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:24:51.249+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:24:51.254+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:24:51.253+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:24:51.260+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:24:51.286+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.052 seconds
+[2024-05-10T15:26:16.743+0200] {processor.py:161} INFO - Started process (PID=37377) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:26:16.744+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:26:16.749+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:26:16.748+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:26:16.755+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:26:16.777+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.049 seconds
+[2024-05-10T15:27:38.711+0200] {processor.py:161} INFO - Started process (PID=38984) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:27:38.716+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:27:38.727+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:27:38.724+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:27:38.742+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:27:38.796+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.122 seconds
+[2024-05-10T15:29:01.457+0200] {processor.py:161} INFO - Started process (PID=40641) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:29:01.459+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:29:01.462+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:29:01.461+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:29:01.466+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:29:01.483+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.039 seconds
+[2024-05-10T15:30:25.070+0200] {processor.py:161} INFO - Started process (PID=42277) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:30:25.072+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:30:25.076+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:30:25.075+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:30:25.082+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:30:25.102+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.047 seconds
+[2024-05-10T15:31:41.934+0200] {processor.py:161} INFO - Started process (PID=43844) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:31:41.936+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:31:41.938+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:31:41.938+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:31:41.942+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:31:41.957+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.031 seconds
+[2024-05-10T15:32:59.860+0200] {processor.py:161} INFO - Started process (PID=45375) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:32:59.863+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:32:59.872+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:32:59.870+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:32:59.883+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:32:59.926+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.092 seconds
+[2024-05-10T15:34:21.582+0200] {processor.py:161} INFO - Started process (PID=46999) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:34:21.587+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:34:21.597+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:34:21.595+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:34:21.613+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:34:21.670+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.121 seconds
+[2024-05-10T15:35:40.575+0200] {processor.py:161} INFO - Started process (PID=48565) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:35:40.577+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:35:40.581+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:35:40.580+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:35:40.588+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:35:40.611+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.051 seconds
+[2024-05-10T15:37:03.459+0200] {processor.py:161} INFO - Started process (PID=50204) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:37:03.461+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:37:03.467+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:37:03.466+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:37:03.475+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:37:03.500+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.055 seconds
+[2024-05-10T15:38:33.163+0200] {processor.py:161} INFO - Started process (PID=51959) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:38:33.165+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:38:33.170+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:38:33.169+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:38:33.177+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:38:33.203+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.070 seconds
+[2024-05-10T15:40:07.535+0200] {processor.py:161} INFO - Started process (PID=53861) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:40:07.539+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:40:07.549+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:40:07.546+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:40:07.561+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:40:07.607+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.098 seconds
+[2024-05-10T15:41:30.521+0200] {processor.py:161} INFO - Started process (PID=55501) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:41:30.523+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:41:30.526+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:41:30.526+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:41:30.530+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:41:30.550+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.039 seconds
+[2024-05-10T15:42:20.284+0200] {processor.py:161} INFO - Started process (PID=56495) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:42:20.289+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:42:20.302+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:42:20.300+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:42:20.318+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:42:20.380+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.136 seconds
+[2024-05-10T15:43:35.538+0200] {processor.py:161} INFO - Started process (PID=58011) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:43:35.541+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:43:35.547+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:43:35.546+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:43:35.553+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:43:35.567+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.048 seconds
+[2024-05-10T15:44:47.960+0200] {processor.py:161} INFO - Started process (PID=59462) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:44:47.963+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:44:47.970+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:44:47.969+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:44:47.980+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:44:48.021+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.081 seconds
+[2024-05-10T15:45:34.955+0200] {processor.py:161} INFO - Started process (PID=60393) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:45:34.956+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:45:34.960+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:45:34.959+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:45:34.965+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:45:34.984+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.042 seconds
+[2024-05-10T15:46:56.227+0200] {processor.py:161} INFO - Started process (PID=62005) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:46:56.229+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:46:56.233+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:46:56.231+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:46:56.238+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:46:56.259+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.050 seconds
+[2024-05-10T15:48:15.677+0200] {processor.py:161} INFO - Started process (PID=63596) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:48:15.680+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:48:15.687+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:48:15.686+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:48:15.695+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:48:15.724+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.065 seconds
+[2024-05-10T15:49:39.387+0200] {processor.py:161} INFO - Started process (PID=65268) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:49:39.391+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:49:39.398+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:49:39.396+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:49:39.409+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:49:39.449+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.087 seconds
+[2024-05-10T15:50:57.174+0200] {processor.py:161} INFO - Started process (PID=66804) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:50:57.181+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:50:57.190+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:50:57.189+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:50:57.198+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:50:57.220+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.068 seconds
+[2024-05-10T15:52:16.490+0200] {processor.py:161} INFO - Started process (PID=68372) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:52:16.492+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:52:16.495+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:52:16.494+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:52:16.500+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:52:16.522+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.042 seconds
+[2024-05-10T15:53:35.248+0200] {processor.py:161} INFO - Started process (PID=69948) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:53:35.251+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:53:35.258+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:53:35.257+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:53:35.267+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:53:35.301+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.075 seconds
+[2024-05-10T15:54:50.996+0200] {processor.py:161} INFO - Started process (PID=71447) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:54:51.000+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:54:51.009+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:54:51.006+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:54:51.019+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:54:51.063+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.099 seconds
+[2024-05-10T15:56:12.440+0200] {processor.py:161} INFO - Started process (PID=73036) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:56:12.441+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:56:12.445+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:56:12.444+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:56:12.450+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:56:12.470+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.042 seconds
+[2024-05-10T15:57:32.574+0200] {processor.py:161} INFO - Started process (PID=74616) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:57:32.577+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:57:32.585+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:57:32.583+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:57:32.597+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:57:32.639+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.087 seconds
+[2024-05-10T15:58:47.505+0200] {processor.py:161} INFO - Started process (PID=76113) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:58:47.506+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T15:58:47.510+0200] {logging_mixin.py:188} INFO - [2024-05-10T15:58:47.509+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:58:47.516+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T15:58:47.538+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.047 seconds
+[2024-05-10T16:00:36.568+0200] {processor.py:161} INFO - Started process (PID=78288) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:00:36.570+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:00:36.574+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:00:36.573+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:00:36.580+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:00:36.604+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.048 seconds
+[2024-05-10T16:01:57.958+0200] {processor.py:161} INFO - Started process (PID=79916) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:01:57.961+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:01:57.968+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:01:57.967+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:01:57.980+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:01:58.022+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.089 seconds
+[2024-05-10T16:03:20.461+0200] {processor.py:161} INFO - Started process (PID=81544) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:03:20.464+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:03:20.471+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:03:20.469+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:03:20.480+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:03:20.517+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.078 seconds
+[2024-05-10T16:04:40.152+0200] {processor.py:161} INFO - Started process (PID=83126) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:04:40.154+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:04:40.159+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:04:40.158+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:04:40.165+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:04:40.187+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.049 seconds
+[2024-05-10T16:06:01.625+0200] {processor.py:161} INFO - Started process (PID=84733) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:06:01.630+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:06:01.638+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:06:01.636+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:06:01.650+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:06:01.695+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.098 seconds
+[2024-05-10T16:07:23.127+0200] {processor.py:161} INFO - Started process (PID=86348) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:07:23.128+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:07:23.133+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:07:23.132+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:07:23.139+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:07:23.162+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.050 seconds
+[2024-05-10T16:08:46.962+0200] {processor.py:161} INFO - Started process (PID=88013) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:08:46.965+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:08:46.971+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:08:46.970+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:08:46.981+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:08:47.019+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.078 seconds
+[2024-05-10T16:10:07.996+0200] {processor.py:161} INFO - Started process (PID=89677) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:10:07.999+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:10:08.006+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:10:08.004+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:10:08.015+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:10:08.050+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.076 seconds
+[2024-05-10T16:11:28.138+0200] {processor.py:161} INFO - Started process (PID=91273) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:11:28.142+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:11:28.153+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:11:28.151+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:11:28.167+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:11:28.234+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.128 seconds
+[2024-05-10T16:12:45.306+0200] {processor.py:161} INFO - Started process (PID=92822) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:12:45.308+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:12:45.315+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:12:45.314+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:12:45.325+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:12:45.360+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.076 seconds
+[2024-05-10T16:14:05.854+0200] {processor.py:161} INFO - Started process (PID=94412) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:14:05.858+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:14:05.866+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:14:05.864+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:14:05.877+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:14:05.920+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.092 seconds
+[2024-05-10T16:15:22.215+0200] {processor.py:161} INFO - Started process (PID=95937) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:15:22.218+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:15:22.224+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:15:22.223+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:15:22.232+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:15:22.263+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.070 seconds
+[2024-05-10T16:16:44.473+0200] {processor.py:161} INFO - Started process (PID=97554) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:16:44.481+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:16:44.490+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:16:44.489+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:16:44.501+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:16:44.537+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.088 seconds
+[2024-05-10T16:18:08.328+0200] {processor.py:161} INFO - Started process (PID=99237) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:18:08.330+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:18:08.335+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:18:08.334+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:18:08.340+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:18:08.363+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.049 seconds
+[2024-05-10T16:19:25.469+0200] {processor.py:161} INFO - Started process (PID=100745) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:19:25.471+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:19:25.476+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:19:25.475+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:19:25.482+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:19:25.506+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.052 seconds
+[2024-05-10T16:20:45.304+0200] {processor.py:161} INFO - Started process (PID=102340) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:20:45.314+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:20:45.332+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:20:45.330+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:20:45.355+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:20:45.402+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.131 seconds
+[2024-05-10T16:22:09.718+0200] {processor.py:161} INFO - Started process (PID=104015) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:22:09.720+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:22:09.723+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:22:09.722+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:22:09.727+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:22:09.749+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.043 seconds
+[2024-05-10T16:23:37.679+0200] {processor.py:161} INFO - Started process (PID=105717) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:23:37.681+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:23:37.684+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:23:37.684+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:23:37.689+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:23:37.712+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.043 seconds
+[2024-05-10T16:24:57.524+0200] {processor.py:161} INFO - Started process (PID=107348) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:24:57.527+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:24:57.533+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:24:57.532+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:24:57.541+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:24:57.573+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.067 seconds
+[2024-05-10T16:26:16.505+0200] {processor.py:161} INFO - Started process (PID=108918) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:26:16.506+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:26:16.511+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:26:16.510+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:26:16.517+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:26:16.538+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.045 seconds
+[2024-05-10T16:27:45.146+0200] {processor.py:161} INFO - Started process (PID=110634) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:27:45.148+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:27:45.152+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:27:45.152+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:27:45.158+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:27:45.179+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.052 seconds
+[2024-05-10T16:28:33.483+0200] {processor.py:161} INFO - Started process (PID=111579) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:28:33.485+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:28:33.491+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:28:33.489+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:28:33.498+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:28:33.529+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.063 seconds
+[2024-05-10T16:30:09.048+0200] {processor.py:161} INFO - Started process (PID=113434) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:30:09.061+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:30:09.074+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:30:09.064+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:30:09.086+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:30:09.111+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.090 seconds
+[2024-05-10T16:31:42.273+0200] {processor.py:161} INFO - Started process (PID=115178) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:31:42.274+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:31:42.279+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:31:42.278+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:31:42.285+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:31:42.310+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.053 seconds
+[2024-05-10T16:33:07.829+0200] {processor.py:161} INFO - Started process (PID=116834) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:33:07.832+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:33:07.838+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:33:07.837+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:33:07.847+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:33:07.888+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.084 seconds
+[2024-05-10T16:34:28.975+0200] {processor.py:161} INFO - Started process (PID=118434) to work on /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:34:28.978+0200] {processor.py:830} INFO - Processing file /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-05-10T16:34:28.983+0200] {logging_mixin.py:188} INFO - [2024-05-10T16:34:28.982+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:34:28.991+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-05-10T16:34:29.021+0200] {processor.py:183} INFO - Processing /home/munya/.local/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.064 seconds

@@ -1,0 +1,17 @@
+[2024-05-02T08:27:27.237+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-02T08:27:27.267+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_price_FB.extract scheduled__2024-05-01T00:00:00+00:00 [queued]>
+[2024-05-02T08:27:27.275+0200] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_price_FB.extract scheduled__2024-05-01T00:00:00+00:00 [queued]>
+[2024-05-02T08:27:27.276+0200] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-05-02T08:27:27.298+0200] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2024-05-01 00:00:00+00:00
+[2024-05-02T08:27:27.308+0200] {standard_task_runner.py:63} INFO - Started process 236145 to run task
+[2024-05-02T08:27:27.311+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'get_price_FB', 'extract', 'scheduled__2024-05-01T00:00:00+00:00', '--job-id', '322', '--raw', '--subdir', 'DAGS_FOLDER/get_price_FB.py', '--cfg-path', '/tmp/tmpr_8uoh4_']
+[2024-05-02T08:27:27.314+0200] {standard_task_runner.py:91} INFO - Job 322: Subtask extract
+[2024-05-02T08:27:27.353+0200] {task_command.py:426} INFO - Running <TaskInstance: get_price_FB.extract scheduled__2024-05-01T00:00:00+00:00 [running]> on host kali
+[2024-05-02T08:27:27.584+0200] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_price_FB' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2024-05-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-01T00:00:00+00:00'
+[2024-05-02T08:27:27.585+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-02T08:27:27.585+0200] {python.py:237} INFO - Done. Returned value was: 220
+[2024-05-02T08:27:27.585+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-02T08:27:27.602+0200] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=get_price_FB, task_id=extract, execution_date=20240501T000000, start_date=20240502T062727, end_date=20240502T062727
+[2024-05-02T08:27:27.645+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-02T08:27:27.676+0200] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-05-02T08:27:27.680+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

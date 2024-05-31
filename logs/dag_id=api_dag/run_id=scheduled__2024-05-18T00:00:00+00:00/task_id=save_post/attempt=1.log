@@ -1,0 +1,38 @@
+[2024-05-19T13:26:00.817+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-19T13:26:00.831+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_dag.save_post scheduled__2024-05-18T00:00:00+00:00 [queued]>
+[2024-05-19T13:26:00.839+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_dag.save_post scheduled__2024-05-18T00:00:00+00:00 [queued]>
+[2024-05-19T13:26:00.839+0200] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-05-19T13:26:00.859+0200] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): save_post> on 2024-05-18 00:00:00+00:00
+[2024-05-19T13:26:00.866+0200] {standard_task_runner.py:63} INFO - Started process 84877 to run task
+[2024-05-19T13:26:00.871+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'api_dag', 'save_post', 'scheduled__2024-05-18T00:00:00+00:00', '--job-id', '1140', '--raw', '--subdir', 'DAGS_FOLDER/api_dag.py', '--cfg-path', '/tmp/tmphx3s921r']
+[2024-05-19T13:26:00.874+0200] {standard_task_runner.py:91} INFO - Job 1140: Subtask save_post
+[2024-05-19T13:26:00.926+0200] {task_command.py:426} INFO - Running <TaskInstance: api_dag.save_post scheduled__2024-05-18T00:00:00+00:00 [running]> on host kali
+[2024-05-19T13:26:00.999+0200] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='api_dag' AIRFLOW_CTX_TASK_ID='save_post' AIRFLOW_CTX_EXECUTION_DATE='2024-05-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-18T00:00:00+00:00'
+[2024-05-19T13:26:01.001+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-19T13:26:01.002+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-19T13:26:01.003+0200] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/anaconda3/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/munya/airflow/dags/api_dag.py", line 13, in save_posts
+    with open('/Users/munya/airflow/data/post.json', 'w') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/munya/airflow/data/post.json'
+[2024-05-19T13:26:01.007+0200] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=api_dag, task_id=save_post, run_id=scheduled__2024-05-18T00:00:00+00:00, execution_date=20240518T000000, start_date=20240519T112600, end_date=20240519T112601
+[2024-05-19T13:26:01.015+0200] {standard_task_runner.py:110} ERROR - Failed to execute job 1140 for task save_post ([Errno 2] No such file or directory: '/Users/munya/airflow/data/post.json'; 84877)
+[2024-05-19T13:26:01.044+0200] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-19T13:26:01.058+0200] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-19T13:26:01.058+0200] {local_task_job_runner.py:222} INFO - ::endgroup::
